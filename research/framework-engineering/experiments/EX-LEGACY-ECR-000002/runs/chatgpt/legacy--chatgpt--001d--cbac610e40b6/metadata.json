@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EX-LEGACY-ECR-000002",
+  "run_id": "legacy--chatgpt--001d--cbac610e40b6",
+  "provider": "chatgpt",
+  "model": "historical-unknown",
+  "execution_mode": "historical-import",
+  "created_at": "2026-07-23T00:00:00.000Z",
+  "runner_version": "migration-1.0",
+  "source_path": "research/evidence-runs/ECR-000002-recognition-sensitivity/responses/gpt/001d.json",
+  "source_digest": "cbac610e40b61bd4be1fd54ba6ec8afe45ebfff265ca5ba92ced433f7095fae2",
+  "raw_response_file": "response.raw.json",
+  "historical_prompt_snapshot_available": false,
+  "excluded_from_primary": false
+}

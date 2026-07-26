@@ -1,0 +1,14 @@
+{
+  "artifact": {"id":"FE-BND-SCHEMA-001","version":"1.0.0","status":"frozen-draft","author":"Codex research director","created":"2026-07-24T17:14:36Z","updated":"2026-07-24T17:14:36Z","parents":["EX-FE-0002"],"sources":["EX-FE-0002/START-HERE.md"],"repository_commit":"a7b6a7178cdb41579730c8971bec70f5660c2f86","change_summary":"Initial common card schema","confidence":0.95,"completion":"complete","limitations":"Stage A role separation and pretest remain external."},
+  "required":["card_id","input","operation","output","scope_conditions","failure_conditions","predicted_effect","measurement","implementation_test","decision_rights","uncertainty_handling","verification","provenance","implementation_cost","limitations","statement_basis"],
+  "max_words":500,
+  "properties":{
+    "card_id":{"type":"string"},"input":{"type":"string"},"operation":{"type":"string"},"output":{"type":"string"},
+    "scope_conditions":{"type":"string"},"failure_conditions":{"type":"string"},"predicted_effect":{"type":"string"},
+    "measurement":{"type":"string"},"implementation_test":{"type":"string"},"decision_rights":{"type":"string"},
+    "uncertainty_handling":{"type":"string"},"verification":{"type":"string"},"provenance":{"type":"string"},
+    "implementation_cost":{"type":"string"},"limitations":{"type":"string"},
+    "statement_basis":{"type":"object","required":["direct","inference"]}
+  },
+  "completeness_rule":"present and operationally testable fields / 16; descriptive text without a decision rule counts absent"
+}

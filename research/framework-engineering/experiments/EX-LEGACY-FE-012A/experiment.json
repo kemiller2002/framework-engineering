@@ -1,0 +1,105 @@
+{
+  "id": "EX-LEGACY-FE-012A",
+  "title": "FE-012A Blind Primitive Extraction",
+  "status": "complete",
+  "version": "legacy-import-1.0",
+  "research_area": "framework-engineering",
+  "created_at": "2026-07-23",
+  "created_by": "historical migration adapter",
+  "updated_at": "2026-07-23",
+  "priority": "historical",
+  "confidence": 0.5,
+  "lineage": {
+    "based_on": {
+      "research_packages": [],
+      "journal_entries": [],
+      "evidence": [],
+      "hypotheses": [
+        "FE-012A"
+      ],
+      "theories": [],
+      "experiments": [
+        "FE-012A"
+      ],
+      "documents": [
+        "EX-LEGACY-FE-012A-README.md",
+        "EX-LEGACY-FE-012A-protocol.md",
+        "EX-LEGACY-FE-012A-analysis-plan.md"
+      ]
+    },
+    "supersedes": [],
+    "superseded_by": []
+  },
+  "question": "What results were recorded by FE-012A Blind Primitive Extraction?",
+  "hypothesis": "FE-012A",
+  "competing_hypotheses": [],
+  "claim_under_test": "Historical claim retained without reinterpretation during migration.",
+  "objective": "Preserve and register historical results under the provider-neutral experiment system.",
+  "non_objectives": [
+    "Re-run providers",
+    "Change historical conclusions",
+    "Promote provisional findings"
+  ],
+  "evaluator_role": "Historical replication evaluator; consult the original protocol before any new run.",
+  "assumptions": [
+    "Original repository files are the authoritative historical record."
+  ],
+  "confounders": [
+    "Historical model versions and invocation metadata may be incomplete."
+  ],
+  "risks": [
+    "Migration metadata could be mistaken for contemporaneous execution metadata."
+  ],
+  "inputs": [
+    {
+      "id": "EX-LEGACY-FE-012A-README.md",
+      "path": "research/experiments/FE-012A-blind-primitive-extraction/README.md"
+    },
+    {
+      "id": "EX-LEGACY-FE-012A-protocol.md",
+      "path": "research/experiments/FE-012A-blind-primitive-extraction/protocol.md"
+    },
+    {
+      "id": "EX-LEGACY-FE-012A-analysis-plan.md",
+      "path": "research/experiments/FE-012A-blind-primitive-extraction/analysis-plan.md"
+    }
+  ],
+  "procedure": [
+    "Read the original protocol and declared inputs.",
+    "Run an independent replication without reading migrated results.",
+    "Return a schema-conforming result for a new run."
+  ],
+  "falsification_conditions": [
+    "The original experiment's declared kill or failure conditions are met."
+  ],
+  "stopping_conditions": [
+    "Stop if original protocol or required inputs are unavailable."
+  ],
+  "metrics": [
+    "historical result count",
+    "source checksum integrity"
+  ],
+  "providers": {
+    "required": [],
+    "optional": [
+      "claude",
+      "gemini",
+      "chatgpt",
+      "manual"
+    ],
+    "minimum_independent_runs": 0,
+    "trials_per_provider": 1
+  },
+  "dependencies": [],
+  "theory_impact": [
+    "finite primitive vocabulary"
+  ],
+  "synthesis_policy": "Historical conclusions remain provisional and retain their original authority.",
+  "adjudication_policy": "Use the original protocol and review records; migration does not adjudicate.",
+  "privacy_and_security": "Repository-local historical files only.",
+  "cost_and_resource_limits": "No provider calls during migration.",
+  "result_schema": "research/framework-engineering/experiments/schemas/normalized-result.schema.json",
+  "historical_source": "research/experiments/FE-012A-blind-primitive-extraction",
+  "historical_summary": "research/experiments/FE-012A-blind-primitive-extraction/results/summary-2026-06-28.md",
+  "migrated_result_count": 5
+}

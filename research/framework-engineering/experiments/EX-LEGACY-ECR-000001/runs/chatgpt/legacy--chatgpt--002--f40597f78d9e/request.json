@@ -1,0 +1,8 @@
+{
+  "experiment_id": "EX-LEGACY-ECR-000001",
+  "run_id": "legacy--chatgpt--002--f40597f78d9e",
+  "provider": "chatgpt",
+  "historical_import": true,
+  "original_request_metadata": "unavailable",
+  "source_path": "research/evidence-runs/ECR-000001-multi-layer-procedural-representation/responses/gpt/002.json"
+}

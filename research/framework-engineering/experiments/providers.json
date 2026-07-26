@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "discovered_at": "2026-07-23",
+  "providers": {
+    "claude": {
+      "status": "available-unverified",
+      "command": "claude",
+      "args": ["--print"],
+      "timeout_ms": 300000,
+      "note": "Executable discovered at /opt/homebrew/bin/claude. No paid or credentialed call was made."
+    },
+    "gemini": {
+      "status": "unavailable",
+      "command": null,
+      "args": [],
+      "note": "No Gemini CLI was found on PATH."
+    },
+    "chatgpt": {
+      "status": "available-unverified",
+      "command": "codex",
+      "args": ["exec", "-"],
+      "timeout_ms": 300000,
+      "note": "Codex executable discovered inside ChatGPT.app. No nested provider call was made."
+    },
+    "manual": {
+      "status": "available-tested",
+      "command": null,
+      "args": [],
+      "note": "Manual import is provider-neutral and preserves externally generated raw responses."
+    }
+  }
+}

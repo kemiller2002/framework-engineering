@@ -1,0 +1,10 @@
+{
+  "experiment_id": "EX-FE-0001",
+  "run_id": "EX-FE-0001--manual--v1.0--t1--20260723T213706-477Z--2aafda68",
+  "provider": "manual",
+  "model": "unknown",
+  "execution_mode": "dry-run",
+  "created_at": "2026-07-23T21:37:06.478Z",
+  "runner_version": "1.0.0",
+  "retry_of": null
+}

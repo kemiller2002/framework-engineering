@@ -1,0 +1,47 @@
+{
+  "artifact": {
+    "id": "FE-BND-V1.1-LOCK-001",
+    "version": "1.1.0",
+    "status": "administrative-prelock-blocked",
+    "author": "RD-001 / isolated Codex research-director context",
+    "created": "2026-07-24T17:38:30Z",
+    "updated": "2026-07-24T17:38:30Z",
+    "parents": ["FE-BND-LOCK-001", "FE-BND-PROTOCOL-001"],
+    "sources": ["FE-BND-V1.1-ROLE-REGISTRY-001", "FE-BND-V1.1-GATE-CHECKLIST-001"],
+    "repository_commit": "a7b6a7178cdb41579730c8971bec70f5660c2f86",
+    "change_summary": "Administrative pre-lock; no submitted evidence accepted or frozen",
+    "confidence": 0.99,
+    "completion": "incomplete",
+    "limitations": "Required curator outputs, audits, access isolation, recognition, and immutable manifest are absent."
+  },
+  "protocol_version": "1.1.0",
+  "frozen_parent_protocol_version": "1.0.0",
+  "comparison_dimensions_sha256": "d1f13ab6249caaeed1571b885680bf00b8610d967f50365b1e470ee196f637fa",
+  "comparison_dimensions_changed": false,
+  "stage_b_seed": "EX-FE-0002-STAGE-B-20260724-7f3c",
+  "seed_status": "carried-forward-frozen-not-yet-used",
+  "locked_components": [
+    "comparison dimensions",
+    "mapping definitions",
+    "thresholds",
+    "decision rules",
+    "analysis plan",
+    "common card schema",
+    "randomization seed"
+  ],
+  "accepted_stage_a_artifacts": [],
+  "unlocked_required_components": [
+    "accepted A-series source cards and completeness report",
+    "accepted B-series source cards and comparator coverage report",
+    "independent operational-completeness audit and lock",
+    "balanced blinded cards and leakage audit",
+    "external sealed key and receipt",
+    "eligible locked recognition responses and results",
+    "freeze/reproducibility audit",
+    "immutable artifact manifest"
+  ],
+  "stage_a_status": "incomplete",
+  "stage_b_status": "blocked-before-stage-b",
+  "classification": "inconclusive",
+  "stage_b_authorized": false
+}

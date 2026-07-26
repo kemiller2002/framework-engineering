@@ -1,0 +1,280 @@
+{
+  "experiment_id": "EX-LEGACY-ECR-000003",
+  "migrated_at": "2026-07-23",
+  "source_root": "research/evidence-runs/ECR-000003-representation-sensitivity",
+  "result_count": 34,
+  "results": [
+    {
+      "run_id": "legacy--claude--ECR-000003-EXP001-P001A-claude--d5443c0b542e",
+      "provider": "claude",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-001-topology-perturbation/responses/claude/ECR-000003-EXP001-P001A-claude.json",
+      "source_digest": "d5443c0b542ecb3c66f6bbdce89468d85ca6a988777db3155a3f611f0a9c3da2",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/claude/legacy--claude--ECR-000003-EXP001-P001A-claude--d5443c0b542e/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--ECR-000003-EXP001-P001B-claude--b9146dbb3185",
+      "provider": "claude",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-001-topology-perturbation/responses/claude/ECR-000003-EXP001-P001B-claude.json",
+      "source_digest": "b9146dbb318564f85a00b752a839a27721ea2bd99429470f299470dc794cf115",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/claude/legacy--claude--ECR-000003-EXP001-P001B-claude--b9146dbb3185/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--ECR-000003-EXP001-P001C-claude--93d051a05b01",
+      "provider": "claude",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-001-topology-perturbation/responses/claude/ECR-000003-EXP001-P001C-claude.json",
+      "source_digest": "93d051a05b011ee29a442a7101a3e57ca75ed53e6f7a7caef57587256018481c",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/claude/legacy--claude--ECR-000003-EXP001-P001C-claude--93d051a05b01/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--ECR-000003-EXP001-P001D-claude--c0ec55268fca",
+      "provider": "claude",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-001-topology-perturbation/responses/claude/ECR-000003-EXP001-P001D-claude.json",
+      "source_digest": "c0ec55268fca10c1d61fb80a606539264f89be10f5a5552f2fdb6cce90acf1e4",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/claude/legacy--claude--ECR-000003-EXP001-P001D-claude--c0ec55268fca/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--ECR-000003-EXP001-P001A-gemini--d3e20f0219ec",
+      "provider": "gemini",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-001-topology-perturbation/responses/gemini/ECR-000003-EXP001-P001A-gemini.json",
+      "source_digest": "d3e20f0219ec47cf322a70b57edaadff7349165973b231ae5e3f958b88559018",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/gemini/legacy--gemini--ECR-000003-EXP001-P001A-gemini--d3e20f0219ec/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--ECR-000003-EXP001-P001B-gemini--1bc8967f04fa",
+      "provider": "gemini",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-001-topology-perturbation/responses/gemini/ECR-000003-EXP001-P001B-gemini.json",
+      "source_digest": "1bc8967f04fa9de4e57bc4acd63cf01f06ed7d63686f8ce864f401678afe3f8b",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/gemini/legacy--gemini--ECR-000003-EXP001-P001B-gemini--1bc8967f04fa/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--ECR-000003-EXP001-P001C-gemini--bb9ae864b8fb",
+      "provider": "gemini",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-001-topology-perturbation/responses/gemini/ECR-000003-EXP001-P001C-gemini.json",
+      "source_digest": "bb9ae864b8fb8097fb695f237f7f37e4ffb89954cfad2007c330680b9cb39285",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/gemini/legacy--gemini--ECR-000003-EXP001-P001C-gemini--bb9ae864b8fb/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--ECR-000003-EXP001-P001D-gemini--02544d288289",
+      "provider": "gemini",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-001-topology-perturbation/responses/gemini/ECR-000003-EXP001-P001D-gemini.json",
+      "source_digest": "02544d288289369c509c521b34ea17930975a8121c098d1a855d4e297fc43289",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/gemini/legacy--gemini--ECR-000003-EXP001-P001D-gemini--02544d288289/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--ECR-000003-EXP001-P001A-gpt--d2d0acd36bf5",
+      "provider": "chatgpt",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-001-topology-perturbation/responses/gpt/ECR-000003-EXP001-P001A-gpt.json",
+      "source_digest": "d2d0acd36bf583aeaafab335dd582bbd38d0dcea83cac0e0b4ed43aa81982146",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/chatgpt/legacy--chatgpt--ECR-000003-EXP001-P001A-gpt--d2d0acd36bf5/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--ECR-000003-EXP001-P001B-gpt--34f984ee724d",
+      "provider": "chatgpt",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-001-topology-perturbation/responses/gpt/ECR-000003-EXP001-P001B-gpt.json",
+      "source_digest": "34f984ee724df21edaa320e51ed475e404ab3d9b594ffeb5b6d5ff7ad1ffe8d4",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/chatgpt/legacy--chatgpt--ECR-000003-EXP001-P001B-gpt--34f984ee724d/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--ECR-000003-EXP001-P001C-gpt--d30d857d5492",
+      "provider": "chatgpt",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-001-topology-perturbation/responses/gpt/ECR-000003-EXP001-P001C-gpt.json",
+      "source_digest": "d30d857d5492246fc81ab5dd2f0f35aad751f5fc39c6eb128982414e8933ec96",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/chatgpt/legacy--chatgpt--ECR-000003-EXP001-P001C-gpt--d30d857d5492/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--ECR-000003-EXP001-P001D-gpt--ae6394061d2d",
+      "provider": "chatgpt",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-001-topology-perturbation/responses/gpt/ECR-000003-EXP001-P001D-gpt.json",
+      "source_digest": "ae6394061d2d7ae3f2d98c0812c71427ac1d7b01bc9fde090bb926c679ab787b",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/chatgpt/legacy--chatgpt--ECR-000003-EXP001-P001D-gpt--ae6394061d2d/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--unknown-pre-fix--00001D--ccb7e22d7aae",
+      "provider": "unknown-pre-fix",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-001-topology-perturbation/responses/pre-fix/p001d/00001D.json",
+      "source_digest": "ccb7e22d7aae96847962e88484eb7cea194e965d68050f7884943b966d2284d4",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/unknown-pre-fix/legacy--unknown-pre-fix--00001D--ccb7e22d7aae/response.raw.json",
+      "excluded_from_primary": true
+    },
+    {
+      "run_id": "legacy--claude--ECR-000003-EXP002-P001A-claude--7739c310f795",
+      "provider": "claude",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-002-cross-representation-stability/responses/claude/ECR-000003-EXP002-P001A-claude.json",
+      "source_digest": "7739c310f7957f8b47c680e763982eae6f4179d4da5bea066406c489fa1136fb",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/claude/legacy--claude--ECR-000003-EXP002-P001A-claude--7739c310f795/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--ECR-000003-EXP002-P001B-claude--24bb2503a00c",
+      "provider": "claude",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-002-cross-representation-stability/responses/claude/ECR-000003-EXP002-P001B-claude.json",
+      "source_digest": "24bb2503a00cc0bbc952ea45d5adae98689cece62d2cf4e0ac1d863301877e1c",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/claude/legacy--claude--ECR-000003-EXP002-P001B-claude--24bb2503a00c/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--ECR-000003-EXP002-P001C-claude--c31f75c2bd4e",
+      "provider": "claude",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-002-cross-representation-stability/responses/claude/ECR-000003-EXP002-P001C-claude.json",
+      "source_digest": "c31f75c2bd4e52e4e211177223e8fcb51094af51843b96fd9914bcc065719e3a",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/claude/legacy--claude--ECR-000003-EXP002-P001C-claude--c31f75c2bd4e/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--ECR-000003-EXP002-P001D-claude--cc6dfcbcf184",
+      "provider": "claude",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-002-cross-representation-stability/responses/claude/ECR-000003-EXP002-P001D-claude.json",
+      "source_digest": "cc6dfcbcf18423d4b4e422a4716bd49f45d75fa04a01463c9c09b19aed489c4d",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/claude/legacy--claude--ECR-000003-EXP002-P001D-claude--cc6dfcbcf184/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--ECR-000003-EXP002-P001A-gemini--b7d7cf0ae9da",
+      "provider": "gemini",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-002-cross-representation-stability/responses/gemini/ECR-000003-EXP002-P001A-gemini.json",
+      "source_digest": "b7d7cf0ae9da63aaf246f0e057e1cbad45fda168016a2c6308e84482c25b41f3",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/gemini/legacy--gemini--ECR-000003-EXP002-P001A-gemini--b7d7cf0ae9da/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--ECR-000003-EXP002-P001B-gemini--3de99e25947b",
+      "provider": "gemini",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-002-cross-representation-stability/responses/gemini/ECR-000003-EXP002-P001B-gemini.json",
+      "source_digest": "3de99e25947b743a24e24708169ee6e1d3434f8615a1bb1d9c5a7ca842d2addf",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/gemini/legacy--gemini--ECR-000003-EXP002-P001B-gemini--3de99e25947b/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--ECR-000003-EXP002-P001C-gemini--af4d8553fdab",
+      "provider": "gemini",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-002-cross-representation-stability/responses/gemini/ECR-000003-EXP002-P001C-gemini.json",
+      "source_digest": "af4d8553fdab09136e1d8b2d10bdd0cf4757210c7b5a5fdfbe7eb3dcc288deeb",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/gemini/legacy--gemini--ECR-000003-EXP002-P001C-gemini--af4d8553fdab/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--ECR-000003-EXP002-P001D-gemini--ad94713c946b",
+      "provider": "gemini",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-002-cross-representation-stability/responses/gemini/ECR-000003-EXP002-P001D-gemini.json",
+      "source_digest": "ad94713c946ba66bd1f2561e7d180f774bf732ea7e59ff08cc83febd9eb671fc",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/gemini/legacy--gemini--ECR-000003-EXP002-P001D-gemini--ad94713c946b/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--ECR-000003-EXP002-P001A-gpt--a3183112b1c4",
+      "provider": "chatgpt",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-002-cross-representation-stability/responses/gpt/ECR-000003-EXP002-P001A-gpt.json",
+      "source_digest": "a3183112b1c4c0654ae51e8fc8485c18b0aa94ee7b9767175bf5607f6ec809ab",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/chatgpt/legacy--chatgpt--ECR-000003-EXP002-P001A-gpt--a3183112b1c4/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--ECR-000003-EXP002-P001B-gpt--8018fa1fcd46",
+      "provider": "chatgpt",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-002-cross-representation-stability/responses/gpt/ECR-000003-EXP002-P001B-gpt.json",
+      "source_digest": "8018fa1fcd4607f2e9f81acdefb980eceb0921af073c468d381126af776a41c4",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/chatgpt/legacy--chatgpt--ECR-000003-EXP002-P001B-gpt--8018fa1fcd46/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--ECR-000003-EXP002-P001C-gpt--8478e7b37219",
+      "provider": "chatgpt",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-002-cross-representation-stability/responses/gpt/ECR-000003-EXP002-P001C-gpt.json",
+      "source_digest": "8478e7b37219a78e97fe754da21db72a2ce0bf17c408ce16b37601920eb3243a",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/chatgpt/legacy--chatgpt--ECR-000003-EXP002-P001C-gpt--8478e7b37219/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--ECR-000003-EXP002-P001D-gpt--f084cc23da23",
+      "provider": "chatgpt",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-002-cross-representation-stability/responses/gpt/ECR-000003-EXP002-P001D-gpt.json",
+      "source_digest": "f084cc23da231ff4b7c2a51248e5b44d9168c58f982a6d6514774d92c0f8037e",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/chatgpt/legacy--chatgpt--ECR-000003-EXP002-P001D-gpt--f084cc23da23/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--ECR-000003-EXP003-P001A-claude--d65d5400319c",
+      "provider": "claude",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-003-isomorphic-procedures/responses/claude/ECR-000003-EXP003-P001A-claude.json",
+      "source_digest": "d65d5400319c6f701d5704612992610f3cc2ad368f0096012d2c8c60351d43d1",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/claude/legacy--claude--ECR-000003-EXP003-P001A-claude--d65d5400319c/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--ECR-000003-EXP003-P001B-claude--0da1ba30aa33",
+      "provider": "claude",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-003-isomorphic-procedures/responses/claude/ECR-000003-EXP003-P001B-claude.json",
+      "source_digest": "0da1ba30aa3338570a9ce9d02d8c00f9f1221f5f64860330ad586362fd03c4a9",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/claude/legacy--claude--ECR-000003-EXP003-P001B-claude--0da1ba30aa33/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--ECR-000003-EXP003-P001C-claude--2f881237c3f8",
+      "provider": "claude",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-003-isomorphic-procedures/responses/claude/ECR-000003-EXP003-P001C-claude.json",
+      "source_digest": "2f881237c3f8213de82adba0180ae113c0dfab3516bc62ab42a5f78886104c2a",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/claude/legacy--claude--ECR-000003-EXP003-P001C-claude--2f881237c3f8/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--ECR-000003-EXP003-P001A-gemini--2bb5439a069e",
+      "provider": "gemini",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-003-isomorphic-procedures/responses/gemini/ECR-000003-EXP003-P001A-gemini.json",
+      "source_digest": "2bb5439a069e90715a7c68985a4b6d822587b049730782e8b5451814777ffbe6",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/gemini/legacy--gemini--ECR-000003-EXP003-P001A-gemini--2bb5439a069e/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--ECR-000003-EXP003-P001B-gemini--f94682249568",
+      "provider": "gemini",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-003-isomorphic-procedures/responses/gemini/ECR-000003-EXP003-P001B-gemini.json",
+      "source_digest": "f9468224956891e9920925b240fbd72c99d55830163ea82371cf76caed908428",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/gemini/legacy--gemini--ECR-000003-EXP003-P001B-gemini--f94682249568/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--ECR-000003-EXP003-P001C-gemini--11024ec41939",
+      "provider": "gemini",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-003-isomorphic-procedures/responses/gemini/ECR-000003-EXP003-P001C-gemini.json",
+      "source_digest": "11024ec419391f1ac1c509f36c627d17a18946b9bdee52f0d962d9755efa59db",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/gemini/legacy--gemini--ECR-000003-EXP003-P001C-gemini--11024ec41939/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--ECR-000003-EXP003-P001A-gpt--769aa65f2612",
+      "provider": "chatgpt",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-003-isomorphic-procedures/responses/gpt/ECR-000003-EXP003-P001A-gpt.json",
+      "source_digest": "769aa65f2612abbbdc7ca2f90e4c90000d3cc341ef636d1ba0445033d2d34734",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/chatgpt/legacy--chatgpt--ECR-000003-EXP003-P001A-gpt--769aa65f2612/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--ECR-000003-EXP003-P001B-gpt--6c107e62833e",
+      "provider": "chatgpt",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-003-isomorphic-procedures/responses/gpt/ECR-000003-EXP003-P001B-gpt.json",
+      "source_digest": "6c107e62833e0068cdb282ffa91f5e5c2f2d6ba80f28f7e79d75fe8855d57ab0",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/chatgpt/legacy--chatgpt--ECR-000003-EXP003-P001B-gpt--6c107e62833e/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--ECR-000003-EXP003-P001C-gpt--3d84142bd004",
+      "provider": "chatgpt",
+      "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-003-isomorphic-procedures/responses/gpt/ECR-000003-EXP003-P001C-gpt.json",
+      "source_digest": "3d84142bd004d63c3e0f6db2f2f1cdc4ecd1eb2e52a26ad2b1f4510004d8cc19",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000003/runs/chatgpt/legacy--chatgpt--ECR-000003-EXP003-P001C-gpt--3d84142bd004/response.raw.json",
+      "excluded_from_primary": false
+    }
+  ]
+}

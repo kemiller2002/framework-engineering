@@ -1,0 +1,28 @@
+{
+  "experiment_id": "EX-FE-0001",
+  "run_id": "EX-FE-0001--manual--v1.0--t1--20260723T213726-304Z--d927189b",
+  "provider": "manual",
+  "trial": 1,
+  "prompt_version": "1.0",
+  "prompt_digest": "8cae7d7ca28f28499a63159e7af9cfd99eba16c5ca375099989233822409619f",
+  "inputs": [
+    {
+      "id": "FE-EVAL-BRIEF-2026-07-23",
+      "path": "research/evaluations/FE-EVAL-2026-07-23/framework-engineering-executive-brief.md",
+      "sha256": "e75c9b2b14952de53555e28dcd41ad16e1d9d35bf3eb50d073a775d498674b9c",
+      "bytes": 7240
+    },
+    {
+      "id": "FE-THEORY-0.1",
+      "path": "research/theory/theory-of-framework-engineering-v0.1.md",
+      "sha256": "202d7771682800587dcd8e8ed61c9995fa8ecdcf7f2000dd7f7b1abff58058c1",
+      "bytes": 8034
+    },
+    {
+      "id": "FE-EVAL-HYPOTHESIS-AUDIT-2026-07-23",
+      "path": "research/evaluations/FE-EVAL-2026-07-23/framework-engineering-hypothesis-audit.md",
+      "sha256": "df4d76b41cb66b67e16e2c2eb58673aebbd21c2f63ebc30055c8e782d03d358c",
+      "bytes": 5417
+    }
+  ]
+}

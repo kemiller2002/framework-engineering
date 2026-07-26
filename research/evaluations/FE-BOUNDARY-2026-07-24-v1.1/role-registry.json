@@ -1,0 +1,92 @@
+{
+  "artifact": {
+    "id": "FE-BND-V1.1-ROLE-REGISTRY-001",
+    "version": "1.1.0",
+    "status": "open-blocked",
+    "author": "RD-001 / isolated Codex research-director context",
+    "created": "2026-07-24T17:38:30Z",
+    "updated": "2026-07-24T17:38:30Z",
+    "parents": ["EX-FE-0002", "FE-BND-STAGE-A-AGENT-PROMPT-001", "FE-BND-DECISION-001"],
+    "sources": ["FE-BND-PROTOCOL-001", "FE-BND-LOCK-001", "FE-BND-HANDOFF-001"],
+    "repository_commit": "a7b6a7178cdb41579730c8971bec70f5660c2f86",
+    "change_summary": "Initial v1.1 role and access registry; pending roles remain unassigned",
+    "confidence": 0.98,
+    "completion": "incomplete",
+    "limitations": "Agent context isolation is not access control or provider independence; human participants and external sealed-key custody are not yet assigned."
+  },
+  "run_id": "FE-BOUNDARY-2026-07-24-v1.1",
+  "assignments": [
+    {
+      "participant_id": "RD-001",
+      "role": "research-director-gatekeeper",
+      "context_id": "/root/director",
+      "model_provider_family": "OpenAI/Codex",
+      "prior_repository_exposure": "yes: administrative v1.0 artifacts and protocol",
+      "conflicts": ["same provider family as current agent curators"],
+      "allowed_paths": ["v1.0 administrative artifacts", "v1.1 administrative artifacts", "final submitted cards and coverage reports"],
+      "prohibited_paths": ["private curator scratch beyond final submissions"],
+      "stage_b_eligible": false,
+      "status": "active"
+    },
+    {
+      "participant_id": "FEC-001",
+      "role": "fe-mechanism-curator",
+      "context_id": "/root/fe_curator",
+      "model_provider_family": "OpenAI/Codex",
+      "prior_repository_exposure": "repository context available; exact exposure self-report pending",
+      "conflicts": ["same provider family as RD-001 and CC-001"],
+      "allowed_paths": ["current and proposal-only FE records", "v1.0 A-series cards", "common schema", "assigned v1.1 FE submissions"],
+      "prohibited_paths": ["B-series cards", "comparator notes", "recognition responses", "mapping hypotheses"],
+      "stage_b_eligible": false,
+      "status": "active"
+    },
+    {
+      "participant_id": "CC-001",
+      "role": "comparator-evidence-curator",
+      "context_id": "/root/comparator",
+      "model_provider_family": "OpenAI/Codex",
+      "prior_repository_exposure": "v1.0 source-registry search leads; exact exposure self-report pending",
+      "conflicts": ["same provider family as RD-001 and FEC-001"],
+      "allowed_paths": ["EX-FE-0002 comparator fields", "v1.0 source-registry search leads", "common schema", "assigned v1.1 comparator submissions"],
+      "prohibited_paths": ["A-series cards", "FE curator notes", "proposed mapping combinations"],
+      "stage_b_eligible": false,
+      "status": "active"
+    },
+    {
+      "participant_id": "OCA-PENDING",
+      "role": "operational-completeness-auditor",
+      "status": "unassigned",
+      "stage_b_eligible": false
+    },
+    {
+      "participant_id": "BE-PENDING",
+      "role": "blinding-editor",
+      "status": "unassigned",
+      "stage_b_eligible": false
+    },
+    {
+      "participant_id": "RPC-PENDING",
+      "role": "recognition-pretest-coordinator",
+      "status": "unassigned",
+      "stage_b_eligible": false
+    },
+    {
+      "participant_id": "FRA-PENDING",
+      "role": "freeze-reproducibility-auditor",
+      "status": "unassigned",
+      "stage_b_eligible": false
+    }
+  ],
+  "ownership_checks": {
+    "source_coverage": "CC-001",
+    "cards_fe": "FEC-001",
+    "cards_comparator": "CC-001",
+    "operational_completeness": null,
+    "blinding": null,
+    "recognition": null,
+    "sealed_key_custody": null,
+    "protocol_lock_audit": null
+  },
+  "separation_result": "failed-pending-independent-owners",
+  "recognition_participants_may_be_future_reviewers": false
+}

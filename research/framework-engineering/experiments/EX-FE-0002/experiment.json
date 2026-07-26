@@ -1,0 +1,65 @@
+{
+  "id": "EX-FE-0002",
+  "title": "Blinded Mechanism Boundary and Subsumption Test",
+  "status": "ready",
+  "version": "1.1",
+  "research_area": "framework-engineering",
+  "created_at": "2026-07-24",
+  "created_by": "Antigravity",
+  "updated_at": "2026-07-24",
+  "priority": "P0",
+  "confidence": 0.95,
+  "lineage": {
+    "based_on": {
+      "research_packages": [],
+      "journal_entries": [],
+      "evidence": [],
+      "hypotheses": ["FEH-001"],
+      "theories": ["FE-THEORY-0.1", "FE-THEORY-ALT-001"],
+      "experiments": ["EX-FE-0001"],
+      "documents": ["research/framework-engineering/experiments/EX-FE-0002/START-HERE.md"]
+    },
+    "supersedes": [],
+    "superseded_by": []
+  },
+  "question": "After removing field names and presentation cues, can qualified independent reviewers identify at least one operational Framework Engineering mechanism that is not losslessly supplied by a credible adjacent method or generic structured baseline?",
+  "hypothesis": "FEH-001",
+  "competing_hypotheses": ["FE-THEORY-ALT-001"],
+  "claim_under_test": "At least one candidate Framework Engineering mechanism cannot be losslessly mapped to the strongest adjacent-method implementation and yields a distinct, testable prediction.",
+  "objective": "Test mechanism-level subsumption against frozen primary-source comparators.",
+  "non_objectives": ["Establish discipline status", "Promote unvalidated registries"],
+  "evaluator_role": "independent research director and adversarial methodologist",
+  "assumptions": ["Qualified independent reviewers are available for Stage B"],
+  "confounders": ["leakage", "terminology novelty", "unequal documentation"],
+  "risks": ["recruitment failure", "blinding failure"],
+  "inputs": [
+    { "id": "START-HERE", "path": "research/framework-engineering/experiments/EX-FE-0002/START-HERE.md" }
+  ],
+  "procedure": [
+    "Construct mechanism cards.",
+    "Blind cards and run recognition pretest.",
+    "Freeze protocol.",
+    "Reviewers map cards (Stage B, gated)."
+  ],
+  "replication_plan": "Three independent reviewers, cap of one per model family, at least one human with method/systems expertise.",
+  "falsification_conditions": [
+    "Every candidate FE mechanism can be mapped to one or more adjacent or generic practices without material loss."
+  ],
+  "inconclusive_conditions": ["Blinding fails, coverage is insufficient, or reviewer agreement is under threshold."],
+  "stopping_conditions": ["Stop if any material comparator lacks minimum source coverage or if key isolation fails."],
+  "metrics": ["non-redundant mechanism count", "full-subsumption rate", "indeterminate rate", "reviewer agreement"],
+  "providers": {
+    "required": [],
+    "optional": ["manual"],
+    "minimum_independent_runs": 3,
+    "trials_per_provider": 1
+  },
+  "dependencies": [],
+  "theory_impact": ["FE-THEORY-0.1", "FE-THEORY-ALT-001"],
+  "synthesis_policy": "No confidence update from model agreement alone. Synthesis may refine protocol but cannot accept/reject FEH-001.",
+  "adjudication_policy": "Resolve factual disputes through cited repository evidence; do not use majority vote.",
+  "privacy_and_security": "Only declared public repository inputs may be sent to an external provider.",
+  "cost_and_resource_limits": "Stage B is gated; manual import is provider-neutral.",
+  "result_schema": "research/framework-engineering/experiments/schemas/normalized-result.schema.json",
+  "latest_synthesis": null
+}

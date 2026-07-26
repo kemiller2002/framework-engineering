@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EX-LEGACY-ECR-000003",
+  "run_id": "legacy--claude--ECR-000003-EXP002-P001B-claude--24bb2503a00c",
+  "provider": "claude",
+  "model": "historical-unknown",
+  "execution_mode": "historical-import",
+  "created_at": "2026-07-23T00:00:00.000Z",
+  "runner_version": "migration-1.0",
+  "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-002-cross-representation-stability/responses/claude/ECR-000003-EXP002-P001B-claude.json",
+  "source_digest": "24bb2503a00cc0bbc952ea45d5adae98689cece62d2cf4e0ac1d863301877e1c",
+  "raw_response_file": "response.raw.json",
+  "historical_prompt_snapshot_available": false,
+  "excluded_from_primary": false
+}

@@ -1,0 +1,8 @@
+{
+  "experiment_id": "EX-LEGACY-ECR-000003",
+  "run_id": "legacy--claude--ECR-000003-EXP001-P001B-claude--b9146dbb3185",
+  "provider": "claude",
+  "historical_import": true,
+  "original_request_metadata": "unavailable",
+  "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-001-topology-perturbation/responses/claude/ECR-000003-EXP001-P001B-claude.json"
+}

@@ -1,0 +1,368 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012C-REPEAT-001",
+  "migrated_at": "2026-07-23",
+  "source_root": "research/experiments/FE-012C-repeatability-run-001",
+  "result_count": 45,
+  "results": [
+    {
+      "run_id": "legacy--claude--01--70a4f543672c",
+      "provider": "claude",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/01.json",
+      "source_digest": "70a4f543672c6af1eda5ca077c81bfb32d3401e44cbfef775e0b4dba2026be96",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/claude/legacy--claude--01--70a4f543672c/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--02--449f65de59a9",
+      "provider": "claude",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/02.json",
+      "source_digest": "449f65de59a914c9cb95257fd4df25f6461ce9aa1fd6bc79a6edc088425beaf3",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/claude/legacy--claude--02--449f65de59a9/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--03--0802c56f758d",
+      "provider": "claude",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/03.json",
+      "source_digest": "0802c56f758d62197dd751695da4b2ad4b2631a06c6fb550762b34b9aec8fbd4",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/claude/legacy--claude--03--0802c56f758d/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--04--530d09d35093",
+      "provider": "claude",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/04.json",
+      "source_digest": "530d09d35093d5189dd94421e642514b22d57222b16908adbeacd11809af73f3",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/claude/legacy--claude--04--530d09d35093/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--05--d336cefa6c81",
+      "provider": "claude",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/05.json",
+      "source_digest": "d336cefa6c81d7258da6c30c36e19a3e9b9467f056cff8c92768ab43953df3a4",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/claude/legacy--claude--05--d336cefa6c81/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--06--8a20de8d53b5",
+      "provider": "claude",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/06.json",
+      "source_digest": "8a20de8d53b54239a5083024b989d635d9565f62c61d288d49ebc6d61f7b9647",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/claude/legacy--claude--06--8a20de8d53b5/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--07--f27fcc63343b",
+      "provider": "claude",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/07.json",
+      "source_digest": "f27fcc63343b707a0488b88f1b614cccb702eb7a5fe59d5068b4a11afbbe6a43",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/claude/legacy--claude--07--f27fcc63343b/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--08--3679aedb2471",
+      "provider": "claude",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/08.json",
+      "source_digest": "3679aedb2471ed044fd6f7c204616e033ea98bff793d5864480edeb9f2fdc563",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/claude/legacy--claude--08--3679aedb2471/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--09--a37343568fdc",
+      "provider": "claude",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/09.json",
+      "source_digest": "a37343568fdcd6862681190734fd5d479e5fb633b58182aed1a376aee649eb25",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/claude/legacy--claude--09--a37343568fdc/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--10--0e10ec90d7f9",
+      "provider": "claude",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/10.json",
+      "source_digest": "0e10ec90d7f977f34a3eec9e0a29e0afc806f1a3d2a108bb587da202f6c7484c",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/claude/legacy--claude--10--0e10ec90d7f9/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--11--29e7aaf72da0",
+      "provider": "claude",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/11.json",
+      "source_digest": "29e7aaf72da07f655d84c72e770e37bb88f2f443535a7d1017c33c2e5dca34f5",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/claude/legacy--claude--11--29e7aaf72da0/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--12--0846a288fd34",
+      "provider": "claude",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/12.json",
+      "source_digest": "0846a288fd34ede951c5dacb0fd8e776e140abe249a35ab41cb0cd486ee9d320",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/claude/legacy--claude--12--0846a288fd34/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--13--27a6e635fae4",
+      "provider": "claude",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/13.json",
+      "source_digest": "27a6e635fae4f1d458470cd675e7c3c4503a6447e8e86fee057f7bd5a1f574dc",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/claude/legacy--claude--13--27a6e635fae4/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--14--61316a39860f",
+      "provider": "claude",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/14.json",
+      "source_digest": "61316a39860ff38d341610ff954077b6f393db7203b99fbbd352afc45222ab7b",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/claude/legacy--claude--14--61316a39860f/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--15--c238443b8923",
+      "provider": "claude",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/15.json",
+      "source_digest": "c238443b8923f63dd8bb5a571e138520a1f7e1bf3e20063229e607f92e1b49f1",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/claude/legacy--claude--15--c238443b8923/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--01--48282fb53bf5",
+      "provider": "gemini",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/01.json",
+      "source_digest": "48282fb53bf54d01b491133dadf886c03b8f10e14426835288e40dc01041f2ad",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/gemini/legacy--gemini--01--48282fb53bf5/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--02--d18d8132664a",
+      "provider": "gemini",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/02.json",
+      "source_digest": "d18d8132664aa310de35ba27822c497beeb1dd2fc9f5a1adf61e77ea8de39c90",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/gemini/legacy--gemini--02--d18d8132664a/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--03--3624434c5217",
+      "provider": "gemini",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/03.json",
+      "source_digest": "3624434c5217c9bcdc84151785bd82a41e46a6af66babf64769eb1c5bae30ec7",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/gemini/legacy--gemini--03--3624434c5217/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--04--ede674ec3ec2",
+      "provider": "gemini",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/04.json",
+      "source_digest": "ede674ec3ec216dc4f463ac44a3c3db18a6dc1ece23d991d0c9b014788aa8aa0",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/gemini/legacy--gemini--04--ede674ec3ec2/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--05--5bb91d982c71",
+      "provider": "gemini",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/05.json",
+      "source_digest": "5bb91d982c710170ea1a7860b2050c4513e1d8e89832a933152fe8020593dca4",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/gemini/legacy--gemini--05--5bb91d982c71/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--06--aee09445cf2f",
+      "provider": "gemini",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/06.json",
+      "source_digest": "aee09445cf2fbfcefafdfcc8c8a20dbd9dc5e68270bfe2d6ec5bc71675244e6a",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/gemini/legacy--gemini--06--aee09445cf2f/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--07--90f04429424f",
+      "provider": "gemini",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/07.json",
+      "source_digest": "90f04429424f6517d070ad1acaf9abca94ecb7044887644660540bf3cd0a889e",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/gemini/legacy--gemini--07--90f04429424f/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--08--7c6053a2b359",
+      "provider": "gemini",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/08.json",
+      "source_digest": "7c6053a2b35972918fed443a0f10fff45155cc5f33ff8752bd8b372b5f7e5947",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/gemini/legacy--gemini--08--7c6053a2b359/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--09--754e57e55b1f",
+      "provider": "gemini",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/09.json",
+      "source_digest": "754e57e55b1fce452b785d5d6d49953236af7d10fe3bc04e01679c216832429b",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/gemini/legacy--gemini--09--754e57e55b1f/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--10--19e4ed6a89b5",
+      "provider": "gemini",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/10.json",
+      "source_digest": "19e4ed6a89b5acead93026e5a9632ef4a69dae9279a35e8ebafc392e7fb459d4",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/gemini/legacy--gemini--10--19e4ed6a89b5/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--11--2eb90f856e3b",
+      "provider": "gemini",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/11.json",
+      "source_digest": "2eb90f856e3b91262cddbdf7e015cc0ba6d827435d451664d28ec4b7c28947c5",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/gemini/legacy--gemini--11--2eb90f856e3b/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--12--70e0d2bf0348",
+      "provider": "gemini",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/12.json",
+      "source_digest": "70e0d2bf034885b6518901b74855f8bac1b1f949cfa016cecc01eec8631c24c7",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/gemini/legacy--gemini--12--70e0d2bf0348/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--13--cb533a1f42ba",
+      "provider": "gemini",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/13.json",
+      "source_digest": "cb533a1f42ba22ee750e3557908513e3363e9aa45467afa651bb848dc47306ce",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/gemini/legacy--gemini--13--cb533a1f42ba/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--14--d89d0c699e4a",
+      "provider": "gemini",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/14.json",
+      "source_digest": "d89d0c699e4ade77b494fa29c963cbf30532fdcb48525d6ccc757a8f577a8c98",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/gemini/legacy--gemini--14--d89d0c699e4a/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--15--f46dde811afd",
+      "provider": "gemini",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/15.json",
+      "source_digest": "f46dde811afd1562fe54dbe5dc4289c6e430e447cc616fab90ed7cf59f12ee00",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/gemini/legacy--gemini--15--f46dde811afd/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--01--84e9b0873970",
+      "provider": "chatgpt",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/01.json",
+      "source_digest": "84e9b0873970ed01983b4f3f1a200c2c491929a0c582b74b64645073c5044089",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/chatgpt/legacy--chatgpt--01--84e9b0873970/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--02--ab435c2078c9",
+      "provider": "chatgpt",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/02.json",
+      "source_digest": "ab435c2078c98c18a258b7e58902cbcec85d01deb3e399e7cd1fbcdde41fa747",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/chatgpt/legacy--chatgpt--02--ab435c2078c9/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--03--990ebc4b24d8",
+      "provider": "chatgpt",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/03.json",
+      "source_digest": "990ebc4b24d835a49823f4cb004b261bd2380f360acf25f14952b7a389df7c00",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/chatgpt/legacy--chatgpt--03--990ebc4b24d8/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--04--8da59420708b",
+      "provider": "chatgpt",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/04.json",
+      "source_digest": "8da59420708bcdc7e103776e5f043329df3b8cef224ac18db4ca3e72618e02bf",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/chatgpt/legacy--chatgpt--04--8da59420708b/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--05--d080b56ff594",
+      "provider": "chatgpt",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/05.json",
+      "source_digest": "d080b56ff594ec06af1e6779fddb5e4feef20144118c9988eb8472ca9a9b4ba7",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/chatgpt/legacy--chatgpt--05--d080b56ff594/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--06--fa47102bc00f",
+      "provider": "chatgpt",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/06.json",
+      "source_digest": "fa47102bc00f2ab2bbe872825dc0644e81c5a796bc90efd7fc2d7c15592f8d34",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/chatgpt/legacy--chatgpt--06--fa47102bc00f/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--07--01dc635b1cb3",
+      "provider": "chatgpt",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/07.json",
+      "source_digest": "01dc635b1cb38dd7955c5500c5052ea20c2a61d89fe15dbbe3a146bac5a51e3f",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/chatgpt/legacy--chatgpt--07--01dc635b1cb3/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--08--ed5befd1d943",
+      "provider": "chatgpt",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/08.json",
+      "source_digest": "ed5befd1d943205b24d9f463a33b6e4976a2414f4aff237c4ba7dff6ac47596b",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/chatgpt/legacy--chatgpt--08--ed5befd1d943/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--09--b72a372a99ef",
+      "provider": "chatgpt",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/09.json",
+      "source_digest": "b72a372a99ef22fe5952bedb57ed7a9118d299a51db7ea20eab16717d4ab6ca9",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/chatgpt/legacy--chatgpt--09--b72a372a99ef/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--10--d15e885b8187",
+      "provider": "chatgpt",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/10.json",
+      "source_digest": "d15e885b818797a515d30cb683d062da5c6b5a984efe4bf3f3e0dad67907c8d1",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/chatgpt/legacy--chatgpt--10--d15e885b8187/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--11--9b788ba3cd9d",
+      "provider": "chatgpt",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/11.json",
+      "source_digest": "9b788ba3cd9d8cee270548df2f6ad914541f1efc1c06fc979ce56b0c417e5e08",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/chatgpt/legacy--chatgpt--11--9b788ba3cd9d/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--12--b9a5b7b26206",
+      "provider": "chatgpt",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/12.json",
+      "source_digest": "b9a5b7b26206248e55869a9da376fcce7d33a75850d19bd5aee5a336ad151e58",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/chatgpt/legacy--chatgpt--12--b9a5b7b26206/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--13--01d140726521",
+      "provider": "chatgpt",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/13.json",
+      "source_digest": "01d1407265213328c398fe0ea68a38962e9866c23222c198c44ff0a521bc4eef",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/chatgpt/legacy--chatgpt--13--01d140726521/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--14--97b684f0c5df",
+      "provider": "chatgpt",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/14.json",
+      "source_digest": "97b684f0c5df30cb05ad75b97f2dd87dcb846a9c9b6fccddf05cfe5618607daf",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/chatgpt/legacy--chatgpt--14--97b684f0c5df/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--15--e8a7b335bd72",
+      "provider": "chatgpt",
+      "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/15.json",
+      "source_digest": "e8a7b335bd7218ed2274f52d2dbf374523fd760dc1d33e1f861640551f4c88b3",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012C-REPEAT-001/runs/chatgpt/legacy--chatgpt--15--e8a7b335bd72/response.raw.json",
+      "excluded_from_primary": false
+    }
+  ]
+}

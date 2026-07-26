@@ -1,0 +1,10 @@
+{
+  "artifact":{"id":"FE-BND-LOCK-001","version":"1.0.0","status":"partial-lock-blocked","author":"Codex research director","created":"2026-07-24T17:14:36Z","updated":"2026-07-24T17:14:36Z","parents":["FE-BND-PROTOCOL-001"],"sources":["all package files excluding this lock"],"repository_commit":"a7b6a7178cdb41579730c8971bec70f5660c2f86","change_summary":"Frozen Stage A draft manifest","confidence":0.99,"completion":"incomplete","limitations":"No sealed-key digest, recognition data, eligible panel, or locked reviews."},
+  "protocol_version":"1.0.0",
+  "stage_b_seed":"EX-FE-0002-STAGE-B-20260724-7f3c",
+  "random_order":["B02","B06","A04","B04","A06","A05","A01","A02","B05","B01","A07","A03","A08","B03"],
+  "pre_lock_package_manifest_digest":"da965f35ac3ae2bb691009704bc152135bf784213ce1c2b17cbe9db7f7be8b55",
+  "locked_components":["comparison dimensions","card schema","eight candidate cards","six comparator cards","rubric","decision thresholds","analysis plan","randomization seed"],
+  "unlocked_required_components":["licensed/full-text material comparator evidence","sealed source key and digest","recognition responses","eligible panel roster","review responses","adjudication","primary calculations"],
+  "stage_b_authorized":false
+}

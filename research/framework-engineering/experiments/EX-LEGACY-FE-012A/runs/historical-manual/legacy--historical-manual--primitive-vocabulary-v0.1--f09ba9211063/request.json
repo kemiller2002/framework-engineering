@@ -1,0 +1,8 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012A",
+  "run_id": "legacy--historical-manual--primitive-vocabulary-v0.1--f09ba9211063",
+  "provider": "historical-manual",
+  "historical_import": true,
+  "original_request_metadata": "unavailable",
+  "source_path": "research/experiments/FE-012A-blind-primitive-extraction/results/primitive-vocabulary-v0.1.csv"
+}

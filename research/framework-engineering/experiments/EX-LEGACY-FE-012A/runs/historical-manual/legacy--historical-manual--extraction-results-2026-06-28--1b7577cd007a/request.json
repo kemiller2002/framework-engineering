@@ -1,0 +1,8 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012A",
+  "run_id": "legacy--historical-manual--extraction-results-2026-06-28--1b7577cd007a",
+  "provider": "historical-manual",
+  "historical_import": true,
+  "original_request_metadata": "unavailable",
+  "source_path": "research/experiments/FE-012A-blind-primitive-extraction/results/extraction-results-2026-06-28.csv"
+}

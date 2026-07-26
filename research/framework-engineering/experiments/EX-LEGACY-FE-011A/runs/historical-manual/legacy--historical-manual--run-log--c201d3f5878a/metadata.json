@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EX-LEGACY-FE-011A",
+  "run_id": "legacy--historical-manual--run-log--c201d3f5878a",
+  "provider": "historical-manual",
+  "model": "historical-unknown",
+  "execution_mode": "historical-import",
+  "created_at": "2026-07-23T00:00:00.000Z",
+  "runner_version": "migration-1.0",
+  "source_path": "research/experiments/FE-011A-llm-blind-pilot/results/run-log.md",
+  "source_digest": "c201d3f5878adf9f6cd761afb190fd57e96291b3a8a81875cff6c070ff50ce3a",
+  "raw_response_file": "response.raw.md",
+  "historical_prompt_snapshot_available": false,
+  "excluded_from_primary": false
+}

@@ -1,0 +1,9 @@
+artifact_id,version,status,author,created,updated,parent_dependencies,repository_commit,change_summary,confidence,completion,known_limitations
+FE-BND-COVERAGE-001,1.1.0,curator-submitted,comparator-curator-agent-role-3,2026-07-24T19:15:00Z,2026-07-24T19:15:00Z,"FE-BND-SOURCES-001@1.1.0; FE-BND-SCHEMA-001@1.0.0",a7b6a7178cdb41579730c8971bec70f5660c2f86,Comparator source and operational-field coverage audit,0.93,complete-with-gate-failure,Four of six cards lack section-verified two-source coverage
+card_id,field,primary_original,independent_source,section_verified,operational_coverage,status
+B01,method engineering,ME01,ME02,no,insufficient,coverage-insufficient
+B02,systems engineering,SE01,SE02,no,insufficient,coverage-insufficient
+B03,requirements traceability,RE02,RE01,no,partial,coverage-insufficient
+B04,process modeling,PM01,absent,yes,substantial,coverage-insufficient
+B05,provenance systems,PV02,PV01,yes,substantial,covered
+B06,structured analytic techniques,absent,DA02,yes,substantial,coverage-insufficient

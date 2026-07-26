@@ -1,0 +1,2 @@
+# artifact_id=FE-BND-RECOG-RESP-001 version=1.0.0 status=empty author=unassigned created=2026-07-24T17:14:36Z updated=2026-07-24T17:14:36Z parents=FE-BND-RECOG-INSTR-001 sources=none repository_commit=a7b6a7178cdb41579730c8971bec70f5660c2f86 change_summary=empty_response_template confidence=1.0 completion=incomplete limitations=requires_two_new_participants
+participant_id,card_id,guess_category,confidence,revealing_phrase,locked_sha256

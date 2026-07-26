@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012C-MANUAL",
+  "run_id": "legacy--gemini--FE-012C-P006-gemini--e1640f66d8b2",
+  "provider": "gemini",
+  "model": "historical-unknown",
+  "execution_mode": "historical-import",
+  "created_at": "2026-07-23T00:00:00.000Z",
+  "runner_version": "migration-1.0",
+  "source_path": "research/experiments/FE-012C-manual-replication/responses/gemini/FE-012C-P006-gemini.json",
+  "source_digest": "e1640f66d8b2911f0ba66dc93dc051222f297443b1cf2627b39d98e0c79ece9d",
+  "raw_response_file": "response.raw.json",
+  "historical_prompt_snapshot_available": false,
+  "excluded_from_primary": false
+}

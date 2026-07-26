@@ -1,0 +1,8 @@
+{
+  "prompt_sha256": "ec816a2e1d00de51714daa7d2e7b3f4b5818a5faa6ab633321c8e14e35be5a27",
+  "inputs": {
+    "research/experiments/FE-012C-manual-replication/README.md": "62395c93d7fd3627a811d4bae090bc64b2ede9c56e3428f14fb26364d97b8de4",
+    "research/experiments/FE-012C-manual-replication/protocol.md": "16e3526890914cb57f1ee42484996ec4b0a687533190e158949d147047a37d6d",
+    "research/experiments/FE-012C-manual-replication/packet-index.md": "d13207003df5a9d9cd8cf149dce55dc271b918be92f7bbcb158d51e2dd13c8a9"
+  }
+}

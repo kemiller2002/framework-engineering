@@ -1,0 +1,8 @@
+{
+  "prompt_sha256": "82fac6d07150d13175befb45cbad471d5c94f9385c04f16542edd10c4c9354d1",
+  "inputs": {
+    "research/experiments/FE-012A-blind-primitive-extraction/README.md": "797756b8fb26f18609dbbddf89ed5efc246dfd179932a6c63eab0d428585c484",
+    "research/experiments/FE-012A-blind-primitive-extraction/protocol.md": "2773ca714affb47e9f779b1f5f45c0fa1cb1c2aaeb0ce292edd162d623b91976",
+    "research/experiments/FE-012A-blind-primitive-extraction/analysis-plan.md": "a6c708783aa00ec9ede9bcb535d1deb35c057348fa4174982c509e46d55b3b51"
+  }
+}

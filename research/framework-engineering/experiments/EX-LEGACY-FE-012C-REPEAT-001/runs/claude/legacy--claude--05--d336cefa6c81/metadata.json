@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012C-REPEAT-001",
+  "run_id": "legacy--claude--05--d336cefa6c81",
+  "provider": "claude",
+  "model": "historical-unknown",
+  "execution_mode": "historical-import",
+  "created_at": "2026-07-23T00:00:00.000Z",
+  "runner_version": "migration-1.0",
+  "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/claude/05.json",
+  "source_digest": "d336cefa6c81d7258da6c30c36e19a3e9b9467f056cff8c92768ab43953df3a4",
+  "raw_response_file": "response.raw.json",
+  "historical_prompt_snapshot_available": false,
+  "excluded_from_primary": false
+}

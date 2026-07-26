@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012A",
+  "run_id": "legacy--historical-manual--stabilization-table-2026-06-28--3fcfb73701a8",
+  "provider": "historical-manual",
+  "model": "historical-unknown",
+  "execution_mode": "historical-import",
+  "created_at": "2026-07-23T00:00:00.000Z",
+  "runner_version": "migration-1.0",
+  "source_path": "research/experiments/FE-012A-blind-primitive-extraction/results/stabilization-table-2026-06-28.csv",
+  "source_digest": "3fcfb73701a8aac7d88ac8bdcba78d237a064ab69bb50944ef765d3b2f9b10ae",
+  "raw_response_file": "response.raw.csv",
+  "historical_prompt_snapshot_available": false,
+  "excluded_from_primary": false
+}

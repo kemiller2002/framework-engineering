@@ -1,0 +1,8 @@
+{
+  "prompt_sha256": "7dc220e49382b66dec0948211ed65fae0205e71941e96c7d889b4a3bd88ec932",
+  "inputs": {
+    "research/experiments/FE-012C-repeatability-run-001/README.md": "71c14f5c0efeb48bfc5132b8d1eb7a8756e8072cbb37ce2653894a005f3c7bd4",
+    "research/experiments/FE-012C-repeatability-run-001/pre-registration.md": "cd521434168e66a237f32ff8b1dd49b45f4bb2ca7f5f539c6cb5fd732521e033",
+    "research/experiments/FE-012C-repeatability-run-001/comparison-plan.md": "1b8541ce6dad1db042d3f3b402195d6ea95efb62c5438c64499189028eb2e2d8"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "EX-FE-0003",
+  "title": "Uncertainty and Evidence-Lineage Ablation",
+  "status": "proposed",
+  "version": "1.0",
+  "research_area": "framework-engineering",
+  "created_at": "2026-07-25",
+  "created_by": "Codex",
+  "updated_at": "2026-07-25",
+  "priority": "P1",
+  "confidence": 0.5,
+  "lineage": {
+    "based_on": { "research_packages": [], "journal_entries": [], "evidence": [], "hypotheses": ["PR-FE-0001"], "theories": [], "experiments": [], "documents": ["research/framework-engineering/experiments/EX-FE-0003/START-HERE.md"] },
+    "supersedes": [],
+    "superseded_by": []
+  },
+  "question": "Does explicit uncertainty representation and traceable evidence lineage improve diagnostic reasoning and decisions compared with an otherwise equivalent framework?",
+  "hypothesis": "PR-FE-0001",
+  "competing_hypotheses": ["complexity-only", "conditional-value", "harm"],
+  "claim_under_test": "Explicit uncertainty and traceable evidence lineage improve diagnostic framework behavior under identifiable conditions.",
+  "objective": "Isolate uncertainty and evidence-lineage effects with blinded, repeated diagnostic runs.",
+  "non_objectives": ["Validate Framework Engineering as a whole", "Treat provider agreement as human validation", "Promote a canonical principle"],
+  "evaluator_role": "blinded diagnostic-output evaluator",
+  "assumptions": ["Fresh-context runs can be isolated", "Case materials are sufficient to test the targeted conditions"],
+  "confounders": ["output length", "provider behavior", "evaluator variance", "case construction"],
+  "risks": ["identity leakage", "prompt drift", "decorative traceability"],
+  "inputs": [
+    { "id": "START-HERE", "path": "research/framework-engineering/experiments/EX-FE-0003/START-HERE.md" },
+    { "id": "PROTOCOL", "path": "research/framework-engineering/experiments/EX-FE-0003/protocol.md" },
+    { "id": "ANALYSIS-PLAN", "path": "research/framework-engineering/experiments/EX-FE-0003/analysis-plan.md" }
+  ],
+  "procedure": ["Freeze and hash framework and case artifacts.", "Run the 27-run minimum matrix in isolated contexts.", "Normalize without repair.", "Score outputs while blinded.", "Conduct adversarial review.", "Freeze analysis, unblind, and classify."],
+  "replication_plan": "Three trials per framework/case; preferred replication across two provider families.",
+  "falsification_conditions": ["Baseline is equivalent or better after controlling for length.", "Benefits fail to repeat.", "Lineage is decorative or increases harm."],
+  "inconclusive_conditions": ["Execution does not meet the minimum matrix or a stop condition compromises isolation."],
+  "stopping_conditions": ["Identity leakage", "prompt drift", "unequal case information", "prior-output leakage", "untraceable runs", "manual repair before evaluation"],
+  "metrics": ["D1-D12", "word count", "benefit score", "run-to-run variance"],
+  "providers": { "required": [], "optional": ["manual"], "minimum_independent_runs": 27, "trials_per_provider": 3 },
+  "dependencies": [],
+  "theory_impact": ["PR-FE-0001 candidate only"],
+  "result_schema": "research/framework-engineering/experiments/schemas/normalized-result.schema.json",
+  "latest_synthesis": null
+}

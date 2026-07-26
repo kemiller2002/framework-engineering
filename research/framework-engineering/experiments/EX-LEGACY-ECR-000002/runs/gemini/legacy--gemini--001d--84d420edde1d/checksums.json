@@ -1,0 +1,8 @@
+{
+  "prompt_sha256": "7e47d083633ec8db4e64d81c2e337758f9c1fcb4a384f9fd70c9adf510ef1ad7",
+  "inputs": {
+    "research/evidence-runs/ECR-000002-recognition-sensitivity/README.md": "62a0d6bcbac4300761fe2b033fec9feaadeb4a2307c5529f7da3f7a8d94be45e",
+    "research/evidence-runs/ECR-000002-recognition-sensitivity/pre-registration.md": "e7c5573e5c44505273b27562f09ecfba2cf1eb73f87ff4ab88b385c40293e454",
+    "research/evidence-runs/ECR-000002-recognition-sensitivity/analysis-plan.md": "9da5e35d5baf32282b3405896fb300c901d44ae71055f4c35730a98d8b1d36c4"
+  }
+}

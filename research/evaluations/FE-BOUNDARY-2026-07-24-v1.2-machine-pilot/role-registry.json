@@ -1,0 +1,36 @@
+{
+  "artifact": {
+    "id": "FE-BND-V1.2-ROLE-REGISTRY-001",
+    "version": "1.0.0",
+    "status": "open",
+    "author": "M0 pilot director (Claude, Anthropic)",
+    "created": "2026-07-24",
+    "updated": "2026-07-24",
+    "parents": ["FE-BND-MACHINE-PILOT-PROMPT-001"],
+    "sources": ["MACHINE-ONLY-PILOT-PROMPT.md"],
+    "repository_commit": "a7b6a7178cdb41579730c8971bec70f5660c2f86",
+    "change_summary": "Initial role assignment for the machine-only pilot",
+    "confidence": 0.95,
+    "completion": "in-progress",
+    "limitations": "All contexts are Anthropic/Claude; this is role isolation, not cross-provider replication."
+  },
+  "run_id": "FE-BOUNDARY-2026-07-24-v1.2-machine-pilot",
+  "assignments": [
+    {"participant_id": "M0", "role": "pilot-director-gatekeeper", "model_provider_family": "Anthropic/Claude", "context": "orchestrating session (this conversation)", "prior_repository_exposure": "yes: full v1.0 and v1.1 history, both A-side and B-side content", "conflicts": ["orchestrator has seen both sides; never curates or reviews mappings"], "status": "active"},
+    {"participant_id": "M1", "role": "fe-mechanism-curator", "model_provider_family": "Anthropic/Claude", "context": "fresh isolated subagent", "prior_repository_exposure": "given only canonical/proposal-only FE records and v1.1 private FE materials; explicitly withheld from B-series content", "conflicts": [], "status": "pending"},
+    {"participant_id": "M2", "role": "comparator-evidence-curator", "model_provider_family": "Anthropic/Claude", "context": "fresh isolated subagent", "prior_repository_exposure": "given only comparator fields and v1.1 comparator materials; explicitly withheld from A-series content", "conflicts": [], "status": "pending"},
+    {"participant_id": "M3", "role": "operational-completeness-auditor", "model_provider_family": "Anthropic/Claude", "context": "fresh isolated subagent", "prior_repository_exposure": "given only final M1+M2 cards and schema", "conflicts": [], "status": "pending"},
+    {"participant_id": "M4", "role": "blinding-editor-key-custodian", "model_provider_family": "Anthropic/Claude", "context": "fresh isolated subagent", "prior_repository_exposure": "given only accepted cards and locked completeness scores", "conflicts": [], "status": "pending"},
+    {"participant_id": "M5a", "role": "machine-leakage-tester", "model_provider_family": "Anthropic/Claude", "context": "fresh isolated subagent", "prior_repository_exposure": "given only blinded cards and category list", "conflicts": [], "status": "pending"},
+    {"participant_id": "M5b", "role": "machine-leakage-tester", "model_provider_family": "Anthropic/Claude", "context": "fresh isolated subagent", "prior_repository_exposure": "given only blinded cards and category list", "conflicts": [], "status": "pending"},
+    {"participant_id": "M5c", "role": "machine-leakage-tester", "model_provider_family": "Anthropic/Claude", "context": "fresh isolated subagent", "prior_repository_exposure": "given only blinded cards and category list", "conflicts": [], "status": "pending"},
+    {"participant_id": "M6a", "role": "machine-mapping-reviewer", "model_provider_family": "Anthropic/Claude", "context": "fresh isolated subagent", "prior_repository_exposure": "given only blinded cards and reviewer rubric", "conflicts": ["must not have served as M1-M5"], "status": "pending"},
+    {"participant_id": "M6b", "role": "machine-mapping-reviewer", "model_provider_family": "Anthropic/Claude", "context": "fresh isolated subagent", "prior_repository_exposure": "given only blinded cards and reviewer rubric", "conflicts": ["must not have served as M1-M5"], "status": "pending"},
+    {"participant_id": "M6c", "role": "machine-mapping-reviewer", "model_provider_family": "Anthropic/Claude", "context": "fresh isolated subagent", "prior_repository_exposure": "given only blinded cards and reviewer rubric", "conflicts": ["must not have served as M1-M5"], "status": "pending"},
+    {"participant_id": "M7", "role": "blind-adjudicator", "model_provider_family": "Anthropic/Claude", "context": "fresh isolated subagent", "prior_repository_exposure": "given only blinded cards, rubric, and locked M6 reviews; no identity key", "conflicts": [], "status": "pending"},
+    {"participant_id": "M8", "role": "analyst", "model_provider_family": "Anthropic/Claude", "context": "orchestrating session (mechanical computation only, no content judgment)", "status": "pending"},
+    {"participant_id": "M9", "role": "freeze-reproducibility-auditor", "model_provider_family": "Anthropic/Claude", "context": "orchestrating session (mechanical validation only)", "status": "pending"}
+  ],
+  "separation_result": "role-isolated-single-provider-family",
+  "cross_provider_replication": false
+}

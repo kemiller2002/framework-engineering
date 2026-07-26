@@ -1,0 +1,92 @@
+{
+  "artifact": {
+    "id": "FE-BND-FE-SOURCE-APPENDIX-001",
+    "version": "1.1.0",
+    "status": "private-curator-submitted",
+    "author": "Role 2 FE mechanism curator",
+    "created": "2026-07-24T17:38:59Z",
+    "updated": "2026-07-24T17:38:59Z",
+    "parents": ["EX-FE-0002", "FE-BND-SCHEMA-001"],
+    "sources": ["current canonical and proposal-only FE records", "v1.0 A-series cards"],
+    "repository_commit": "a7b6a7178cdb41579730c8971bec70f5660c2f86",
+    "change_summary": "Identity-bearing section-level source appendix for private A-series cards",
+    "confidence": 0.84,
+    "completion": "complete",
+    "limitations": "Section references follow current Markdown headings; several records lack stable internal anchors."
+  },
+  "access": {
+    "classification": "private identity-bearing FE curator appendix",
+    "reviewer_visible": false,
+    "warning": "Do not provide to recognition participants or Stage B reviewers."
+  },
+  "cards": [
+    {
+      "card_id": "A01",
+      "sources": [
+        {"path": "research/reference/identity-capability-model.md", "sections": ["Purpose", "Core Distinctions", "Rules"], "status": "working draft", "use": "direct rules and scope"},
+        {"path": "research/hypotheses/FE-008A-identity-capability-principle.md", "sections": ["Research Question", "Hypothesis", "Predictions", "Success Criteria", "Failure Criteria"], "status": "hypothesis", "use": "direct prediction and failure test"},
+        {"path": "research/theory/evidence-to-theory-map.md", "sections": ["FE-008"], "status": "research synthesis", "use": "evidence limit and future test"}
+      ]
+    },
+    {
+      "card_id": "A02",
+      "sources": [
+        {"path": "research/experiments/FE-011A-llm-blind-pilot/protocol.md", "sections": ["Hypotheses", "Experimental Design", "Failure Conditions", "Success Conditions", "Known Design Limitations"], "status": "draft pilot protocol", "use": "direct operation, test, outcome dimensions, and limits"},
+        {"path": "research/experiments/FE-011A-llm-blind-pilot/results/summary.md", "sections": ["Comparative Outcome", "Cross-Framework Pattern", "Interpretation"], "status": "internal pilot", "use": "direct observations"},
+        {"path": "research/theory/emergent-design-laws-v0.1.md", "sections": ["Add Only Enough Structure To Solve The Identified Weakness"], "status": "provisional research synthesis", "use": "proposal-only redesign constraint"}
+      ]
+    },
+    {
+      "card_id": "A03",
+      "sources": [
+        {"path": "research/experiments/FE-012A-blind-primitive-extraction/protocol.md", "sections": ["Blinding", "Verb Extraction", "Primitive Normalization", "Vocabulary Tracking", "Reconstruction", "Holdout Testing", "Analysis"], "status": "draft experiment protocol", "use": "direct operation and test"},
+        {"path": "research/experiments/FE-012A-blind-primitive-extraction/results/summary-2026-06-28.md", "sections": ["Execution Scope", "Primary Observations", "Reconstruction Pattern", "Methodological Limits"], "status": "internal single-extractor run", "use": "direct observations and limits"},
+        {"path": "research/experiments/FE-013-procedural-language-hypothesis/README.md", "sections": ["Purpose", "How This Differs From Primitive Extraction", "Warning"], "status": "proposal experiment", "use": "proposal-only structural representation"}
+      ]
+    },
+    {
+      "card_id": "A04",
+      "sources": [
+        {"path": "research/theory/grammar-hypotheses-v0.1.md", "sections": ["Hypothesis 1", "Hypothesis 2", "Hypothesis 3", "Hypothesis 4", "Current Weaknesses", "Next Tests"], "status": "hypotheses only", "use": "proposal, prediction, and limits"},
+        {"path": "research/theory/theory-traceability-matrix-v0.1.md", "sections": ["Reasoning grammar and execution grammar may be distinct"], "status": "under investigation", "use": "support and weakening test"},
+        {"path": "research/product-architecture/uncertainty-to-action-flow.md", "sections": ["Distinction"], "status": "product architecture", "use": "proposal-only consumer distinction; not validation"}
+      ]
+    },
+    {
+      "card_id": "A05",
+      "sources": [
+        {"path": "research/operating-system/research-constitution.md", "sections": ["Rules 1-16", "Interpretation Rule"], "status": "version 1.0 research governance", "use": "direct governance rules"},
+        {"path": "research/operating-system/research-operating-manual.md", "sections": ["Rules"], "status": "research operating manual", "use": "direct claim and review constraints"},
+        {"path": "research/theory/emergent-design-laws-v0.1.md", "sections": ["Separate Observation From Interpretation", "Preserve Uncertainty", "Preserve Alternatives Until Evidence Narrows Them", "Open Caution"], "status": "provisional research synthesis", "use": "proposal-only heuristics"},
+        {"path": "research/theory/future-predictions.md", "sections": ["Prediction 3"], "status": "untested prediction", "use": "direct prediction and experiment"}
+      ]
+    },
+    {
+      "card_id": "A06",
+      "sources": [
+        {"path": "research/theory/emergent-design-laws-v0.1.md", "sections": ["Verify Before Closure", "Add Reassessment Triggers In Dynamic Contexts", "Open Caution"], "status": "provisional research synthesis", "use": "proposal-only mechanism"},
+        {"path": "research/experiments/FE-011A-llm-blind-pilot/results/summary.md", "sections": ["Comparative Outcome", "Cross-Framework Pattern"], "status": "internal pilot", "use": "observed reassessment and verification pattern"},
+        {"path": "research/product-architecture/uncertainty-to-action-flow.md", "sections": ["Steps 4-9", "Distinction"], "status": "product architecture", "use": "proposal-only belief and reassessment flow"},
+        {"path": "research/operating-system/research-constitution.md", "sections": ["Rules 1-3", "Rules 14-16"], "status": "version 1.0 research governance", "use": "kill-condition requirement"}
+      ]
+    },
+    {
+      "card_id": "A07",
+      "sources": [
+        {"path": "research/operating-system/research-operating-manual.md", "sections": ["Rules 15-16", "Response Normalization Gate", "Explainability Layer"], "status": "research operating manual", "use": "freeze, certification, and refusal rules"},
+        {"path": "research/framework-engineering/experiments/architecture.md", "sections": ["Decision", "Safety and lineage", "Consequences"], "status": "accepted-for-pilot architecture", "use": "immutable and derived layers, input controls, hashes, and lineage"},
+        {"path": "research/framework-engineering/experiments/schemas/experiment.schema.json", "sections": ["root schema and required identifiers"], "status": "implemented schema", "use": "stable experiment metadata"},
+        {"path": "research/framework-engineering/experiments/schemas/normalized-result.schema.json", "sections": ["root schema and digest fields"], "status": "implemented schema", "use": "result identity and digest fields"}
+      ]
+    },
+    {
+      "card_id": "A08",
+      "sources": [
+        {"path": "research/theory/theory-of-framework-engineering-v0.1.md", "sections": ["Core Definitions", "Theory v0.1", "Open Questions", "Next Required Work"], "status": "provisional theory", "use": "program scope and limits"},
+        {"path": "research/theory/evidence-to-theory-map.md", "sections": ["FE-008", "FE-011A", "FE-012A", "FE-012B", "Traceability Summary"], "status": "research synthesis", "use": "stage contributions and future tests"},
+        {"path": "research/operating-system/research-operating-manual.md", "sections": ["EDR Flow", "Rules 6-9", "Rule 16"], "status": "research operating manual", "use": "review and next-action governance"},
+        {"path": "research/theory/emergent-design-laws-v0.1.md", "sections": ["Add Only Enough Structure To Solve The Identified Weakness", "Open Caution"], "status": "provisional research synthesis", "use": "cost and limitation"}
+      ]
+    }
+  ]
+}

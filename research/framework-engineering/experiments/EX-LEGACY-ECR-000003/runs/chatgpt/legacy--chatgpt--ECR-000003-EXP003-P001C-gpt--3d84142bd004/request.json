@@ -1,0 +1,8 @@
+{
+  "experiment_id": "EX-LEGACY-ECR-000003",
+  "run_id": "legacy--chatgpt--ECR-000003-EXP003-P001C-gpt--3d84142bd004",
+  "provider": "chatgpt",
+  "historical_import": true,
+  "original_request_metadata": "unavailable",
+  "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-003-isomorphic-procedures/responses/gpt/ECR-000003-EXP003-P001C-gpt.json"
+}

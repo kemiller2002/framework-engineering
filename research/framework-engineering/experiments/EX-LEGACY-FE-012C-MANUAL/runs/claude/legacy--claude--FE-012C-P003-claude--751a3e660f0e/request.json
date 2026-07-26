@@ -1,0 +1,8 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012C-MANUAL",
+  "run_id": "legacy--claude--FE-012C-P003-claude--751a3e660f0e",
+  "provider": "claude",
+  "historical_import": true,
+  "original_request_metadata": "unavailable",
+  "source_path": "research/experiments/FE-012C-manual-replication/responses/claude/FE-012C-P003-claude.json"
+}

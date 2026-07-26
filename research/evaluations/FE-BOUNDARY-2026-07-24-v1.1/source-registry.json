@@ -1,0 +1,33 @@
+{
+  "artifact": {
+    "id": "FE-BND-SOURCES-001",
+    "version": "1.1.0",
+    "status": "curator-submitted",
+    "author": "comparator-curator-agent-role-3",
+    "created": "2026-07-24T19:15:00Z",
+    "updated": "2026-07-24T19:15:00Z",
+    "parents": ["FE-BND-SOURCES-001@1.0.0", "FE-BND-PROTOCOL-001@1.0.0"],
+    "sources": ["EX-FE-0002 comparator fields", "v1.0 source registry leads", "verified primary URLs below"],
+    "repository_commit": "a7b6a7178cdb41579730c8971bec70f5660c2f86",
+    "change_summary": "Role-isolated comparator verification; preserves insufficient coverage and corrects an invalid ACH lead.",
+    "confidence": 0.94,
+    "completion": "complete-with-coverage-failures",
+    "limitations": "Several standards were accessible only through authoritative abstracts; no inference from abstracts was used to fill operational fields."
+  },
+  "access_date": "2026-07-24",
+  "records": [
+    {"id":"ME01","kind":"original-method","title":"Method engineering: engineering of information systems development methods and tools","author":"Sjaak Brinkkemper","year":1996,"identifier":"doi:10.1016/0950-5849(95)01059-9","url":"https://doi.org/10.1016/0950-5849(95)01059-9","relevant_sections":["abstract; full text not retrieved"],"paraphrase":"The abstract presents construction of situational methods from method fragments.","use":"B01","coverage":"coverage-insufficient"},
+    {"id":"ME02","kind":"standard","title":"Software engineering — Metamodel for development methodologies","body":"ISO/IEC","year":2014,"identifier":"ISO/IEC 24744:2014","url":"https://www.iso.org/standard/62644.html","relevant_sections":["authoritative abstract only"],"paraphrase":"The abstract describes a metamodel spanning process, modeling, people, and work products.","use":"B01","coverage":"coverage-insufficient"},
+    {"id":"SE01","kind":"standard-primary","title":"Systems and software engineering — System life cycle processes","body":"ISO/IEC/IEEE","year":2023,"identifier":"ISO/IEC/IEEE 15288:2023","url":"https://www.iso.org/standard/81702.html","relevant_sections":["scope and abstract only"],"paraphrase":"The public record states that the standard establishes lifecycle processes for human-made systems.","use":"B02","coverage":"coverage-insufficient"},
+    {"id":"SE02","kind":"standard-guidance","title":"Life cycle management — Part 1","body":"ISO/IEC/IEEE","year":2024,"identifier":"ISO/IEC/IEEE 24748-1:2024","url":"https://www.iso.org/standard/84709.html","relevant_sections":["authoritative abstract only"],"paraphrase":"The abstract covers selecting and adapting lifecycle models and processes.","use":"B02","coverage":"coverage-insufficient"},
+    {"id":"RE01","kind":"standard-primary","title":"Life cycle processes — Requirements engineering","body":"ISO/IEC/IEEE","year":2018,"identifier":"ISO/IEC/IEEE 29148:2018","url":"https://www.iso.org/standard/72089.html","relevant_sections":["authoritative abstract only"],"paraphrase":"The abstract states that requirements processes and information-item content are specified across the lifecycle.","use":"B03","coverage":"coverage-insufficient"},
+    {"id":"RE02","kind":"original-study","title":"An analysis of the requirements traceability problem","author":"Orlena Gotel and Anthony Finkelstein","year":1994,"identifier":"hdl:10068/458729","url":"https://discovery.ucl.ac.uk/id/eprint/749/","relevant_sections":["repository abstract; downloadable paper not section-verified in this run"],"paraphrase":"The study analyzes problems in tracing requirements to their originating statements and actors.","use":"B03","coverage":"coverage-insufficient"},
+    {"id":"PM01","kind":"controlling-specification","title":"Business Process Model and Notation, Version 2.0.2","body":"Object Management Group","year":2013,"identifier":"formal/2013-12-09","url":"https://www.omg.org/spec/BPMN/2.0.2/PDF","relevant_sections":["2 Conformance","7 Overview","9 Collaboration","10 Process","13 Execution Semantics"],"paraphrase":"The specification defines process, collaboration, choreography, activity, event, gateway, data, and execution semantics, with explicit conformance classes.","use":"B04","coverage":"section-verified; independent application source absent"},
+    {"id":"PV01","kind":"controlling-specification","title":"PROV-O: The PROV Ontology","body":"W3C Provenance Working Group","year":2013,"identifier":"W3C Recommendation 30 April 2013","url":"https://www.w3.org/TR/prov-o/","relevant_sections":["2 PROV-O at a glance","3.1 Starting Point Terms","3.2 Expanded Terms","3.3 Qualified Terms"],"paraphrase":"PROV-O models entities, activities, agents, use, generation, derivation, attribution, revision, invalidation, roles, plans, and qualified influence.","use":"B05","coverage":"section-verified"},
+    {"id":"PV02","kind":"primary-paper","title":"The FAIR Guiding Principles for scientific data management and stewardship","author":"Mark D. Wilkinson et al.","year":2016,"identifier":"doi:10.1038/sdata.2016.18","url":"https://www.nature.com/articles/sdata201618","relevant_sections":["Box 2, F1-F4 and R1-R1.3"],"paraphrase":"The principles require persistent identifiers, rich metadata, explicit identifier links, detailed provenance, and community standards.","use":"B05","coverage":"section-verified"},
+    {"id":"DA02","kind":"authoritative-manual","title":"A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis","body":"United States Government","year":2009,"identifier":"CIA tradecraft primer, April 2009","url":"https://www.cia.gov/resources/csi/static/Tradecraft-Primer-apr09.pdf","relevant_sections":["Indicators or Signposts of Change, pp. 12-13","Analysis of Competing Hypotheses, pp. 14-16"],"paraphrase":"The manual instructs analysts to define observable indicators and review them over time, and to compare alternatives using evidence that can disconfirm them.","use":"B06","coverage":"section-verified; independent original-method source absent"}
+  ],
+  "rejected_leads": [
+    {"id":"DA01","reason":"Invalid bibliographic attribution. RAND P-8078 is Bruce Hoffman's 2003 Al Qaeda assessment, not Richards J. Heuer Jr.'s claimed 2005 publication. It was not used as evidence."}
+  ]
+}

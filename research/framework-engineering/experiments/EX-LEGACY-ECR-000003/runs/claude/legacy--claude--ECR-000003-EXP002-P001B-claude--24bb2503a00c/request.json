@@ -1,0 +1,8 @@
+{
+  "experiment_id": "EX-LEGACY-ECR-000003",
+  "run_id": "legacy--claude--ECR-000003-EXP002-P001B-claude--24bb2503a00c",
+  "provider": "claude",
+  "historical_import": true,
+  "original_request_metadata": "unavailable",
+  "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-002-cross-representation-stability/responses/claude/ECR-000003-EXP002-P001B-claude.json"
+}

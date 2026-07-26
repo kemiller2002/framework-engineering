@@ -1,0 +1,8 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012C-MANUAL",
+  "run_id": "legacy--chatgpt--FE-012C-P015-gpt--5f219576f24c",
+  "provider": "chatgpt",
+  "historical_import": true,
+  "original_request_metadata": "unavailable",
+  "source_path": "research/experiments/FE-012C-manual-replication/responses/gpt/FE-012C-P015-gpt.json"
+}

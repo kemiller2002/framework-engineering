@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "EX-NORMALIZED-RESULT-SCHEMA-1.0",
+  "title": "Normalized Independent Evaluation",
+  "type": "object",
+  "required": ["experiment_id", "run_id", "provider", "model", "raw_response_path", "raw_response_digest", "prompt_digest", "completion_status", "answer_summary", "findings", "claims", "evidence_references", "assumptions", "uncertainties", "counterexamples", "falsification_attempts", "risks", "rubric_scores", "confidence", "recommended_next_actions", "normalization_notes", "normalizer_identity", "normalizer_version"],
+  "properties": {
+    "experiment_id": { "type": "string", "pattern": "^EX-[A-Z0-9-]+$" },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "findings": { "type": "array" },
+    "claims": { "type": "array" },
+    "evidence_references": { "type": "array" },
+    "falsification_attempts": { "type": "array" },
+    "rubric_scores": { "type": "object" }
+  },
+  "additionalProperties": true
+}

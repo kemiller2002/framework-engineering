@@ -1,0 +1,85 @@
+{
+  "artifact": {
+    "id": "FE-BND-V12-FE-SOURCE-APPENDIX-001",
+    "version": "1.2.0",
+    "status": "private-curator-submitted",
+    "author": "M1",
+    "created": "2026-07-24T19:00:00Z",
+    "updated": "2026-07-24T19:00:00Z",
+    "parents": ["EX-FE-0002", "FE-BND-SCHEMA-001"],
+    "lead_reviewed": ["research/evaluations/FE-BOUNDARY-2026-07-24-v1.1/fe-source-appendix.json"],
+    "sources": ["the seven-document permitted canonical set only (research/theory/theory-of-framework-engineering-v0.1.md, CONSTITUTION.md, RESEARCH_CHARTER.md, FRAMEWORK-ENGINEERING-PRINCIPLES.md, research/operating-system/research-constitution.md, CURRENT_STATE.md, research/theory/emergent-design-laws-v0.1.md)"],
+    "repository_commit": "a7b6a7178cdb41579730c8971bec70f5660c2f86",
+    "change_summary": "Identity-bearing section-level source appendix for private A-series cards A01-A08, restricted to this role's permitted canonical inputs; does not cite the experiment-protocol, result, hypothesis, reference-model, or architecture/schema files the v1.1 lead appendix used, because those paths were outside this role's permitted-input list.",
+    "confidence": 0.8,
+    "completion": "complete",
+    "limitations": "Section references follow current Markdown headings; several sources lack stable internal anchors. This appendix cannot certify anything about documents this role was not permitted to read (e.g., FE-011A/FE-012A/FE-012B protocol and result files), and those sources are deliberately absent below."
+  },
+  "access": {
+    "classification": "private identity-bearing FE curator appendix",
+    "reviewer_visible": false,
+    "warning": "Do not provide to recognition participants or Stage B reviewers."
+  },
+  "cards": [
+    {
+      "card_id": "A01",
+      "sources": [
+        {"path": "research/theory/theory-of-framework-engineering-v0.1.md", "sections": ["Theory v0.1 (claim 1)", "Current Observations - Observation 1", "Open Questions"], "status": "provisional research theory", "use": "direct predicted effect, scope trigger, and outstanding verification need"}
+      ]
+    },
+    {
+      "card_id": "A02",
+      "sources": [
+        {"path": "research/theory/theory-of-framework-engineering-v0.1.md", "sections": ["Theory v0.1 (claim 2)", "Current Observations - Observation 2", "Hypotheses - Hypothesis 4", "Predictions", "Falsification Criteria", "Next Required Work"], "status": "provisional research theory", "use": "direct operation summary, predicted effect, measurement dimensions, cost, and verification need"},
+        {"path": "research/theory/emergent-design-laws-v0.1.md", "sections": ["7. Add Only Enough Structure To Solve The Identified Weakness"], "status": "provisional research synthesis", "use": "proposal-only redesign constraint"}
+      ]
+    },
+    {
+      "card_id": "A03",
+      "sources": [
+        {"path": "research/theory/theory-of-framework-engineering-v0.1.md", "sections": ["Core Definitions - Primitive Reasoning Operation", "Core Definitions - Procedural Reasoning Grammar", "Theory v0.1 (claim 3, claim 4)", "Current Observations - Observation 3", "Current Observations - Observation 4", "Predictions", "Falsification Criteria", "Open Questions"], "status": "provisional research theory", "use": "direct definitions, scope, predicted effects, failure conditions, and limitations"},
+        {"path": "CURRENT_STATE.md", "sections": ["Active Experiments - FE-012A, FE-012B, FE-012C purpose lines"], "status": "program status listing", "use": "direct confirmation the extraction and synthesis work is active; no procedural detail available at this path"}
+      ]
+    },
+    {
+      "card_id": "A04",
+      "sources": [
+        {"path": "research/theory/theory-of-framework-engineering-v0.1.md", "sections": ["Core Definitions - Procedural Reasoning Grammar", "Core Definitions - Execution or Coordination Grammar", "Theory v0.1 (claim 4)", "Hypotheses - Hypothesis 3", "Predictions", "Falsification Criteria", "Open Questions", "Next Required Work"], "status": "provisional research theory", "use": "direct definitional pairing, scope motivation, predicted effect, explicit unresolved status, and verification need"}
+      ]
+    },
+    {
+      "card_id": "A05",
+      "sources": [
+        {"path": "research/operating-system/research-constitution.md", "sections": ["Rule 1", "Rule 2", "Rule 3", "Rule 4", "Rule 6", "Rule 10", "Rule 11", "Interpretation Rule"], "status": "version 1.0 research governance", "use": "direct governance rules on hypothesis status, observation/interpretation separation, and confidence update"},
+        {"path": "research/theory/emergent-design-laws-v0.1.md", "sections": ["2. Separate Observation From Interpretation", "3. Preserve Uncertainty", "4. Preserve Alternatives Until Evidence Narrows Them", "Open Caution"], "status": "provisional research synthesis", "use": "proposal-only heuristics"},
+        {"path": "research/theory/theory-of-framework-engineering-v0.1.md", "sections": ["Predictions"], "status": "provisional research theory", "use": "direct predicted effect on traceability versus net usefulness"},
+        {"path": "CONSTITUTION.md", "sections": ["Appropriate Precision", "Rich Evidence Over Aggregate Scores"], "status": "working draft governing document", "use": "direct supporting principle for preserving uncertainty and multidimensional evidence"},
+        {"path": "RESEARCH_CHARTER.md", "sections": ["Core Principles - Reality Before Belief", "Core Principles - Appropriate Precision"], "status": "draft charter", "use": "direct supporting principle"}
+      ]
+    },
+    {
+      "card_id": "A06",
+      "sources": [
+        {"path": "research/theory/emergent-design-laws-v0.1.md", "sections": ["5. Verify Before Closure", "6. Add Reassessment Triggers In Dynamic Contexts", "Open Caution"], "status": "provisional research synthesis", "use": "proposal-only mechanism and scope"},
+        {"path": "research/operating-system/research-constitution.md", "sections": ["Rule 2", "Rule 7", "Rule 15"], "status": "version 1.0 research governance", "use": "direct kill-condition and evidence-priority rules"}
+      ]
+    },
+    {
+      "card_id": "A07",
+      "sources": [
+        {"path": "CONSTITUTION.md", "sections": ["Frozen Versions", "Knowledge Promotion - Implications"], "status": "working draft governing document", "use": "direct freeze rule and historical-preservation implication"},
+        {"path": "CURRENT_STATE.md", "sections": ["Current Instrument", "Current Explainability Layer"], "status": "program status listing", "use": "direct practice example of a named, versioned, frozen instrument"},
+        {"path": "RESEARCH_CHARTER.md", "sections": ["Foundational Artifacts"], "status": "draft charter", "use": "direct listing of provenance-related artifact types (Evidence Ledger, Framework Configuration Records) without operational detail"}
+      ]
+    },
+    {
+      "card_id": "A08",
+      "sources": [
+        {"path": "research/theory/theory-of-framework-engineering-v0.1.md", "sections": ["Core Definitions - Framework Engineering", "Hypotheses - Hypothesis 1", "Theory v0.1", "Open Questions", "Next Required Work"], "status": "provisional research theory", "use": "direct program definition, scope, and limitation"},
+        {"path": "research/operating-system/research-constitution.md", "sections": ["Rule 8", "Rule 9", "Rule 10"], "status": "version 1.0 research governance", "use": "direct evidence-review sequencing rules"},
+        {"path": "CURRENT_STATE.md", "sections": ["Current Goal"], "status": "program status listing", "use": "direct description of the review-to-next-action sequence"},
+        {"path": "CONSTITUTION.md", "sections": ["Knowledge Promotion - Principle"], "status": "working draft governing document", "use": "direct provisional-until-evidence rule"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "prompt_sha256": "39be7a345c157afd4d13ec7cc9f219712c07cf4fe077c052be40a4840d2d55fc",
+  "inputs": {
+    "research/evidence-runs/ECR-000003-representation-sensitivity/README.md": "94c4f7b866f2a2c0d51413e55dba2589a6157bde23b4c4023ce79c93a8186c18",
+    "research/evidence-runs/ECR-000003-representation-sensitivity/pre-registration.md": "84872158f431a9e687d578a10d98ae82da746d18441f4250a072b512085e5954",
+    "research/evidence-runs/ECR-000003-representation-sensitivity/analysis-plan.md": "03f4355b5c0f85f22f2afdaeab016f9ba5fb70c100763b8705cc9b329f648a18"
+  }
+}

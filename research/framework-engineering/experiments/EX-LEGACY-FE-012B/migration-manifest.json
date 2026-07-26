@@ -1,0 +1,32 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012B",
+  "migrated_at": "2026-07-23",
+  "source_root": "research/experiments/FE-012B-primitive-synthesis",
+  "result_count": 3,
+  "results": [
+    {
+      "run_id": "legacy--reviewer--reviewer-run-2026-06-28--8e61adc8c4b1",
+      "provider": "reviewer",
+      "source_path": "research/experiments/FE-012B-primitive-synthesis/results/reviewer-run-2026-06-28.md",
+      "source_digest": "8e61adc8c4b1fdd59482a83265480dbe205c42424e0b103f1433cb53f73f6096",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012B/runs/reviewer/legacy--reviewer--reviewer-run-2026-06-28--8e61adc8c4b1/response.raw.md",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--historical-manual--summary-2026-06-28--10f7efcf4362",
+      "provider": "historical-manual",
+      "source_path": "research/experiments/FE-012B-primitive-synthesis/results/summary-2026-06-28.md",
+      "source_digest": "10f7efcf4362906d38748bf6bdd65b3cc0cd65872a3bd0cf1e474588197148c8",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012B/runs/historical-manual/legacy--historical-manual--summary-2026-06-28--10f7efcf4362/response.raw.md",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--historical-manual--synthesis-run-2026-06-28--574e39091736",
+      "provider": "historical-manual",
+      "source_path": "research/experiments/FE-012B-primitive-synthesis/results/synthesis-run-2026-06-28.md",
+      "source_digest": "574e39091736e2aa38d826f1ce5714919b719f59e1ce74f51fa738614727d067",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012B/runs/historical-manual/legacy--historical-manual--synthesis-run-2026-06-28--574e39091736/response.raw.md",
+      "excluded_from_primary": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "prompt_sha256": "8cae7d7ca28f28499a63159e7af9cfd99eba16c5ca375099989233822409619f",
+  "inputs": {
+    "research/evaluations/FE-EVAL-2026-07-23/framework-engineering-executive-brief.md": "e75c9b2b14952de53555e28dcd41ad16e1d9d35bf3eb50d073a775d498674b9c",
+    "research/theory/theory-of-framework-engineering-v0.1.md": "202d7771682800587dcd8e8ed61c9995fa8ecdcf7f2000dd7f7b1abff58058c1",
+    "research/evaluations/FE-EVAL-2026-07-23/framework-engineering-hypothesis-audit.md": "df4d76b41cb66b67e16e2c2eb58673aebbd21c2f63ebc30055c8e782d03d358c"
+  }
+}

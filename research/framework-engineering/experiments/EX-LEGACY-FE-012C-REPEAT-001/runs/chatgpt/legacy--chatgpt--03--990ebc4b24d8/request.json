@@ -1,0 +1,8 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012C-REPEAT-001",
+  "run_id": "legacy--chatgpt--03--990ebc4b24d8",
+  "provider": "chatgpt",
+  "historical_import": true,
+  "original_request_metadata": "unavailable",
+  "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/03.json"
+}

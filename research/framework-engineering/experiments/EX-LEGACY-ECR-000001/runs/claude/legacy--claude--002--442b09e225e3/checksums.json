@@ -1,0 +1,8 @@
+{
+  "prompt_sha256": "47c09e0f6dca04a89cbb0d7036125ab3e8678c8dafd6329e371054328fb584c1",
+  "inputs": {
+    "research/evidence-runs/ECR-000001-multi-layer-procedural-representation/README.md": "6c143cf105a6b60b81fd88408b4a56a0cd67028265c8be310ddadca5cfa22888",
+    "research/evidence-runs/ECR-000001-multi-layer-procedural-representation/pre-registration.md": "a2413241d007cbd01b0a88a761beee6b9a562d0a8a4ffa405af2809a19236cd8",
+    "research/evidence-runs/ECR-000001-multi-layer-procedural-representation/analysis-plan.md": "f86b067bf813944ceb70022bfe83104f930f373b6b8708e288058eb1b1deddae"
+  }
+}

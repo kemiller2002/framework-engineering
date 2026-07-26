@@ -1,0 +1,48 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012A",
+  "migrated_at": "2026-07-23",
+  "source_root": "research/experiments/FE-012A-blind-primitive-extraction",
+  "result_count": 5,
+  "results": [
+    {
+      "run_id": "legacy--historical-manual--extraction-results-2026-06-28--1b7577cd007a",
+      "provider": "historical-manual",
+      "source_path": "research/experiments/FE-012A-blind-primitive-extraction/results/extraction-results-2026-06-28.csv",
+      "source_digest": "1b7577cd007af3df86abeb018604934d5f9aa315d365ebc4361e7ac196b10ccb",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012A/runs/historical-manual/legacy--historical-manual--extraction-results-2026-06-28--1b7577cd007a/response.raw.csv",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--historical-manual--primitive-vocabulary-v0.1--f09ba9211063",
+      "provider": "historical-manual",
+      "source_path": "research/experiments/FE-012A-blind-primitive-extraction/results/primitive-vocabulary-v0.1.csv",
+      "source_digest": "f09ba9211063c620a431432e58abc3b94b65a5d5077c41f2d6f0276048abf7a1",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012A/runs/historical-manual/legacy--historical-manual--primitive-vocabulary-v0.1--f09ba9211063/response.raw.csv",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--historical-manual--reconstruction-results-2026-06-28--793919f47c58",
+      "provider": "historical-manual",
+      "source_path": "research/experiments/FE-012A-blind-primitive-extraction/results/reconstruction-results-2026-06-28.csv",
+      "source_digest": "793919f47c583e7797fdd43795a7819d2c6841ad4f7ac92754607593f309971d",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012A/runs/historical-manual/legacy--historical-manual--reconstruction-results-2026-06-28--793919f47c58/response.raw.csv",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--historical-manual--stabilization-table-2026-06-28--3fcfb73701a8",
+      "provider": "historical-manual",
+      "source_path": "research/experiments/FE-012A-blind-primitive-extraction/results/stabilization-table-2026-06-28.csv",
+      "source_digest": "3fcfb73701a8aac7d88ac8bdcba78d237a064ab69bb50944ef765d3b2f9b10ae",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012A/runs/historical-manual/legacy--historical-manual--stabilization-table-2026-06-28--3fcfb73701a8/response.raw.csv",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--historical-manual--summary-2026-06-28--aed28bf7cef3",
+      "provider": "historical-manual",
+      "source_path": "research/experiments/FE-012A-blind-primitive-extraction/results/summary-2026-06-28.md",
+      "source_digest": "aed28bf7cef3f7023453b9043aee1d103a34c974e5fab80561892b6436cabd8f",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-012A/runs/historical-manual/legacy--historical-manual--summary-2026-06-28--aed28bf7cef3/response.raw.md",
+      "excluded_from_primary": false
+    }
+  ]
+}

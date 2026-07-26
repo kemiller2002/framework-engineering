@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012C-REPEAT-001",
+  "run_id": "legacy--gemini--03--3624434c5217",
+  "provider": "gemini",
+  "model": "historical-unknown",
+  "execution_mode": "historical-import",
+  "created_at": "2026-07-23T00:00:00.000Z",
+  "runner_version": "migration-1.0",
+  "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gemini/03.json",
+  "source_digest": "3624434c5217c9bcdc84151785bd82a41e46a6af66babf64769eb1c5bae30ec7",
+  "raw_response_file": "response.raw.json",
+  "historical_prompt_snapshot_available": false,
+  "excluded_from_primary": false
+}

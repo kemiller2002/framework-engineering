@@ -1,0 +1,69 @@
+{
+  "id": "EX-FE-0001",
+  "title": "Framework Engineering Boundary Discrimination Pilot",
+  "status": "ready",
+  "version": "1.0",
+  "research_area": "framework-engineering",
+  "created_at": "2026-07-23",
+  "created_by": "Codex",
+  "updated_at": "2026-07-23",
+  "priority": "P0",
+  "confidence": 0.55,
+  "lineage": {
+    "based_on": {
+      "research_packages": ["FE-EVAL-REP-2026-07-23"],
+      "journal_entries": [],
+      "evidence": ["EV-FE-001", "EV-FE-002"],
+      "hypotheses": ["FEH-001"],
+      "theories": ["FE-THEORY-0.1", "FE-THEORY-ALT-001"],
+      "experiments": ["FE-EXP-BOUNDARY-001"],
+      "documents": ["FE-EVAL-BRIEF-2026-07-23", "FE-EVAL-ROADMAP-2026-07-23"]
+    },
+    "supersedes": [],
+    "superseded_by": []
+  },
+  "question": "Can an evaluator distinguish a non-redundant Framework Engineering scope from adjacent method engineering and generic structured analysis using only current canonical claims?",
+  "hypothesis": "FEH-001",
+  "competing_hypotheses": ["FE-THEORY-ALT-001"],
+  "claim_under_test": "Framework Engineering has a defensible boundary that is not fully subsumed by adjacent disciplines or generic structured analysis.",
+  "objective": "Pilot the experiment infrastructure while producing an adversarial boundary assessment useful for preregistering FE-MISSION-001.",
+  "non_objectives": ["Establish discipline status", "Replace primary-literature review", "Treat model agreement as validation"],
+  "evaluator_role": "You are a blinded, adversarial research-method evaluator. Your goal is discrimination accuracy, not preservation of Framework Engineering terminology.",
+  "assumptions": ["The selected repository records accurately represent the current provisional position."],
+  "confounders": ["Repository-authored framing may bias evaluators", "Language models may share training priors", "No primary standards corpus is included in this low-cost pilot"],
+  "risks": ["False novelty from terminology", "Overinterpreting evaluator agreement"],
+  "inputs": [
+    { "id": "FE-EVAL-BRIEF-2026-07-23", "path": "research/evaluations/FE-EVAL-2026-07-23/framework-engineering-executive-brief.md" },
+    { "id": "FE-THEORY-0.1", "path": "research/theory/theory-of-framework-engineering-v0.1.md" },
+    { "id": "FE-EVAL-HYPOTHESIS-AUDIT-2026-07-23", "path": "research/evaluations/FE-EVAL-2026-07-23/framework-engineering-hypothesis-audit.md" }
+  ],
+  "procedure": [
+    "Extract only mechanisms, scope constraints, and claimed outcomes stated in the permitted inputs.",
+    "Construct the strongest plausible subsumption account under method engineering or generic structured analysis.",
+    "Identify candidate non-redundant mechanisms and test whether each is definitional, operational, and evidenced.",
+    "Classify the boundary as distinguishable, partially distinguishable, fully subsumed, or inconclusive.",
+    "Recommend evidence needed for a decisive FE-MISSION-001 protocol without updating canonical theory."
+  ],
+  "replication_plan": "Use at least two independent evaluators from different provider families or one provider plus a human reviewer. Do not reveal earlier results.",
+  "falsification_conditions": [
+    "Every claimed FE mechanism maps to an adjacent or generic practice without loss of scope or predicted outcome.",
+    "Candidate distinctions are vocabulary-only or rely on unsupported discipline claims."
+  ],
+  "inconclusive_conditions": ["Permitted inputs lack operational detail needed to compare mechanisms."],
+  "stopping_conditions": ["Stop if any requested input is missing or if independent-result isolation cannot be maintained."],
+  "metrics": ["number of non-redundant mechanisms", "evidence quality per mechanism", "unsupported-claim count", "classification confidence"],
+  "providers": {
+    "required": [],
+    "optional": ["claude", "gemini", "chatgpt", "manual"],
+    "minimum_independent_runs": 2,
+    "trials_per_provider": 1
+  },
+  "dependencies": [],
+  "theory_impact": ["FE-THEORY-0.1", "FE-THEORY-ALT-001"],
+  "synthesis_policy": "No confidence update from model agreement alone. Synthesis may refine the FE-MISSION-001 protocol but cannot accept or reject FEH-001.",
+  "adjudication_policy": "Resolve factual disputes through cited repository evidence or later primary-source review; do not use majority vote.",
+  "privacy_and_security": "Only declared public repository inputs may be sent to an external provider.",
+  "cost_and_resource_limits": "At most one trial per provider in the pilot; external execution requires explicit --execute.",
+  "result_schema": "research/framework-engineering/experiments/schemas/normalized-result.schema.json",
+  "latest_synthesis": null
+}

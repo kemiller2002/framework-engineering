@@ -1,0 +1,56 @@
+{
+  "experiment_id": "EX-LEGACY-ECR-000002",
+  "migrated_at": "2026-07-23",
+  "source_root": "research/evidence-runs/ECR-000002-recognition-sensitivity",
+  "result_count": 6,
+  "results": [
+    {
+      "run_id": "legacy--claude--001c--feddf0d1eaf1",
+      "provider": "claude",
+      "source_path": "research/evidence-runs/ECR-000002-recognition-sensitivity/responses/claude/001c.json",
+      "source_digest": "feddf0d1eaf1862dae5d46435347b00c74d991548ffcfe3ae30af01a967dd2c0",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000002/runs/claude/legacy--claude--001c--feddf0d1eaf1/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--claude--001d--c3a4d5128460",
+      "provider": "claude",
+      "source_path": "research/evidence-runs/ECR-000002-recognition-sensitivity/responses/claude/001d.json",
+      "source_digest": "c3a4d51284600f49d32d1707a747b07c972dc1510c7e73ca5e2df98bc1b0144f",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000002/runs/claude/legacy--claude--001d--c3a4d5128460/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--001c--29f5fdbaa437",
+      "provider": "gemini",
+      "source_path": "research/evidence-runs/ECR-000002-recognition-sensitivity/responses/gemini/001c.json",
+      "source_digest": "29f5fdbaa4376b5cb90f2e56aff5a1e1fbd4e8e6583bdfdc621615dc14c4cdca",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000002/runs/gemini/legacy--gemini--001c--29f5fdbaa437/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--gemini--001d--84d420edde1d",
+      "provider": "gemini",
+      "source_path": "research/evidence-runs/ECR-000002-recognition-sensitivity/responses/gemini/001d.json",
+      "source_digest": "84d420edde1dee93e33bc9de4306eff733e77c6cae04ac050353aef4ea3d11f3",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000002/runs/gemini/legacy--gemini--001d--84d420edde1d/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--001c--95494fa7c37e",
+      "provider": "chatgpt",
+      "source_path": "research/evidence-runs/ECR-000002-recognition-sensitivity/responses/gpt/001c.json",
+      "source_digest": "95494fa7c37e5ad119822f2a478261f7e9c71985fd07ee288c11a810cac4d0ab",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000002/runs/chatgpt/legacy--chatgpt--001c--95494fa7c37e/response.raw.json",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--chatgpt--001d--cbac610e40b6",
+      "provider": "chatgpt",
+      "source_path": "research/evidence-runs/ECR-000002-recognition-sensitivity/responses/gpt/001d.json",
+      "source_digest": "cbac610e40b61bd4be1fd54ba6ec8afe45ebfff265ca5ba92ced433f7095fae2",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-ECR-000002/runs/chatgpt/legacy--chatgpt--001d--cbac610e40b6/response.raw.json",
+      "excluded_from_primary": false
+    }
+  ]
+}

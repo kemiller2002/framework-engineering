@@ -31,5 +31,11 @@ jobs:
       - name: Validate research content
         run: npm run research:validate
 
+      - name: Test experiment system
+        run: npm run experiments:test
+
+      - name: Verify experiment records
+        run: npm run experiments:verify
+
       - name: Build research site
         run: npm run research:build

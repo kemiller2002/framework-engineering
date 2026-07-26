@@ -1,0 +1,96 @@
+{
+  "experiment_id": "EX-LEGACY-FE-011A",
+  "migrated_at": "2026-07-23",
+  "source_root": "research/experiments/FE-011A-llm-blind-pilot",
+  "result_count": 11,
+  "results": [
+    {
+      "run_id": "legacy--reviewer--evaluator-review--54f0f457c24d",
+      "provider": "reviewer",
+      "source_path": "research/experiments/FE-011A-llm-blind-pilot/results/five-whys/evaluator-review.md",
+      "source_digest": "54f0f457c24d15c526433a7c19edaf418283e3417821b461f10447fc73f832bb",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-011A/runs/reviewer/legacy--reviewer--evaluator-review--54f0f457c24d/response.raw.md",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--historical-manual--output-1--fdb12666568d",
+      "provider": "historical-manual",
+      "source_path": "research/experiments/FE-011A-llm-blind-pilot/results/five-whys/output-1.md",
+      "source_digest": "fdb12666568d65c3dd8afb63739328dcf339d7c2a670ec0fdaf19af7b145a76b",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-011A/runs/historical-manual/legacy--historical-manual--output-1--fdb12666568d/response.raw.md",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--historical-manual--output-2--295458881675",
+      "provider": "historical-manual",
+      "source_path": "research/experiments/FE-011A-llm-blind-pilot/results/five-whys/output-2.md",
+      "source_digest": "295458881675b870fd3945460d8f0615b0d83706c570230eeaf68611cc828627",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-011A/runs/historical-manual/legacy--historical-manual--output-2--295458881675/response.raw.md",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--reviewer--evaluator-review--209fe01fac34",
+      "provider": "reviewer",
+      "source_path": "research/experiments/FE-011A-llm-blind-pilot/results/ooda/evaluator-review.md",
+      "source_digest": "209fe01fac3455c227dbbc3a6302be9febd1d6296e5d18c1c477cd0c0001c032",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-011A/runs/reviewer/legacy--reviewer--evaluator-review--209fe01fac34/response.raw.md",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--historical-manual--output-1--ab6f97bae16d",
+      "provider": "historical-manual",
+      "source_path": "research/experiments/FE-011A-llm-blind-pilot/results/ooda/output-1.md",
+      "source_digest": "ab6f97bae16d76f52f762b382126501d9b7d51790e1eeb7118b4528f8cfbe6d6",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-011A/runs/historical-manual/legacy--historical-manual--output-1--ab6f97bae16d/response.raw.md",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--historical-manual--output-2--f9b47f367105",
+      "provider": "historical-manual",
+      "source_path": "research/experiments/FE-011A-llm-blind-pilot/results/ooda/output-2.md",
+      "source_digest": "f9b47f36710566e6fbd2a7db40a973071d6eb54fdb424fbfdbc4fa176bcbf5be",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-011A/runs/historical-manual/legacy--historical-manual--output-2--f9b47f367105/response.raw.md",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--historical-manual--run-log--c201d3f5878a",
+      "provider": "historical-manual",
+      "source_path": "research/experiments/FE-011A-llm-blind-pilot/results/run-log.md",
+      "source_digest": "c201d3f5878adf9f6cd761afb190fd57e96291b3a8a81875cff6c070ff50ce3a",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-011A/runs/historical-manual/legacy--historical-manual--run-log--c201d3f5878a/response.raw.md",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--historical-manual--summary--fbd3f8a60909",
+      "provider": "historical-manual",
+      "source_path": "research/experiments/FE-011A-llm-blind-pilot/results/summary.md",
+      "source_digest": "fbd3f8a609090b04c61d6832a6b93c9021110f2c6fdfdf2d53c0bae80cf1f9fc",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-011A/runs/historical-manual/legacy--historical-manual--summary--fbd3f8a60909/response.raw.md",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--reviewer--evaluator-review--e8a441039a44",
+      "provider": "reviewer",
+      "source_path": "research/experiments/FE-011A-llm-blind-pilot/results/swot/evaluator-review.md",
+      "source_digest": "e8a441039a441c73829b902df70e1419b2c374a4c203953c7444e1d97d7d3dd9",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-011A/runs/reviewer/legacy--reviewer--evaluator-review--e8a441039a44/response.raw.md",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--historical-manual--output-1--96261f13fc79",
+      "provider": "historical-manual",
+      "source_path": "research/experiments/FE-011A-llm-blind-pilot/results/swot/output-1.md",
+      "source_digest": "96261f13fc79a391afa7ffef11745b70defc7735462ffde4a59ad16943f1d8f5",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-011A/runs/historical-manual/legacy--historical-manual--output-1--96261f13fc79/response.raw.md",
+      "excluded_from_primary": false
+    },
+    {
+      "run_id": "legacy--historical-manual--output-2--4eb5f7c08b1c",
+      "provider": "historical-manual",
+      "source_path": "research/experiments/FE-011A-llm-blind-pilot/results/swot/output-2.md",
+      "source_digest": "4eb5f7c08b1cd707f8d047fcd8fe98910be4f8a6ea92f35aed9074bcf32685e6",
+      "raw_response_path": "research/framework-engineering/experiments/EX-LEGACY-FE-011A/runs/historical-manual/legacy--historical-manual--output-2--4eb5f7c08b1c/response.raw.md",
+      "excluded_from_primary": false
+    }
+  ]
+}

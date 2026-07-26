@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012C-REPEAT-001",
+  "run_id": "legacy--chatgpt--03--990ebc4b24d8",
+  "provider": "chatgpt",
+  "model": "historical-unknown",
+  "execution_mode": "historical-import",
+  "created_at": "2026-07-23T00:00:00.000Z",
+  "runner_version": "migration-1.0",
+  "source_path": "research/experiments/FE-012C-repeatability-run-001/responses/gpt/03.json",
+  "source_digest": "990ebc4b24d835a49823f4cb004b261bd2380f360acf25f14952b7a389df7c00",
+  "raw_response_file": "response.raw.json",
+  "historical_prompt_snapshot_available": false,
+  "excluded_from_primary": false
+}

@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012C-MANUAL",
+  "run_id": "legacy--chatgpt--FE-012C-P011-gpt--e32b9cfa9929",
+  "provider": "chatgpt",
+  "model": "historical-unknown",
+  "execution_mode": "historical-import",
+  "created_at": "2026-07-23T00:00:00.000Z",
+  "runner_version": "migration-1.0",
+  "source_path": "research/experiments/FE-012C-manual-replication/responses/gpt/FE-012C-P011-gpt.json",
+  "source_digest": "e32b9cfa99292661d12d4b7c4f55f919f57cc1a138dd86aa6f8a21b6d03c859a",
+  "raw_response_file": "response.raw.json",
+  "historical_prompt_snapshot_available": false,
+  "excluded_from_primary": false
+}

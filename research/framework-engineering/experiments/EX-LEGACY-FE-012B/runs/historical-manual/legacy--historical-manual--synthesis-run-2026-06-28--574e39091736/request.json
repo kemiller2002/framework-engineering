@@ -1,0 +1,8 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012B",
+  "run_id": "legacy--historical-manual--synthesis-run-2026-06-28--574e39091736",
+  "provider": "historical-manual",
+  "historical_import": true,
+  "original_request_metadata": "unavailable",
+  "source_path": "research/experiments/FE-012B-primitive-synthesis/results/synthesis-run-2026-06-28.md"
+}

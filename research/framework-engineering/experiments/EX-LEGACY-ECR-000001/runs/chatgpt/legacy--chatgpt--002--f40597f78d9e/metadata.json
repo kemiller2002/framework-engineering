@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EX-LEGACY-ECR-000001",
+  "run_id": "legacy--chatgpt--002--f40597f78d9e",
+  "provider": "chatgpt",
+  "model": "historical-unknown",
+  "execution_mode": "historical-import",
+  "created_at": "2026-07-23T00:00:00.000Z",
+  "runner_version": "migration-1.0",
+  "source_path": "research/evidence-runs/ECR-000001-multi-layer-procedural-representation/responses/gpt/002.json",
+  "source_digest": "f40597f78d9e2ae6f85e5634f328afdebf96372c80d4db17e6d3554876cd38a6",
+  "raw_response_file": "response.raw.json",
+  "historical_prompt_snapshot_available": false,
+  "excluded_from_primary": false
+}

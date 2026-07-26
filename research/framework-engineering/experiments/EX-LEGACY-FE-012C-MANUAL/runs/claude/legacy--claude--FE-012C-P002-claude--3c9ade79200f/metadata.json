@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EX-LEGACY-FE-012C-MANUAL",
+  "run_id": "legacy--claude--FE-012C-P002-claude--3c9ade79200f",
+  "provider": "claude",
+  "model": "historical-unknown",
+  "execution_mode": "historical-import",
+  "created_at": "2026-07-23T00:00:00.000Z",
+  "runner_version": "migration-1.0",
+  "source_path": "research/experiments/FE-012C-manual-replication/responses/claude/FE-012C-P002-claude.json",
+  "source_digest": "3c9ade79200fc1d75de6043047374b6a7dbcdb7edd1d3b1f18b64b3bbfcae545",
+  "raw_response_file": "response.raw.json",
+  "historical_prompt_snapshot_available": false,
+  "excluded_from_primary": false
+}

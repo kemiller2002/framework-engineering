@@ -1,0 +1,8 @@
+{
+  "prompt_sha256": "0ca28a2bfefa7c3a1a711886ff8c6d4410aa7d5c57966458466f41ff2783ccc7",
+  "inputs": {
+    "research/experiments/FE-012B-primitive-synthesis/README.md": "e88bdecf902fbabe5dee225ffd907c769826b7b34bfc8dddcfde1dbfc0be5ecd",
+    "research/experiments/FE-012B-primitive-synthesis/protocol.md": "8ef69df525c819d83b15fd39406c49038d501d118af68b232147579a2598366b",
+    "research/experiments/FE-012B-primitive-synthesis/analysis-plan.md": "d6cfc60f95d5c87d1a86d89dfc98f8c1e8633341f712ea4ae31abe3ceec85e89"
+  }
+}

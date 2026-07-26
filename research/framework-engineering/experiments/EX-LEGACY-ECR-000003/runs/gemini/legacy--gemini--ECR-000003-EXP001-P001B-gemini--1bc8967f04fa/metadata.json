@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EX-LEGACY-ECR-000003",
+  "run_id": "legacy--gemini--ECR-000003-EXP001-P001B-gemini--1bc8967f04fa",
+  "provider": "gemini",
+  "model": "historical-unknown",
+  "execution_mode": "historical-import",
+  "created_at": "2026-07-23T00:00:00.000Z",
+  "runner_version": "migration-1.0",
+  "source_path": "research/evidence-runs/ECR-000003-representation-sensitivity/experiments/EXP-001-topology-perturbation/responses/gemini/ECR-000003-EXP001-P001B-gemini.json",
+  "source_digest": "1bc8967f04fa9de4e57bc4acd63cf01f06ed7d63686f8ce864f401678afe3f8b",
+  "raw_response_file": "response.raw.json",
+  "historical_prompt_snapshot_available": false,
+  "excluded_from_primary": false
+}

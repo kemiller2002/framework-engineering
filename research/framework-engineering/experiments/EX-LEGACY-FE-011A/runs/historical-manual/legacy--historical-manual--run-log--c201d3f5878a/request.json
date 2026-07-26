@@ -1,0 +1,8 @@
+{
+  "experiment_id": "EX-LEGACY-FE-011A",
+  "run_id": "legacy--historical-manual--run-log--c201d3f5878a",
+  "provider": "historical-manual",
+  "historical_import": true,
+  "original_request_metadata": "unavailable",
+  "source_path": "research/experiments/FE-011A-llm-blind-pilot/results/run-log.md"
+}

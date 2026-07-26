@@ -1,0 +1,8 @@
+{
+  "experiment_id": "EX-LEGACY-FE-011A",
+  "run_id": "legacy--reviewer--evaluator-review--54f0f457c24d",
+  "provider": "reviewer",
+  "historical_import": true,
+  "original_request_metadata": "unavailable",
+  "source_path": "research/experiments/FE-011A-llm-blind-pilot/results/five-whys/evaluator-review.md"
+}

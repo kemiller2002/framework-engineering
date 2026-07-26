@@ -1,0 +1,2 @@
+# artifact_id=FE-BND-ADJ-TEMPLATE-001 version=1.0.0 status=empty author=unassigned created=2026-07-24T17:14:36Z updated=2026-07-24T17:14:36Z parents=FE-BND-PROTOCOL-001 sources=none repository_commit=a7b6a7178cdb41579730c8971bec70f5660c2f86 change_summary=empty_adjudication_template confidence=1.0 completion=incomplete limitations=requires_locked_reviews
+card_id,dispute_type,frozen_evidence_ids,decision,unresolved_disagreement,new_evidence_that_would_change_decision,adjudicator,locked_sha256

@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EX-LEGACY-ECR-000002",
+  "run_id": "legacy--claude--001c--feddf0d1eaf1",
+  "provider": "claude",
+  "model": "historical-unknown",
+  "execution_mode": "historical-import",
+  "created_at": "2026-07-23T00:00:00.000Z",
+  "runner_version": "migration-1.0",
+  "source_path": "research/evidence-runs/ECR-000002-recognition-sensitivity/responses/claude/001c.json",
+  "source_digest": "feddf0d1eaf1862dae5d46435347b00c74d991548ffcfe3ae30af01a967dd2c0",
+  "raw_response_file": "response.raw.json",
+  "historical_prompt_snapshot_available": false,
+  "excluded_from_primary": false
+}

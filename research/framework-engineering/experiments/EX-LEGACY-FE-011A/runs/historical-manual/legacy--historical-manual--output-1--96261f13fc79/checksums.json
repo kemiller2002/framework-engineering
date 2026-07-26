@@ -1,0 +1,8 @@
+{
+  "prompt_sha256": "f8597177567035e4f01bae40e677e4a1c791ba496348078364c554ecb6da12f0",
+  "inputs": {
+    "research/experiments/FE-011A-llm-blind-pilot/README.md": "5ce800ea67a2fcbcd6cb3e849d89d531e1c789b6ef21df3a86533545aed11c08",
+    "research/experiments/FE-011A-llm-blind-pilot/protocol.md": "bb9c30d2e7b895c2ab071176c59747ed0f80b4df78f5fca742b272a8a79c53e9",
+    "research/experiments/FE-011A-llm-blind-pilot/analysis-plan.md": "8f3bb43dcc8a4ef5d84d2b4931d655c8c80a0e0b7305275d5fd6d7a786ce8a9f"
+  }
+}
