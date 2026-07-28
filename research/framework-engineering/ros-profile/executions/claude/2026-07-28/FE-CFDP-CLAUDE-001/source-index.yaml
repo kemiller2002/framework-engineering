@@ -1,0 +1,10 @@
+{
+  "sources": [
+    {"id": "FE-SRC-OODA-001", "kind": "primary-unpublished-briefing", "preserved": true, "full_text_reviewed": false, "retrieved_from": "https://www.coljohnboyd.com/static/documents/1986-12__Boyd_John_R__Patterns_of_Conflict__PPT-PDF.pdf"},
+    {"id": "FE-SRC-OODA-002", "kind": "primary-unpublished-briefing", "preserved": true, "full_text_reviewed": false, "retrieved_from": "https://ooda.de/media/john_boyd_-_the_essence_of_winning_and_losing.pdf"},
+    {"id": "FE-SRC-OODA-003", "kind": "secondary-scholarly-monograph", "preserved": true, "full_text_reviewed": false, "retrieved_from": "https://api.pageplace.de/preview/DT0400.9781134197095_A25035290/preview-9781134197095_A25035290.pdf"},
+    {"id": "FE-SRC-OODA-004", "kind": "secondary-critical-commentary", "preserved": true, "full_text_reviewed": false, "retrieved_from": "https://balloonstodrones.com/2025/04/03/the-korean-war-and-the-ooda-loop-what-happened-to-the-kill-ratio/"},
+    {"id": "FE-SRC-OODA-005", "kind": "tertiary-encyclopedia", "preserved": true, "full_text_reviewed": true, "retrieved_from": "https://en.wikipedia.org/wiki/OODA_loop"}
+  ],
+  "warning": "Primary briefings (001, 002) and the secondary monograph (003) were bibliographically identified and cross-checked via search-result/preview summaries only, not fetched and read in full. Downstream claims are scoped accordingly and marked not-reported where the sources' full text was not reviewed."
+}

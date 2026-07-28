@@ -1,0 +1,31 @@
+# Handoff — FE-CFDP-CLAUDE-001
+
+- **Objective**: Run the first real (non-synthetic) ROS–FE execution, as `framework-discovery-agent`, to discover and record what primary/secondary sources report about the OODA Loop's origin, structure, operation, human context, adaptation guidance, and limitations — without asserting effectiveness.
+- **Acceptance criteria**: Draft source, framework, Genome, and at least one observation record produced and internally consistent with `fe-record.schema.json`/`framework-genome.schema.json`; provenance preserved; `ros-fe:registry`, `ros-fe:validate`, `ros-fe:test`, and `research:validate` all pass with this execution's files present.
+- **Completed**:
+  - 5 draft source records (`FE-SRC-OODA-001..005`) — 2 primary Boyd briefings, 1 secondary scholarly monograph, 1 secondary critical commentary, 1 tertiary encyclopedia reference.
+  - 1 draft framework record (`FE-FW-OODA-001`).
+  - 1 draft Framework Genome (`FE-GENOME-OODA-001`) covering all nine required dimensions, using `not-reported`/`conflicting` where sources did not settle a claim.
+  - 1 draft observation (`FE-OBS-OODA-001`) on diagram-provenance divergence between Boyd's own diagram and the popular four-box form.
+  - 1 draft contradiction (`FE-CONTRA-OODA-001`) on a disputed Korean War kill-ratio figure.
+  - `execution-manifest.yaml`, `research-journal.md`, `source-index.yaml`.
+- **Files changed**:
+  - New: everything under `research/framework-engineering/ros-profile/executions/claude/2026-07-28/FE-CFDP-CLAUDE-001/`.
+  - Regenerated: `research/framework-engineering/ros-profile/generated/executions.json` (via `npm run ros-fe:registry`; this registry only indexes execution manifests, not the draft records themselves, since drafts were intentionally kept out of the canonical `ros-profile/records/` tree).
+- **Decisions and assumptions**:
+  - Role, target framework, and provider were not specified in the initial instruction and were confirmed with the user before any writes, per `start-work-agent.md`'s own escalation rule for choices that would materially change scope.
+  - Interpreted "write only within the assigned execution directory unless the assignment explicitly authorizes profile maintenance" (execution-profile.md) as meaning these first-pass records stay as drafts inside the execution directory rather than being written into canonical `ros-profile/records/`, consistent with the synthetic execution's own `records/README.md` note that "a real execution keeps draft records here until reviewed and registered." No profile-maintenance authorization was given, so canonical registration was not performed.
+  - `family: "hybrid"` on the framework record is an FE-taxonomy classification applied by this execution, not a claim from Boyd's own sources — flagged explicitly in the record's `family_rationale` field.
+- **Checks and results** (from FE repo root, after this execution's files existed):
+  - `npm run ros-fe:registry` → exit 0, "ROS–FE registries generated".
+  - `npm run ros-fe:validate` → exit 0, "ROS–FE profile validation passed".
+  - `npm run ros-fe:test` → exit 0, 2/2 tests passed.
+  - `npm run research:validate` → exit 0, no output/errors.
+- **Evidence/records**: `FE-SRC-OODA-001` through `FE-SRC-OODA-005`, `FE-FW-OODA-001`, `FE-GENOME-OODA-001`, `FE-OBS-OODA-001`, `FE-CONTRA-OODA-001` — all under this execution's `records/` directory, status `draft`.
+- **Unresolved questions**:
+  - Whether Boyd himself, in the primary briefings, cited the ~10:1 Korean War kill ratio, or whether that figure originated with later popularizers (`FE-CONTRA-OODA-001`).
+  - The exact visual content of Boyd's 1995/1996 diagram — reported via secondary commentary only, not independently verified against the primary image.
+  - Full-text verification of `FE-SRC-OODA-001`, `FE-SRC-OODA-002`, and `FE-SRC-OODA-003` remains outstanding; several Genome fields are `not-reported` partly for that reason and may be fillable on full-text review rather than genuinely absent from the sources.
+- **Risks**: These are draft, single-provider, not-full-text-verified records; if promoted to canonical status without further review or a second-provider execution, they could be mistaken for more settled evidence than they are. Every record carries `confidence: low` or `medium` and explicit limitations for this reason.
+- **Blockers**: None. This execution completed within its assigned scope.
+- **Next action**: (1) Human or separately authorized review of the five draft record types for promotion into `ros-profile/records/`; (2) commission an independent second-provider execution on the OODA Loop per `FE-CFDP`'s `next_execution` field, to test whether an independent provider reaches consistent or divergent Genome values — same-provider role separation would not itself satisfy this; (3) if promoted, full-text review of the two primary Boyd briefings to resolve the `not-reported` fields.

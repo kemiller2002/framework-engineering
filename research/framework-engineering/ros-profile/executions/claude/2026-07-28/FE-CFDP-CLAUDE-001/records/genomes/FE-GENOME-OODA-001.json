@@ -1,0 +1,69 @@
+{
+  "id": "FE-GENOME-OODA-001",
+  "title": "OODA Loop Framework Genome",
+  "record_type": "framework-genome",
+  "status": "draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "low",
+  "completion": "first-pass-discovery",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "framework_id": "FE-FW-OODA-001",
+  "dimensions": {
+    "identity": {
+      "name": "OODA Loop (Observe-Orient-Decide-Act)",
+      "originator": "John R. Boyd, USAF Colonel",
+      "first_documented": "conflicting — the decision-cycle concept was presented in briefings from 1976 onward, but Boyd's only self-drawn diagram of the full loop dates to 1995-1996",
+      "evidence_ids": ["FE-SRC-OODA-001", "FE-SRC-OODA-002", "FE-SRC-OODA-003"]
+    },
+    "purpose": {
+      "stated": "Operate inside an adversary's decision cycle by observing, orienting, deciding, and acting faster and more effectively than the opponent, producing confusion and an inability to cope in the opponent.",
+      "scope_claimed": "conflicting — Boyd's own briefings address air combat and military strategy; secondary authors (not verified in this execution beyond citation identification) extend the claimed scope to business, litigation, and general decision-making.",
+      "evidence_ids": ["FE-SRC-OODA-001", "FE-SRC-OODA-003"]
+    },
+    "structure": {
+      "elements": ["Observe", "Orient", "Decide", "Act"],
+      "central_element": "Orient is reported as receiving substantially more internal elaboration than the other three stages in Boyd's own 1995/1996 diagram (e.g., cultural background, prior experience, new information, analysis/synthesis feeding into it).",
+      "diagram_provenance": "conflicting/uncertain — the widely reproduced simplified four-box cyclical diagram is not Boyd's own drawing; Boyd's only known self-authored sketch is reported to be more elaborate and is specific to the 1995/1996 briefing.",
+      "evidence_ids": ["FE-SRC-OODA-002", "FE-SRC-OODA-003"]
+    },
+    "reasoning": {
+      "logic": "not-reported as a formal decision logic within the primary briefings themselves; secondary analysis (Osinga) situates Boyd's broader theory within epistemology, thermodynamics/entropy, and evolutionary-biology analogies rather than a stated formal algorithm.",
+      "decision_rule": "not-reported — no explicit decision rule or algorithm for the Decide step is documented in the sources reviewed.",
+      "evidence_ids": ["FE-SRC-OODA-003"]
+    },
+    "operation": {
+      "sequence": "Commonly presented as a repeating Observe-Orient-Decide-Act cycle, but Boyd's own diagram is reported to include feed-forward and feedback paths (e.g., Orient feeding directly into Act, outputs feeding back into Observe/Orient) rather than a strict single-direction loop.",
+      "tempo_claim": "Sources report the strategic aim as cycling through the stages faster than an adversary ('getting inside' the opponent's loop), not merely completing the cycle.",
+      "cadence": "not-reported — no fixed timing, frequency, or duration is specified.",
+      "evidence_ids": ["FE-SRC-OODA-001", "FE-SRC-OODA-002", "FE-SRC-OODA-003"]
+    },
+    "human_system": {
+      "intended_users": "conflicting/broadened over time — originally framed around individual fighter pilots and military commanders; later secondary literature (not independently verified here) extends this to organizations and other decision-makers.",
+      "roles": "not-reported beyond an undifferentiated decision-maker/commander in the primary briefings reviewed.",
+      "facilitation": "not-reported — no facilitator, workshop, or group process is specified; the briefings describe individual/organizational cognition rather than a facilitated method.",
+      "evidence_ids": ["FE-SRC-OODA-001", "FE-SRC-OODA-003"]
+    },
+    "adaptation": {
+      "guidance": "not-reported — the primary briefings reviewed do not provide explicit instructions for tailoring the loop to new domains.",
+      "contested_extensions": "conflicting — a secondary critical source argues the model's vagueness is precisely what permits broad reinterpretation, treating this as a weakness rather than a documented adaptation mechanism.",
+      "evidence_ids": ["FE-SRC-OODA-003", "FE-SRC-OODA-004"]
+    },
+    "risk": {
+      "reported_limitations": "A secondary critical source argues the concept is vague enough that both defenders and critics read into it what they want, and separately disputes a commonly cited ~10:1 Korean War F-86-vs-MiG-15 kill ratio used in some Boyd-derived commentary as empirical support.",
+      "primary_source_risk_disclosure": "not-reported — the primary briefings reviewed do not themselves enumerate failure modes or misuse conditions.",
+      "evidence_ids": ["FE-SRC-OODA-004"]
+    },
+    "evidence": {
+      "source_ids": ["FE-SRC-OODA-001", "FE-SRC-OODA-002", "FE-SRC-OODA-003", "FE-SRC-OODA-004", "FE-SRC-OODA-005"],
+      "note": "FE-SRC-OODA-005 (Wikipedia) is tertiary and was used only to orient the search and locate the other sources; no dimension claim above relies on it alone."
+    }
+  },
+  "limitations": [
+    "Primary briefings (FE-SRC-OODA-001, FE-SRC-OODA-002) were bibliographically identified but not fetched and read in full text for this execution; claims attributed to them are limited to what is corroborated by secondary-source summaries or search-result excerpts.",
+    "No independent second-provider execution has yet reviewed or replicated this Genome.",
+    "This Genome does not assess or imply that any dimension is beneficial; presence of a property is not evidence of effectiveness."
+  ],
+  "evidence_ids": ["FE-SRC-OODA-001", "FE-SRC-OODA-002", "FE-SRC-OODA-003", "FE-SRC-OODA-004", "FE-SRC-OODA-005"]
+}

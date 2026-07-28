@@ -1,0 +1,20 @@
+{
+  "id": "FE-CONTRA-OODA-001",
+  "title": "Disputed Korean War kill-ratio evidence cited for OODA tempo advantage",
+  "record_type": "framework-contradiction",
+  "status": "draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "low",
+  "completion": "first-pass-discovery",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "framework_id": "FE-FW-OODA-001",
+  "claim_a": "Boyd-derived secondary commentary has circulated an approximately 10:1 U.S.-favorable kill ratio for F-86 Sabres against MiG-15s in the Korean War as empirical grounding for the tempo/OODA-cycling thesis. This execution has not independently verified whether Boyd himself stated this exact figure in the primary briefings reviewed (FE-SRC-OODA-001, FE-SRC-OODA-002); the claim's origin within Boyd's own corpus versus later popularizers is unresolved.",
+  "claim_b": "Hankins (2025), an aviation historian, argues the true Korean War kill ratio was almost certainly lower than 10:1 — though still U.S.-favorable — challenging the strength of this specific empirical anchor for the OODA framework.",
+  "evidence_ids": ["FE-SRC-OODA-004"],
+  "limitations": [
+    "Both the popular claim and the critique are reported at the level of secondary/search-result summary; the underlying historical kill-ratio data was not independently reviewed by this execution.",
+    "This record does not resolve which ratio is correct; it preserves the contradiction for future evidence-gathering rather than presenting machine or source agreement as validation."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "FE-SRC-OODA-003",
+  "title": "Osinga, Frans P.B. — Science, Strategy and War: The Strategic Theory of John Boyd (2007)",
+  "record_type": "source",
+  "status": "draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "medium",
+  "completion": "citation-identified-not-full-text-verified",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "citation": "Osinga, Frans P.B. (2007). Science, Strategy and War: The Strategic Theory of John Boyd. Abingdon: Routledge (Strategy and History series). Originated as a 2005 PhD dissertation, Leiden University.",
+  "source_kind": "secondary-scholarly-monograph",
+  "retrieved": "2026-07-28",
+  "retrieved_from": "https://api.pageplace.de/preview/DT0400.9781134197095_A25035290/preview-9781134197095_A25035290.pdf",
+  "notes": "Widely cited academic analysis of Boyd's complete body of briefings, situating the OODA loop within Boyd's broader theory of conflict. Identified via web search; only a preview/summary was reviewed for this execution, not the full monograph, so claims attributed to this source are limited to what is corroborated by search-result summaries.",
+  "evidence_ids": []
+}

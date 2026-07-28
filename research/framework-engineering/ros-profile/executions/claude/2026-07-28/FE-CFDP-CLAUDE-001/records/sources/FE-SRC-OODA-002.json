@@ -1,0 +1,18 @@
+{
+  "id": "FE-SRC-OODA-002",
+  "title": "Boyd, John R. — \"The Essence of Winning and Losing\" (five-slide briefing, ed. 28 June 1995 – Jan 1996)",
+  "record_type": "source",
+  "status": "draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "medium",
+  "completion": "citation-identified-not-full-text-verified",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "citation": "Boyd, John R. \"The Essence of Winning and Losing\" (five-slide briefing). First edition dated 28 June 1995; final known edition circa January 1996.",
+  "source_kind": "primary-unpublished-briefing",
+  "retrieved": "2026-07-28",
+  "retrieved_from": "https://ooda.de/media/john_boyd_-_the_essence_of_winning_and_losing.pdf",
+  "notes": "Reported (via secondary commentary on the ooda.de archive) to contain the only diagram of the OODA loop that Boyd himself drew: a pencil draft was mailed to a collaborator in early 1995 with a request to render it as a computer graphic, then revised several times before the January 1996 edition. Identified and bibliographically checked via web search; the PDF itself was not fetched and read in full for this execution, so the diagram's exact visual content is described only at the level reported by secondary commentary, not independently verified against the primary image.",
+  "evidence_ids": []
+}

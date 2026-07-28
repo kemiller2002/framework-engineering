@@ -1,0 +1,18 @@
+{
+  "id": "FE-SRC-OODA-004",
+  "title": "Hankins, Michael — \"The Korean War and the OODA Loop: What Happened to the Kill Ratio?\" (2025)",
+  "record_type": "source",
+  "status": "draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "medium",
+  "completion": "citation-identified-summary-only",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "citation": "Hankins, Michael. \"The Korean War and the OODA Loop: What Happened to the Kill Ratio?\" From Balloons to Drones (blog), 3 April 2025.",
+  "source_kind": "secondary-critical-commentary",
+  "retrieved": "2026-07-28",
+  "retrieved_from": "https://balloonstodrones.com/2025/04/03/the-korean-war-and-the-ooda-loop-what-happened-to-the-kill-ratio/",
+  "notes": "Author identified in search results as an aviation historian. Post argues the OODA loop concept is vague enough to support divergent readings, and separately disputes a commonly cited ~10:1 F-86-vs-MiG-15 Korean War kill ratio used in Boyd-derived commentary as empirical support for the framework, arguing the true ratio was lower (though still U.S.-favorable). Content reviewed only via search-result summary, not the full original post; treat sub-claims as provisional pending full-text review.",
+  "evidence_ids": []
+}

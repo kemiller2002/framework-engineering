@@ -1,0 +1,30 @@
+{
+  "id": "FE-FW-OODA-001",
+  "title": "OODA Loop (Observe – Orient – Decide – Act)",
+  "record_type": "framework",
+  "status": "draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "low",
+  "completion": "first-pass-discovery",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "purpose": "As presented in Boyd's briefings, a four-stage cycle (Observe, Orient, Decide, Act) framed around gaining and keeping a competitive/adversarial advantage by cycling through observation, interpretation, decision, and action faster and more effectively than an opponent, so the opponent's actions are perpetually based on an outdated picture of the situation. Originating context was fighter-pilot air combat and military strategy; later secondary literature (not Boyd's own briefings) extends the model to organizational, business, and legal decision-making.",
+  "family": "hybrid",
+  "family_rationale": "Applying the FE families taxonomy descriptively rather than as a source-stated classification: the loop's four named stages individually resemble diagnostic (Observe), learning/interpretive (Orient), planning/evaluative (Decide), and executional (Act) functions, so no single family term in taxonomies/families.json cleanly fits; 'hybrid' is used rather than guessing a single-family fit. This is an FE-imposed observation, not a claim from the primary sources.",
+  "origin": {
+    "originator": "John R. Boyd, Colonel, United States Air Force",
+    "originating_domain": "fighter-pilot air-to-air combat, later military strategy",
+    "first_public_presentation": "The underlying decision-cycle idea was presented in Boyd's briefing 'Patterns of Conflict' from 1976 onward (this record cites the archived December 1986 edition); Boyd's only known self-drawn diagram of the full OODA loop appears later, in the five-slide briefing 'The Essence of Winning and Losing' (first edition dated 28 June 1995).",
+    "evidence_ids": ["FE-SRC-OODA-001", "FE-SRC-OODA-002", "FE-SRC-OODA-003"]
+  },
+  "structure_summary": {
+    "named_elements": ["Observe", "Orient", "Decide", "Act"],
+    "commonly_reproduced_form": "A simplified four-box cyclical diagram is what circulates most widely in popular and business literature.",
+    "primary_source_form": "Boyd's own 1995/1996 diagram is reported (via secondary commentary) to be considerably more elaborated than the popular four-box form, with an expanded Orient stage and feed-forward/feedback paths rather than a strict single-direction loop.",
+    "evidence_ids": ["FE-SRC-OODA-002", "FE-SRC-OODA-003"]
+  },
+  "reported_limitations": "A secondary critical source (Hankins, 2025) argues the concept is vague enough that both defenders and critics can read into it what they want, and separately disputes the strength of a specific empirical anchor (a commonly cited ~10:1 Korean War kill ratio) used in some Boyd-derived commentary. This execution does not adopt either the framework's claimed effectiveness or the critique's conclusions as established; both are recorded as reported positions. See FE-CONTRA-OODA-001.",
+  "evidence_ids": ["FE-SRC-OODA-001", "FE-SRC-OODA-002", "FE-SRC-OODA-003", "FE-SRC-OODA-004"],
+  "not_claimed": "This record does not assert that the OODA loop is effective, superior to alternative decision models, or empirically validated. It also does not treat the popular four-box diagram as authoritative over Boyd's own more elaborated diagram, or vice versa; both forms are recorded as distinct, differently-provenanced artifacts."
+}

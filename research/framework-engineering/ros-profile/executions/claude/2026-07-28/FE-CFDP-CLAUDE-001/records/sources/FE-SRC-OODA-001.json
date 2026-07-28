@@ -1,0 +1,18 @@
+{
+  "id": "FE-SRC-OODA-001",
+  "title": "Boyd, John R. — \"Patterns of Conflict\" (December 1986 briefing edition)",
+  "record_type": "source",
+  "status": "draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "medium",
+  "completion": "citation-identified-not-full-text-verified",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "citation": "Boyd, John R. \"Patterns of Conflict\" (briefing slides, December 1986 edition).",
+  "source_kind": "primary-unpublished-briefing",
+  "retrieved": "2026-07-28",
+  "retrieved_from": "https://www.coljohnboyd.com/static/documents/1986-12__Boyd_John_R__Patterns_of_Conflict__PPT-PDF.pdf",
+  "notes": "First presented by Boyd in 1976 and re-presented many times through the 1980s; this is the widely archived December 1986 slide edition. Archived by the Boyd family/collaborators via coljohnboyd.com and cross-indexed by the Project On Government Oversight (POGO). Identified and bibliographically checked via web search; the underlying PDF/transcript was not fetched and read in full for this execution, so page-level claims cannot yet be cited — only claims corroborated by the secondary source FE-SRC-OODA-003 or by search-result excerpts are used in downstream records.",
+  "evidence_ids": []
+}

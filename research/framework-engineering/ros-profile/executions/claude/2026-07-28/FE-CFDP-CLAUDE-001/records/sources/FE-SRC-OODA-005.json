@@ -1,0 +1,18 @@
+{
+  "id": "FE-SRC-OODA-005",
+  "title": "\"OODA loop.\" Wikipedia (tertiary reference)",
+  "record_type": "source",
+  "status": "draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "low",
+  "completion": "full-text-reviewed",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "citation": "\"OODA loop.\" Wikipedia, The Free Encyclopedia. Retrieved 2026-07-28.",
+  "source_kind": "tertiary-encyclopedia",
+  "retrieved": "2026-07-28",
+  "retrieved_from": "https://en.wikipedia.org/wiki/OODA_loop",
+  "notes": "Used only to orient the search and to locate primary and secondary sources and named critiques; not used as the sole evidentiary basis for any Genome dimension claim. Full article text was reviewed.",
+  "evidence_ids": []
+}

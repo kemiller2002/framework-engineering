@@ -1,0 +1,16 @@
+{
+  "id": "FE-OBS-OODA-001",
+  "title": "Popular OODA diagram diverges from Boyd's own diagram",
+  "record_type": "framework-observation",
+  "status": "draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "low",
+  "completion": "first-pass-discovery",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "framework_id": "FE-FW-OODA-001",
+  "observation": "The four-box cyclical diagram most commonly reproduced in secondary and popular treatments of the OODA loop does not appear to be a diagram Boyd himself drew. Secondary commentary on the archived primary source reports that Boyd produced only one self-authored sketch of the full loop, mailed to a collaborator in early 1995 for rendering as a computer graphic and revised through a January 1996 edition of 'The Essence of Winning and Losing.' That diagram is reported to be substantially more elaborated than the popular simplified form, with an expanded Orient stage and non-linear feed-forward/feedback paths. This is recorded as an observation about diagram provenance and representational divergence, not as a claim about which representation is more useful or correct.",
+  "interpretation_type": "source-reported, cross-checked against secondary commentary; not independently verified against the primary image by this execution",
+  "evidence_ids": ["FE-SRC-OODA-002", "FE-SRC-OODA-003"]
+}
