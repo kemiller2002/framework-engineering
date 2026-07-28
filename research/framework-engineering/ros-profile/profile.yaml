@@ -1,0 +1,12 @@
+{
+  "id": "RP-FE-ROS-2026-A001",
+  "name": "ROS Framework Engineering Profile",
+  "version": "1.0.0",
+  "status": "accepted-for-pilot",
+  "required_ros": {"name": "research-operating-system", "version": "1.0.0", "record": "RP-ROS-2026-A005"},
+  "inherited_capabilities": ["identity", "lifecycle", "confidence", "completion", "references", "supersession", "journals", "handoffs", "provider-provenance", "deterministic-validation", "generated-registries"],
+  "record_types": ["framework", "framework-genome", "framework-case-study", "framework-postmortem", "framework-retrospective", "framework-comparative-study", "framework-observation", "framework-contradiction", "framework-hypothesis", "framework-synthesis", "framework-experiment-proposal"],
+  "taxonomies": ["properties", "mechanisms", "contexts", "outcomes", "families", "failure-modes"],
+  "research_streams": ["FE-CFDP"],
+  "limitations": ["ROS has no executable profile extension API", "provider isolation is policy-only", "example evidence is synthetic", "Stage B remains unauthorized"]
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Framework Genome",
+  "type": "object",
+  "required": ["identity", "purpose", "structure", "reasoning", "operation", "human_system", "adaptation", "risk", "evidence"],
+  "properties": {
+    "identity": {}, "purpose": {}, "structure": {}, "reasoning": {}, "operation": {},
+    "human_system": {}, "adaptation": {}, "risk": {}, "evidence": {},
+    "unknown_value": {"enum": ["unknown", "not-reported", "not-applicable", "conflicting"]}
+  },
+  "description": "Observable dimensions only. Absence must use an explicit unknown value; no dimension implies benefit."
+}

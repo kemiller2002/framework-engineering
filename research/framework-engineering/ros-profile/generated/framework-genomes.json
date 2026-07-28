@@ -1,0 +1,12 @@
+{
+  "generated": true,
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "entries": [
+    {
+      "id": "FE-GENOME-SYNTH-001",
+      "title": "Synthetic Loop Framework Genome",
+      "status": "synthetic",
+      "path": "records/genomes/FE-GENOME-SYNTH-001.json"
+    }
+  ]
+}

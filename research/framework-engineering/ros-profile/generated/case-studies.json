@@ -1,0 +1,12 @@
+{
+  "generated": true,
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "entries": [
+    {
+      "id": "FE-CASE-SYNTH-001",
+      "title": "Synthetic validator case",
+      "status": "synthetic",
+      "path": "records/case-studies/FE-CASE-SYNTH-001.json"
+    }
+  ]
+}

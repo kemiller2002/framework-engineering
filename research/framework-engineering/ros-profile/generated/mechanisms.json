@@ -1,0 +1,38 @@
+{
+  "generated": true,
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "entries": [
+    {
+      "id": "classification",
+      "taxonomy": "mechanisms"
+    },
+    {
+      "id": "decomposition",
+      "taxonomy": "mechanisms"
+    },
+    {
+      "id": "sequencing",
+      "taxonomy": "mechanisms"
+    },
+    {
+      "id": "prioritization",
+      "taxonomy": "mechanisms"
+    },
+    {
+      "id": "constraint",
+      "taxonomy": "mechanisms"
+    },
+    {
+      "id": "feedback",
+      "taxonomy": "mechanisms"
+    },
+    {
+      "id": "reassessment",
+      "taxonomy": "mechanisms"
+    },
+    {
+      "id": "unknown",
+      "taxonomy": "mechanisms"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "generated": true,
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "entries": [
+    {
+      "id": "FE-CFDP-SYNTH-001",
+      "provider": "synthetic",
+      "path": "executions/synthetic/2026-07-28/FE-CFDP-SYNTH-001/execution-manifest.yaml"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id":"FE-CFDP","title":"Comparative Framework Discovery Program","record_type":"research-stream","status":"registered","version":"1.0.0","created":"2026-07-28","updated":"2026-07-28","confidence":"medium","completion":"ready-for-first-real-execution","profile":"RP-FE-ROS-2026-A001@1.0.0",
+  "mission":"Build a structured, cross-domain evidence corpus of frameworks, case studies, postmortems, retrospectives, comparative studies, failures, adaptations, and outcomes so that Framework Engineering hypotheses can emerge from evidence.",
+  "scope":["framework discovery","case and failure extraction","Framework Genome construction","cross-case comparison"],
+  "artifact_types":["source","framework","framework-genome","framework-case-study","framework-postmortem","framework-observation","framework-contradiction","framework-hypothesis","framework-synthesis"],
+  "allowed_execution_providers":["declared-human","declared-machine-provider"],
+  "evidence_strategy":"Prefer primary sources; preserve conflicting and missing reports explicitly.",
+  "prohibited_claims":["frequency proves value","machine agreement is empirical validation","same-provider roles are cross-provider replication","Stage B is authorized"],
+  "limitations":["No real corpus execution has yet validated this profile."],
+  "next_execution":"One real, source-preserving provider execution followed by an independent second-provider execution.",
+  "stop_conditions":["source provenance cannot be preserved","assigned write boundary is unavailable","validation remains red"],
+  "handoff":"Follow START-HERE.md and execution-profile.md."
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/fe/ros-profile/fe-record.schema.json",
+  "title": "Framework Engineering ROS Profile Record",
+  "type": "object",
+  "required": ["id", "title", "record_type", "status", "version", "created", "updated", "confidence", "completion", "profile"],
+  "properties": {
+    "record_type": {"enum": ["framework", "framework-genome", "framework-case-study", "framework-postmortem", "framework-retrospective", "framework-comparative-study", "framework-observation", "framework-contradiction", "framework-hypothesis", "framework-synthesis", "framework-experiment-proposal", "research-stream", "source"]},
+    "profile": {"const": "RP-FE-ROS-2026-A001@1.0.0"},
+    "confidence": {"enum": ["very-low", "low", "medium", "high", "very-high"]},
+    "completion": {"type": "string"},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

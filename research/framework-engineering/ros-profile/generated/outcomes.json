@@ -1,0 +1,38 @@
+{
+  "generated": true,
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "entries": [
+    {
+      "id": "decision-quality",
+      "taxonomy": "outcomes"
+    },
+    {
+      "id": "coordination",
+      "taxonomy": "outcomes"
+    },
+    {
+      "id": "speed",
+      "taxonomy": "outcomes"
+    },
+    {
+      "id": "consistency",
+      "taxonomy": "outcomes"
+    },
+    {
+      "id": "learning",
+      "taxonomy": "outcomes"
+    },
+    {
+      "id": "adoption",
+      "taxonomy": "outcomes"
+    },
+    {
+      "id": "harm",
+      "taxonomy": "outcomes"
+    },
+    {
+      "id": "no-reported-outcome",
+      "taxonomy": "outcomes"
+    }
+  ]
+}

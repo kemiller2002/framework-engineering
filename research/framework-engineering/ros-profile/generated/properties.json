@@ -1,0 +1,34 @@
+{
+  "generated": true,
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "entries": [
+    {
+      "id": "explicit-purpose",
+      "taxonomy": "properties"
+    },
+    {
+      "id": "named-elements",
+      "taxonomy": "properties"
+    },
+    {
+      "id": "ordered-steps",
+      "taxonomy": "properties"
+    },
+    {
+      "id": "decision-rules",
+      "taxonomy": "properties"
+    },
+    {
+      "id": "feedback-loop",
+      "taxonomy": "properties"
+    },
+    {
+      "id": "adaptation-guidance",
+      "taxonomy": "properties"
+    },
+    {
+      "id": "unknown",
+      "taxonomy": "properties"
+    }
+  ]
+}

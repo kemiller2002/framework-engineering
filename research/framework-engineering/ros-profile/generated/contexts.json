@@ -1,0 +1,38 @@
+{
+  "generated": true,
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "entries": [
+    {
+      "id": "domain",
+      "taxonomy": "contexts"
+    },
+    {
+      "id": "scale",
+      "taxonomy": "contexts"
+    },
+    {
+      "id": "time-horizon",
+      "taxonomy": "contexts"
+    },
+    {
+      "id": "stakeholder-count",
+      "taxonomy": "contexts"
+    },
+    {
+      "id": "regulatory-load",
+      "taxonomy": "contexts"
+    },
+    {
+      "id": "uncertainty",
+      "taxonomy": "contexts"
+    },
+    {
+      "id": "resource-constraint",
+      "taxonomy": "contexts"
+    },
+    {
+      "id": "not-reported",
+      "taxonomy": "contexts"
+    }
+  ]
+}
