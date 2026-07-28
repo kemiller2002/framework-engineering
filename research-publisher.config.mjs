@@ -2,9 +2,9 @@ export default {
   site: {
     title: "Framework Engineering Research",
     description: "Searchable research, evidence, methods, and knowledge artifacts for Framework Engineering",
-    baseUrl: "/",
+    baseUrl: "/Framework-engineering/",
     language: "en",
-    siteUrl: "https://github.com/kemiller2002/Framework-engineering"
+    siteUrl: "https://kemiller2002.github.io"
   },
   repository: {
     name: "Framework-engineering",
