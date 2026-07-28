@@ -35,9 +35,6 @@ jobs:
       - name: Build research site
         run: npm run research:build
 
-      - name: Prepare site for repository Pages path
-        run: node scripts/prepare-github-pages.mjs
-
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
