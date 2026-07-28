@@ -1,0 +1,11 @@
+artifact_id,version,status,author,created,updated,parent_dependencies,repository_commit,change_summary,confidence,completion,known_limitations
+FE-BND-COVERAGE-M2-001,1.0.0,curator-submitted,M2,2026-07-26T13:27:57Z,2026-07-26T13:27:57Z,"FE-BND-SOURCES-M2-001@1.2.0; FE-BND-SCHEMA-001@1.0.0",a7b6a7178cdb41579730c8971bec70f5660c2f86,Re-verified comparator source and operational-field coverage audit; closed four of the prior pass's five coverage-insufficient gaps and added two new gap-filling cards,0.88,complete,One card (B08) remains operational_coverage=partial for lack of a section-verified independent second source
+card_id,field,primary_original_source_id,independent_source_id,section_verified(yes/no),operational_coverage(insufficient/partial/substantial),status(coverage-insufficient/covered)
+B01,method engineering and situational method engineering,ME03,ME04,yes,substantial,covered
+B02,systems engineering,SE03,SE04,yes,substantial,covered
+B03,requirements engineering and requirements traceability,RE02,RE03,yes,substantial,covered
+B04,process modeling workflow modeling and task analysis,PM01,PM02,yes,substantial,covered
+B05,reproducible research configuration management and provenance systems,PV02,PV01,yes,substantial,covered
+B06,decision analysis and structured analytic techniques,DA03,DA02,yes,substantial,covered
+B07,knowledge engineering and ontology design,KE01,KE02,yes,substantial,covered
+B08,organizational learning and double-loop learning,OL01,absent,yes,partial,coverage-insufficient

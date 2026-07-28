@@ -1,0 +1,257 @@
+card_id,field_name,score,note
+A01,card_id,present-operational,Stable concrete identifier used consistently throughout the artifact.
+A01,input,present-descriptive,Names a category of artifact ("overlap too much for single-label classification") but no concrete schema or checkable form.
+A01,operation,present-descriptive,States the principle "separate identity from capability" but no procedure/algorithm for how to do it.
+A01,output,present-descriptive,Describes a shape ("identity and capability recorded as distinct properties") with no concrete format; marked inference.
+A01,scope_conditions,present-descriptive,Names the FE-008 context but gives no checkable membership test for when the mechanism applies.
+A01,failure_conditions,absent,Card states directly no canonical failure condition exists in the permitted evidence.
+A01,predicted_effect,present-descriptive,"""Easier to reason about"" names no measurable outcome dimension and no explicit comparison group."
+A01,measurement,absent,Card states no metric is defined in the permitted canonical set.
+A01,implementation_test,absent,Card states no procedure is specified; cannot fail because nothing exists to run.
+A01,decision_rights,absent,Card states no canonical owner or dispute-resolution authority is named.
+A01,uncertainty_handling,present-descriptive,Only a generic research-constitution rule applied by inference; not mechanism-specific.
+A01,verification,present-descriptive,Names independent-reviewer testing as an outstanding future need, not a currently applicable procedure.
+A01,provenance,absent,Card states no statement describes what evidence must be retained.
+A01,implementation_cost,absent,Card states cost is not addressed in the permitted canonical set.
+A01,limitations,present-operational,Names the exact evidentiary gap (single internal source FE-008, unresolved independent-reviewer stability).
+A01,statement_basis,present-operational,Thorough per-bullet direct/inference/proposal-only/absent tagging plus a consistent summary section.
+A02,card_id,present-operational,Stable concrete identifier.
+A02,input,present-descriptive,Generic framework/task-scenario description with no concrete schema; marked inference.
+A02,operation,present-descriptive,States a design heuristic ("add only enough structure") without concrete steps.
+A02,output,present-descriptive,Describes output type (redesigned variant vs task outputs) with no concrete schema.
+A02,scope_conditions,present-descriptive,Broad framing ("framework characterization and improvement") without a checkable boundary test.
+A02,failure_conditions,present-operational,"Concrete checkable falsification criterion: the theory weakens if redesigned frameworks do not improve outputs."
+A02,predicted_effect,present-operational,Names a comparison (more- vs less-structured variants) and specific outcome dimensions (traceability, evidence linkage) matching the measurement field.
+A02,measurement,present-descriptive,Names outcome dimensions (traceability, evidence linkage, overhead) but no scoring instrument or threshold.
+A02,implementation_test,absent,Card states no masking procedure, evaluator protocol, or scenario design exists; cannot fail.
+A02,decision_rights,absent,Card states no canonical authority for approving a redesign is named.
+A02,uncertainty_handling,present-descriptive,An inference drawn from hedged prediction wording, not a stated rule.
+A02,verification,present-descriptive,"""Re-run FE-011A with stronger blinding"" is a future-work call, not a currently applicable procedure."
+A02,provenance,absent,Card states no statement on what artifacts must be retained exists.
+A02,implementation_cost,present-operational,"""Added verbosity and process overhead"" is a directly observed, named cost pattern (Observation 2)."
+A02,limitations,present-operational,Specific: flags internal-only evidence and a named rival explanation (Hypothesis 4: generic-structure effect).
+A02,statement_basis,present-operational,Thorough per-bullet tagging plus consistent summary.
+A03,card_id,present-operational,Stable concrete identifier.
+A03,input,present-descriptive,Generic description drawn from a definition; no concrete schema; marked inference.
+A03,operation,present-descriptive,Gives definitions (Primitive Reasoning Operation, Procedural Reasoning Grammar) but no extraction/composition procedure.
+A03,output,present-descriptive,Inferred description with no concrete representation format.
+A03,scope_conditions,present-operational,Names a concrete distinguishing criterion (reasoning-heavy vs coordination-heavy artifacts).
+A03,failure_conditions,present-operational,"Three concrete falsification criteria: extractor non-convergence, unbounded vocabulary growth, reconstruction failure outside familiar domains."
+A03,predicted_effect,present-operational,Names an explicit comparison group (reasoning-heavy vs coordination-heavy) and measurable outcomes (convergence, vocabulary growth rate).
+A03,measurement,present-descriptive,Card itself states no scoring procedure is defined despite naming the implied quantities.
+A03,implementation_test,absent,Card states the extraction/reconstruction/holdout procedure is not present in its permitted evidence.
+A03,decision_rights,absent,Not addressed.
+A03,uncertainty_handling,present-descriptive,Inferred from hedged Observation 3 wording rather than a stated rule.
+A03,verification,present-descriptive,"""Re-run FE-012A/FE-012B"" is a future-work call, not a current procedure."
+A03,provenance,absent,Not addressed in the permitted canonical set.
+A03,implementation_cost,absent,Not addressed.
+A03,limitations,present-operational,"Specific: incomplete vocabulary stabilization, same-model-bias vulnerability, named open questions (Compare/Prioritize durability)."
+A03,statement_basis,present-operational,Thorough per-bullet tagging plus consistent summary.
+A04,card_id,present-operational,Stable concrete identifier.
+A04,input,present-descriptive,Generic, inferred from paired definitions; no concrete schema.
+A04,operation,present-descriptive,Card itself flags this as a definitional distinction only, not a demonstrated operation.
+A04,output,absent,Card states directly that no output artifact or representation is described.
+A04,scope_conditions,present-operational,Names a concrete triggering condition (coordination-/execution-heavy artifacts pressuring the vocabulary).
+A04,failure_conditions,present-operational,Concrete falsifiable criterion: theory weakens if the two grammars cannot be separated.
+A04,predicted_effect,present-descriptive,Names a forecast outcome but no explicit comparison group.
+A04,measurement,absent,No metric defined.
+A04,implementation_test,absent,No test procedure described.
+A04,decision_rights,absent,Not addressed.
+A04,uncertainty_handling,present-operational,Directly and specifically states separability is unresolved and lists the exact open-question primitives at issue.
+A04,verification,present-descriptive,Future-work call to test separability; not a current procedure.
+A04,provenance,absent,Not addressed.
+A04,implementation_cost,absent,Not addressed.
+A04,limitations,present-operational,"Specific: states current theory does not show clean separability, quotes the exact open question."
+A04,statement_basis,present-operational,Thorough tagging including explicit proposal-only labeling of the core distinction.
+A05,card_id,present-operational,Stable concrete identifier.
+A05,input,present-descriptive,Generic inferred list of research-artifact types with no schema.
+A05,operation,present-operational,"Concrete quoted rule: ""observations and interpretations must be recorded separately"" (Rule 3)."
+A05,output,present-descriptive,Generic inferred description with no concrete record schema.
+A05,scope_conditions,present-operational,"Concrete boundary: governs research behavior, explicitly not product behavior."
+A05,failure_conditions,present-operational,"Three concrete named failure modes (interpretation-as-observation, uncertainty not preserved, alternatives closed early), though marked inference rather than directly stated."
+A05,predicted_effect,present-operational,Names comparison (separated vs unseparated redesigns) and measurable outcome (traceability) matching the measurement field.
+A05,measurement,present-descriptive,Names traceability/usefulness as quantities but no scoring instrument is defined.
+A05,implementation_test,absent,Card states no audit or scoring procedure is defined.
+A05,decision_rights,present-operational,"Concrete governance rule: confidence may not update directly from an evidence run; products do not validate research findings (Rules 4, 10-11)."
+A05,uncertainty_handling,present-operational,"Concrete rule: every claim begins as a hypothesis with a kill condition (Rules 1-2)."
+A05,verification,present-descriptive,Card states no dedicated procedure exists; a generic rule is applied by inference as the closest analogue.
+A05,provenance,present-descriptive,Inferred implication from a general recording rule; no explicit provenance schema stated.
+A05,implementation_cost,present-descriptive,"Borrows the generic, unspecific claim that structure ""tends to add complexity"" rather than a cost finding specific to this mechanism."
+A05,limitations,present-operational,"Specific: heuristics are labeled provisional, require independent replication, and may not generalize to execution-heavy artifacts."
+A05,statement_basis,present-operational,Thorough per-bullet tagging plus consistent summary; the broadest support of the eight FE candidates.
+A06,card_id,present-operational,Stable concrete identifier.
+A06,input,present-descriptive,Generic inferred description with no schema.
+A06,operation,present-descriptive,Names two heuristics (Verify Before Closure; Add Reassessment Triggers) with no concrete procedure or trigger definition.
+A06,output,absent,Card states no output form is described.
+A06,scope_conditions,present-descriptive,"""Dynamic contexts"" named with no criteria for what counts as dynamic."
+A06,failure_conditions,present-descriptive,Inferred complements of the two heuristics rather than independently stated conditions.
+A06,predicted_effect,absent,Card states no directional measured effect is stated for this candidate.
+A06,measurement,absent,No metric defined.
+A06,implementation_test,absent,No procedure defined.
+A06,decision_rights,present-descriptive,"Card itself notes no owner or trigger-definition authority is assigned specifically to this candidate, only a generic kill-condition rule applied by inference."
+A06,uncertainty_handling,present-operational,"Concrete quoted rule: ""do not protect the theory from evidence"" (Rule 15), directly supporting reopening judgments."
+A06,verification,present-descriptive,Circular restatement of the heuristic itself as its own verification; no concrete procedure.
+A06,provenance,absent,Not addressed.
+A06,implementation_cost,absent,Not addressed.
+A06,limitations,present-operational,"Specific: names the exact gap (no canonical record operationalizes triggers or monitoring ownership)."
+A06,statement_basis,present-operational,Thorough tagging; one of the two weakest candidates but basis section itself is consistent.
+A07,card_id,present-operational,Stable concrete identifier.
+A07,input,present-descriptive,Generic inferred description with no schema.
+A07,operation,present-operational,"Concrete quoted rule: published versions are immutable; frozen during evaluation; changes only in subsequent versions."
+A07,output,present-operational,"Illustrated with a real concrete instantiation (""Comparator v3.1.0 frozen""), not merely an abstract description."
+A07,scope_conditions,present-operational,Concrete temporal boundary: applies while a version is under evaluation.
+A07,failure_conditions,present-operational,"Concrete checkable condition (was a frozen instrument altered during evaluation), though marked inference."
+A07,predicted_effect,absent,Card states no controlled directional outcome is stated for this candidate.
+A07,measurement,absent,No metric defined.
+A07,implementation_test,absent,"Card states no verification or refusal procedure (e.g., blocking non-frozen comparisons) is described; cannot fail."
+A07,decision_rights,absent,No canonical owner of freeze/version decisions is named.
+A07,uncertainty_handling,absent,Not addressed.
+A07,verification,absent,No canonical verification procedure specified.
+A07,provenance,present-operational,"Concrete quoted rule: preserve historical records of superseded and failed hypotheses."
+A07,implementation_cost,absent,Not addressed.
+A07,limitations,present-operational,"Specific: supersession is evidence-gated per Knowledge Promotion text, but no comprehensive supersession/append-history procedure exists anywhere in the permitted set."
+A07,statement_basis,present-operational,Thorough tagging plus consistent summary.
+A08,card_id,present-operational,Stable concrete identifier.
+A08,input,present-descriptive,Generic inferred description with no schema.
+A08,operation,present-operational,"Concrete governance rule: evidence runs must declare tested hypotheses before execution and pass through an Evidence Decision Record (Rules 8-9)."
+A08,output,present-descriptive,Generic inferred sequence description with no concrete schema.
+A08,scope_conditions,present-descriptive,Broad aspirational framing (becoming "a disciplined method") with no checkable boundary test.
+A08,failure_conditions,present-operational,"Concrete checkable condition (EDR review skipped, or redesign fails to improve outputs), though marked inference/complement."
+A08,predicted_effect,absent,Card states no interaction or sequencing effect for the bundle as a whole is stated anywhere.
+A08,measurement,absent,No bundle-level metric defined.
+A08,implementation_test,absent,No procedure for producing every stage artifact from a frozen input is described.
+A08,decision_rights,present-operational,"Concrete governance rule: confidence may not update directly from a run; every run must pass through an Evidence Decision Record (Rules 9-10)."
+A08,uncertainty_handling,present-descriptive,"Generic principle (""ideas remain provisional until evidence and challenge"") not specific to this bundle mechanism."
+A08,verification,present-descriptive,Lists further independent re-runs as still-required future work; not a current procedure.
+A08,provenance,present-descriptive,Card states no bundle-wide provenance schema exists; only an inferred implication from the EDR rule.
+A08,implementation_cost,present-descriptive,"Generic borrowed claim (""tends to add complexity"") applied by inference, not a bundle-specific cost finding."
+A08,limitations,present-operational,"Specific: names the exact gap that no record shows the four stages interacting as a bundle beyond each being separately evidenced."
+A08,statement_basis,present-operational,Thorough tagging plus consistent summary.
+B01,card_id,present-operational,Stable concrete identifier.
+B01,input,present-operational,Concrete named input categories (goal type, situational factors, declared fragment properties).
+B01,operation,present-operational,"Concrete 5-step procedure with named composition operations (Join...Into, Let...Precede) and governing axioms."
+B01,output,present-operational,Concrete output plus an explicit selection/composition record.
+B01,scope_conditions,present-operational,Concrete precondition: a pre-classified property-tagged fragment repository must exist or be buildable.
+B01,failure_conditions,present-operational,"Five named defect types (incompleteness, inconsistency, inefficiency, unsoundness, inapplicability) tied to a checkable rule-violation condition."
+B01,predicted_effect,present-operational,Explicit comparison ("relative to an unmodified method") plus named outcome (performance indicators).
+B01,measurement,present-descriptive,Names a selection matrix linking goal type to indicators but states no calibrated scoring threshold was found.
+B01,implementation_test,present-operational,Explicit pass/fail condition: the method fails if any stated axiom check fails.
+B01,decision_rights,present-operational,Names a specific role (method engineer) who performs selection/assembly as a reviewable judgment call.
+B01,uncertainty_handling,present-descriptive,States only what the mechanism is not (not probabilistic/calibrated) without describing a further concrete handling procedure.
+B01,verification,present-operational,Concrete named QA rules (axioms) plus an independent conformance-checking analogue (ME04).
+B01,provenance,present-operational,Concrete section-level citations for every sourced claim.
+B01,implementation_cost,present-operational,Names concrete cost drivers (existing populated repository, analyst query/composition time).
+B01,limitations,present-operational,Specific: single research lineage plus one independent paper; underlying ISO standard remains abstract-only.
+B01,statement_basis,present-operational,Direct/inference list with specific claim-level citations.
+B02,card_id,present-operational,Stable concrete identifier.
+B02,input,present-operational,Concrete named program/project characteristics and a named baseline process family (ISO/IEC/IEEE 15288).
+B02,operation,present-operational,"Concrete named mechanisms (eliminate/adjust-scope/scale) with a named recording artifact (Compliance Matrix) and approval chain."
+B02,output,present-operational,Concrete named artifact (Compliance Matrix plus waivers/deviations).
+B02,scope_conditions,present-operational,Concrete named program populations (NASA, DoD) explicitly aligned to a named standard family.
+B02,failure_conditions,present-operational,"Concrete checkable condition: eliminating a requirement without a required waiver/deviation is non-compliant."
+B02,predicted_effect,present-operational,Names outcome (cost/schedule objective achievement, overhead reduction) with an implied before/after tailoring comparison.
+B02,measurement,present-operational,Concrete recording instrument (Compliance Matrix entries; DoD process-to-standard correspondence table).
+B02,implementation_test,present-descriptive,"Card states this is ""auditable... not automatically pass/fail""; it is an activity description without a genuine pass/fail condition."
+B02,decision_rights,present-operational,"Names specific roles (chief engineer, lead systems engineer, PM) and an approval/governance chain."
+B02,uncertainty_handling,present-descriptive,States only that risk posture is assessed qualitatively/categorically with no calibrated mechanism or defined categories.
+B02,verification,present-operational,Concrete named review chain (Compliance Matrix approval; standards-mapping table plus milestone reviews).
+B02,provenance,present-operational,Concrete section/table/figure-level citations for every sourced claim.
+B02,implementation_cost,present-operational,"Quantified qualitative comparison given (""hours vs. weeks"" for small vs large projects)."
+B02,limitations,present-operational,Specific: both sources are agency guides rather than the standard text itself; may not generalize outside aerospace/defense.
+B02,statement_basis,present-operational,Direct/inference list with specific claim-level citations.
+B03,card_id,present-operational,Stable concrete identifier.
+B03,input,present-operational,Concrete named input categories (pre-RS and post-RS material relative to a baselined Requirements Specification).
+B03,operation,present-operational,Concrete named distinction (pre-RS vs post-RS trace links) plus an explicit empirical capture recommendation (eager capture/lazy retrieval).
+B03,output,present-operational,Concrete named output (forward/backward trace network plus contactability of originators).
+B03,scope_conditions,present-operational,Concrete precondition: an RE process producing a baselined RS plus downstream artifacts.
+B03,failure_conditions,present-operational,"Concrete, empirically grounded failure mode (source-location inaccessibility), the most-cited problem across 100+ practitioners studied."
+B03,predicted_effect,present-operational,Names specific outcomes (auditability, more economical RS maintenance) drawn from stated study findings.
+B03,measurement,present-operational,Concrete quantified proxy (60% average commit-to-issue linkage across 6 projects; precision/recall figures).
+B03,implementation_test,present-operational,Concrete retrieval test with an explicit quantified analogue (precision/recall thresholds for automated link recovery).
+B03,decision_rights,present-operational,"Names specific recommended roles that own parts of the task (project librarian, repository manager, RT facilitator)."
+B03,uncertainty_handling,present-descriptive,"Card states explicitly there is no calibrated mechanism; ""traceability"" itself is treated as an open, non-generalizable research problem."
+B03,verification,present-operational,Concrete quantified verification (precision 33-96%, recall 50-96% for automated link recovery).
+B03,provenance,present-operational,Concrete section-level citations for every sourced claim.
+B03,implementation_cost,present-descriptive,"Card states cost is ""not quantified""; the cited precision/recall figures are quality metrics, not cost figures."
+B03,limitations,present-operational,"Specific: source predates modern VCS-based tooling; the modern standard remains abstract-only, unread."
+B03,statement_basis,present-operational,Direct/inference list with specific claim-level citations.
+B04,card_id,present-operational,Stable concrete identifier.
+B04,input,present-operational,Concrete named input elements (activities, events, participants, messages, data objects, control-flow conditions).
+B04,operation,present-operational,Concrete named formalism (BPMN diagram types) plus an independent transformation procedure (BPMN-to-Petri-net mapping).
+B04,output,present-operational,Concrete named output artifacts (conformant BPMN model; equivalent Petri-net model for error checking).
+B04,scope_conditions,present-operational,Concrete named element coverage (tasks/events/gateways/looping/subprocesses/exception handling/message flow).
+B04,failure_conditions,present-operational,Concrete named failure modes (non-conformance to a conformance class; specific documented specification ambiguities).
+B04,predicted_effect,absent,Card states directly that neither source asserts an outcome-improving claim; BPMN is representational only.
+B04,measurement,present-operational,"Concrete empirical measurement (static semantic-error detection tested against real models, Section 5.3)."
+B04,implementation_test,present-operational,Concrete conformance-class check plus a tool-based semantic-error check; both have genuine pass/fail outcomes.
+B04,decision_rights,absent,Card states directly that neither source assigns organizational decision authority beyond the model itself.
+B04,uncertainty_handling,absent,Card states directly that neither source has an epistemic-uncertainty mechanism; both are deterministic formalisms.
+B04,verification,present-operational,Concrete named verification procedures (conformance-class checking; Petri-net static analysis for deadlocks/livelocks).
+B04,provenance,present-operational,Concrete section-level citations for every sourced claim.
+B04,implementation_cost,present-descriptive,States cost is not quantified and only vaguely implies nontrivial tooling effort.
+B04,limitations,present-operational,"Specific: PM02 predates BPMN 2.0.2; no controlled adoption-cost study located."
+B04,statement_basis,present-operational,Direct/inference list with specific claim-level citations.
+B05,card_id,present-operational,Stable concrete identifier.
+B05,input,present-operational,Concrete named PROV-O input classes (entities, activities, agents, relationships).
+B05,operation,present-operational,Concrete named relation types (use/generation/derivation/attribution/revision/invalidation/roles/plans/qualified influence) plus identifier/metadata assignment.
+B05,output,present-operational,Concrete named output (provenance graph plus identifiable metadata record).
+B05,scope_conditions,present-operational,Concrete boundary: resources whose history can be represented as PROV assertions and FAIR metadata.
+B05,failure_conditions,present-operational,"Concrete checkable condition: incomplete assertions cannot establish an unrecorded relation; FAIR alone does not guarantee quality/reproducibility."
+B05,predicted_effect,present-operational,Names specific outcomes (findability, machine-interpretable provenance) with an implied comparison to unstructured resources.
+B05,measurement,present-operational,Concrete checklist (presence of identifier/metadata/relations) plus graph query coverage over a named property set.
+B05,implementation_test,present-operational,Concrete retrieval test (generating activity/used entities/agent/derivation chain/identifier) that can fail if a link is missing.
+B05,decision_rights,absent,Card states directly that neither source assigns governance authority.
+B05,uncertainty_handling,present-descriptive,"States only that qualified relations ""can carry"" extra attributes; no stated rule or mechanism for handling uncertainty."
+B05,verification,present-operational,Concrete named verification (ontology/schema validation plus provenance-chain queries against PROV-O's class/property set).
+B05,provenance,present-operational,Concrete section/box-level citations for every sourced claim.
+B05,implementation_cost,present-operational,"Names concrete cost drivers (identifier assignment, metadata authoring, ontology mapping, storage, capture effort)."
+B05,limitations,present-operational,Specific: representation does not ensure truthful/complete capture; both are principles documents, not effectiveness studies.
+B05,statement_basis,present-operational,Direct/inference list with specific claim-level citations.
+B06,card_id,present-operational,Stable concrete identifier.
+B06,input,present-operational,Concrete named input (analytic question, hypothesis set, evidence/arguments/assumptions).
+B06,operation,present-operational,Concrete numbered 8-step procedure plus an independent indicators/signposts technique (DA02).
+B06,output,present-operational,Concrete named output (ranked comparative judgment, evidence matrix, forward-looking indicator list).
+B06,scope_conditions,present-operational,"Concrete boundary including a quantified team/time claim (""a day or less"")."
+B06,failure_conditions,present-operational,"Concrete named failure modes, including a quantified threshold (more than ~7 hypotheses becomes unmanageable)."
+B06,predicted_effect,present-operational,Names specific outcomes (avoiding premature closure; surfacing disconfirming evidence) as explicit design intent.
+B06,measurement,present-descriptive,Card states directly that no numeric scoring rule was verified; procedures are qualitative judgment only.
+B06,implementation_test,present-operational,"Concrete pass/fail check (does the report rank all hypotheses; is each indicator occurring or not) with a quantified analogue (DA02)."
+B06,decision_rights,present-operational,Names who performs and updates the analysis (an analyst or small team) even though outside policy authority is disclaimed separately.
+B06,uncertainty_handling,present-operational,"Describes an actual procedure (maintaining multiple hypotheses simultaneously, seeking disconfirmation, indicator-based prospective monitoring), not merely a disclaimer."
+B06,verification,present-operational,Concrete named verification (team-based diagnosticity re-examination; periodic indicator review against an explicit matrix).
+B06,provenance,present-operational,Concrete page-level citations for every sourced claim.
+B06,implementation_cost,present-operational,"Quantified cost claim (""a day or less"" once data is collected) plus an explicit reserved-for-high-stakes-judgments framing."
+B06,limitations,present-operational,Specific: no controlled-outcome study of effectiveness was located; source is the technique's own inventor's account.
+B06,statement_basis,present-operational,Direct/inference list with specific claim-level citations.
+B07,card_id,present-operational,Stable concrete identifier.
+B07,input,present-operational,Concrete named distinction (natural types/kinds vs roles) with a worked example.
+B07,operation,present-operational,Concrete named formal metaproperties (rigidity/anti-rigidity) plus a named formal language (LODWICK) and checkable rules.
+B07,output,present-operational,Concrete named output (a taxonomy separating kind from role, each with its own properties).
+B07,scope_conditions,present-operational,Concrete boundary with a worked example (Person as sometimes-Student, sometimes-Employee).
+B07,failure_conditions,present-operational,"Concrete named failure modes, including an explicit subsumption-violation rule (anti-rigid cannot subsume rigid)."
+B07,predicted_effect,present-operational,Names specific outcomes (correct multiple/dynamic classification, polymorphism, substitutability) as a stated design goal.
+B07,measurement,present-operational,Concrete checkable per-property audit (rigid/non-rigid/anti-rigid, +/-identity, +/-unity labels).
+B07,implementation_test,present-operational,Concrete pass/fail check against the stated subsumption constraint.
+B07,decision_rights,present-operational,Names a specific role (modeller/ontology engineer) who applies the concrete metaproperty tests.
+B07,uncertainty_handling,present-descriptive,States only that classification is treated as binary logical judgment rather than probability; no further concrete handling procedure described.
+B07,verification,present-operational,Concrete named verification (metaproperty-based subsumption checking; a 15-item audit checklist).
+B07,provenance,present-operational,Concrete section-level citations for every sourced claim.
+B07,implementation_cost,present-operational,Names a concrete cost driver (per-class/property audit pass) plus a reported qualitative benefit (reduced expert-argument time).
+B07,limitations,present-operational,Specific: neither source is an empirical effectiveness study; no controlled error-rate comparison was located.
+B07,statement_basis,present-operational,Direct/inference list with specific claim-level citations.
+B08,card_id,present-operational,Stable concrete identifier.
+B08,input,present-operational,"Concrete named input (observed outcomes/errors relative to goals, tacit governing variables)."
+B08,operation,present-operational,"Concrete mechanism with a named trigger condition (a reopening trigger fires when errors recur or cannot be resolved within the existing frame)."
+B08,output,present-operational,"Concrete named output (corrected action vs revised governing-variable set), illustrated by the paper's case material."
+B08,scope_conditions,present-operational,"Concrete named boundary (organizations with active error-hiding and named ""Model I"" defensive norms)."
+B08,failure_conditions,present-operational,"Concrete, specific case example (a >$100 million product failure known internally six years before cancellation) illustrating the named failure mechanism."
+B08,predicted_effect,present-operational,"Names a specific outcome (accumulating hidden, compounding errors) contrasted against organizations that can double-loop learn, though asserted causally from a single case rather than a controlled study."
+B08,measurement,present-descriptive,"Card states no quantitative instrument was verified in the sections read; a referenced 23-case exercise's results were not included."
+B08,implementation_test,present-operational,Explicit pass/fail condition: the organization fails the test if avoidance norms prevent the double-loop question from being asked at all.
+B08,decision_rights,absent,Card states directly that authority is not centrally assigned and names no specific role or owner.
+B08,uncertainty_handling,present-descriptive,Card states directly this is only "the closest analogue" to a formal mechanism, not an actual uncertainty rule.
+B08,verification,present-descriptive,Card states directly this is not a formal verification procedure; relies on comparative case narrative only.
+B08,provenance,present-operational,Concrete page-level citation for the sourced claims.
+B08,implementation_cost,absent,Card states cost is not quantified with no cost drivers named at all.
+B08,limitations,present-operational,"Specific: single-source card, partial coverage, no independent second source verified, fuller original treatment not read."
+B08,statement_basis,present-operational,Direct/inference list with specific claim-level citations.
