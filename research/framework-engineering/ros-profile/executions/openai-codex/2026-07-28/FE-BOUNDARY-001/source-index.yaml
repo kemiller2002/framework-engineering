@@ -1,0 +1,54 @@
+{
+  "execution_id": "FE-BOUNDARY-001",
+  "sources": [
+    {"id": "EV-FEB-001", "url": "https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-engineering-programs-2026-2027/", "access": "full-web"},
+    {"id": "EV-FEB-002", "url": "https://www.incose.org/about-systems-engineering/", "access": "full-web"},
+    {"id": "EV-FEB-003", "url": "https://www.incose.org/resources-publications/technical-publications/se-handbook/", "access": "landing-page"},
+    {"id": "EV-FEB-004", "url": "https://www.iso.org/standard/81702.html", "access": "official-abstract"},
+    {"id": "EV-FEB-005", "url": "https://sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_%28SEBoK%29", "access": "full-web"},
+    {"id": "EV-FEB-006", "url": "https://www.iso.org/standard/74393.html", "access": "official-abstract"},
+    {"id": "EV-FEB-007", "url": "https://www.iso.org/standard/74909.html", "access": "official-abstract"},
+    {"id": "EV-FEB-008", "url": "https://research.utwente.nl/en/publications/method-engineering-engineering-of-information-systems-development/", "access": "metadata-and-abstract"},
+    {"id": "EV-FEB-009", "url": "https://www.jucs.org/jucs_16_3/situational_method_engineering_state.html", "access": "full-web"},
+    {"id": "EV-FEB-010", "url": "https://www.omg.org/spec/SPEM/", "access": "official-specification-page"},
+    {"id": "EV-FEB-011", "url": "https://www.iso.org/standard/72089.html", "access": "official-abstract"},
+    {"id": "EV-FEB-012", "url": "https://www.w3.org/TR/prov-o/", "access": "full-recommendation"},
+    {"id": "EV-FEB-013", "url": "https://www.w3.org/TR/owl2-profiles/", "access": "full-recommendation"},
+    {"id": "EV-FEB-014", "url": "https://aisel.aisnet.org/misq/vol28/iss1/6/", "access": "metadata-and-abstract"},
+    {"id": "EV-FEB-015", "url": "https://link.springer.com/article/10.1057/ejis.2014.36", "access": "article-page"},
+    {"id": "EV-FEB-016", "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.34.6.679", "access": "abstract"},
+    {"id": "EV-FEB-017", "url": "https://connect.informs.org/das/about-us/dasbylaws", "access": "full-web"},
+    {"id": "EV-FEB-018", "url": "https://www.nasa.gov/sites/default/files/atoms/files/nasa_systems_engineering_handbook_0.pdf", "access": "full-pdf"},
+    {"id": "EV-FEB-019", "url": "https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook", "access": "full-web"},
+    {"id": "EV-FEB-020", "url": "https://www.iso.org/standard/62085.html", "access": "official-summary"},
+    {"id": "EV-FEB-021", "url": "https://www.iso.org/standard/68683.html", "access": "official-abstract"},
+    {"id": "EV-FEB-022", "url": "https://hbr.org/1977/09/double-loop-learning-in-organizations", "access": "article-page"},
+    {"id": "EV-FEB-023", "url": "https://www.asc-cybernetics.org/foundations/definitions.htm", "access": "curated-secondary-full-web"},
+    {"id": "EV-FEB-024", "url": "https://www.fipa.org/specs/fipa00023/SC00023J.html", "access": "full-web"},
+    {"id": "EV-FEB-025", "url": "https://eprints.soton.ac.uk/258540/", "access": "repository-record"},
+    {"id": "EV-FEB-026", "url": "https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative", "access": "full-web"},
+    {"id": "EV-FEB-027", "url": "https://nap.nationalacademies.org/resource/25303/R%26R.pdf", "access": "full-pdf-highlights"},
+    {"id": "EV-FEB-028", "url": "https://www.computer.org/education/bodies-of-knowledge/software-engineering/resources/", "access": "full-web"},
+    {"id": "EV-FEB-029", "url": "https://www.engc.org.uk/our-role-as-regulator/setting-standards/professional-engineering-competence-and-commitment", "access": "full-web"},
+    {"id": "EV-FEB-030", "url": "https://www.nspe.org/career-growth/nspe-code-ethics-engineers", "access": "full-web"}
+  ],
+  "access_failures": [
+    {
+      "scope": "several ISO standards",
+      "result": "normative full text not openly inspected",
+      "control": "claims restricted to official abstracts and metadata"
+    },
+    {
+      "scope": "formal systematic literature review",
+      "result": "not performed",
+      "control": "negative exact-term search recorded as bounded evidence only"
+    }
+  ],
+  "coverage_status": "complete-for-frozen-comparators-and-dimensions",
+  "rules": [
+    "Primary or official technical sources preferred",
+    "Abstract-only sources labeled",
+    "Direct claims separated from inference",
+    "Contradictory and subsuming evidence retained"
+  ]
+}

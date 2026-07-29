@@ -1,0 +1,17 @@
+{
+  "id": "FE-SRC-BOUNDARY-MATURITY-001",
+  "title": "Engineering discipline maturity source set",
+  "record_type": "source",
+  "status": "execution-draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "high-for-exemplar-criteria",
+  "completion": "complete-source-set",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "citation": ["EV-FEB-001", "EV-FEB-005", "EV-FEB-028", "EV-FEB-029", "EV-FEB-030"],
+  "source_kind": "accreditation-body-of-knowledge-competency-and-ethics-set",
+  "retrieved": "2026-07-28",
+  "access_limit": "exemplars are not asserted as a universal discipline-formation checklist",
+  "derived_artifact": "research/evaluations/FE-BOUNDARY-2026-07-28/source-registry.md"
+}

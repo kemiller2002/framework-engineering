@@ -1,0 +1,17 @@
+{
+  "id": "FE-SRC-BOUNDARY-EVAL-001",
+  "title": "Design science, decision analysis, quality, and reproducibility source set",
+  "record_type": "source",
+  "status": "execution-draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "high-for-scope",
+  "completion": "complete-source-set",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "citation": ["EV-FEB-014", "EV-FEB-015", "EV-FEB-016", "EV-FEB-017", "EV-FEB-019", "EV-FEB-020", "EV-FEB-027"],
+  "source_kind": "original-research-official-handbook-standard-and-national-report-set",
+  "retrieved": "2026-07-28",
+  "access_limit": "decision-analysis article available through abstract",
+  "derived_artifact": "research/evaluations/FE-BOUNDARY-2026-07-28/source-registry.md"
+}

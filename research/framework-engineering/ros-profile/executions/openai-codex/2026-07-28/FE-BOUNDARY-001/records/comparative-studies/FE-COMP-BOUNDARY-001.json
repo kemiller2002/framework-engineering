@@ -1,0 +1,53 @@
+{
+  "id": "FE-COMP-BOUNDARY-001",
+  "title": "Framework Engineering adjacent-field boundary comparison",
+  "record_type": "framework-comparative-study",
+  "status": "execution-draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "moderate",
+  "completion": "complete-for-frozen-matrix",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "framework_ids": [
+    "framework-engineering",
+    "systems-engineering",
+    "method-engineering",
+    "requirements-engineering",
+    "knowledge-and-ontology-engineering",
+    "decision-analysis",
+    "cybernetics",
+    "quality-engineering",
+    "organizational-learning-and-knowledge-management",
+    "agent-orchestration",
+    "design-science-research"
+  ],
+  "comparison_dimensions": [
+    "object-and-unit",
+    "users-decisions-contexts",
+    "lifecycle",
+    "operations-and-mechanisms",
+    "representation-and-semantics",
+    "evidence-measurement-vv-falsification",
+    "configuration-version-provenance-traceability-change",
+    "context-tailoring-boundary",
+    "humans-adoption-governance-ethics",
+    "tooling-interoperability-agents",
+    "outcomes-failures-burden-cost",
+    "institutional-maturity"
+  ],
+  "evidence_ids": [
+    "FE-SRC-BOUNDARY-SE-001",
+    "FE-SRC-BOUNDARY-METHOD-001",
+    "FE-SRC-BOUNDARY-EVAL-001",
+    "FE-SRC-BOUNDARY-LEARNING-001",
+    "FE-SRC-BOUNDARY-MATURITY-001"
+  ],
+  "finding": "No individual field fully subsumes the exact FE integration boundary, but adjacent fields collectively cover every identified FE mechanism.",
+  "limitations": [
+    "not a formal systematic review",
+    "several standards abstract-only",
+    "comparative outcome evidence absent"
+  ],
+  "derived_artifact": "research/evaluations/FE-BOUNDARY-2026-07-28/comparison-matrix.md"
+}

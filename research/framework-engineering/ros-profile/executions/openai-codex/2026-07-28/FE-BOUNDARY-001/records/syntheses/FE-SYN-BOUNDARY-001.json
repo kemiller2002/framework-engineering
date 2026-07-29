@@ -1,0 +1,35 @@
+{
+  "id": "FE-SYN-BOUNDARY-001",
+  "title": "Framework Engineering boundary synthesis",
+  "record_type": "framework-synthesis",
+  "status": "execution-draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "moderate",
+  "completion": "complete-for-boundary-mission",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "inputs": [
+    "FE-COMP-BOUNDARY-001",
+    "FE-OBS-BOUNDARY-001",
+    "FE-CONTRA-BOUNDARY-001",
+    "FE-HYP-BOUNDARY-001"
+  ],
+  "findings": [
+    "The distinct-discipline interpretation of FEH-001 is not supported.",
+    "No single adjacent field fully subsumes the exact object-and-integration boundary.",
+    "Adjacent fields collectively cover every identified FE mechanism.",
+    "The best current normative model is a candidate integrated engineering profile.",
+    "The accurate maturity description is a repository-centered research program.",
+    "Incremental utility remains the decisive untested hypothesis."
+  ],
+  "limitations": [
+    "broad but not formally systematic literature review",
+    "several standards abstract-only",
+    "no practitioner adjudication",
+    "no new outcome experiment",
+    "no claim of independent replication"
+  ],
+  "decision_proposal": "Preserve profile v1.0, narrow present-tense claims, and execute the matched incremental-utility study before expanding infrastructure.",
+  "derived_artifact": "research/evaluations/FE-BOUNDARY-2026-07-28/RP-FE-BOUNDARY-2026-07-28.md"
+}

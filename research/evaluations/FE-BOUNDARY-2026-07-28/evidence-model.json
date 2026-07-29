@@ -1,0 +1,441 @@
+{
+  "id": "FE-BND-2026-07-28-EVIDENCE-MODEL",
+  "title": "Framework Engineering Boundary Evidence Model",
+  "record_type": "boundary-evidence-model",
+  "status": "current-provisional",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "author_provider": "openai-codex",
+  "repository_baseline": "c830902195f22d02c820f55a2321f3e9214242a3",
+  "parent_ids": [
+    "FE-EVAL-REP-2026-07-23",
+    "FE-MISSION-001"
+  ],
+  "hypothesis_ids": [
+    "FEH-001"
+  ],
+  "theory_ids": [
+    "FE-THEORY-0.1"
+  ],
+  "confidence": {
+    "source_descriptions": "high",
+    "boundary_synthesis": "moderate",
+    "incremental_utility": "very-low"
+  },
+  "completion": "complete-for-boundary-mission",
+  "frozen_dimensions": [
+    "object-and-unit",
+    "users-decisions-contexts",
+    "lifecycle",
+    "operations-and-mechanisms",
+    "representation-and-semantics",
+    "evidence-measurement-vv-falsification",
+    "configuration-version-provenance-traceability-change",
+    "context-tailoring-boundary",
+    "humans-adoption-governance-ethics",
+    "tooling-interoperability-agents",
+    "outcomes-failures-burden-cost",
+    "institutional-maturity"
+  ],
+  "sources": [
+    {
+      "id": "EV-FEB-001",
+      "title": "ABET Criteria for Accrediting Engineering Programs, 2026-2027",
+      "url": "https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-engineering-programs-2026-2027/",
+      "kind": "official-accreditation-criteria",
+      "access": "full-web"
+    },
+    {
+      "id": "EV-FEB-002",
+      "title": "INCOSE About Systems Engineering",
+      "url": "https://www.incose.org/about-systems-engineering/",
+      "kind": "professional-body-definition",
+      "access": "full-web"
+    },
+    {
+      "id": "EV-FEB-003",
+      "title": "INCOSE Systems Engineering Handbook",
+      "url": "https://www.incose.org/resources-publications/technical-publications/se-handbook/",
+      "kind": "professional-handbook-landing-page",
+      "access": "landing-page"
+    },
+    {
+      "id": "EV-FEB-004",
+      "title": "ISO/IEC/IEEE 15288:2023",
+      "url": "https://www.iso.org/standard/81702.html",
+      "kind": "standard",
+      "access": "official-abstract"
+    },
+    {
+      "id": "EV-FEB-005",
+      "title": "SEBoK v2.14",
+      "url": "https://sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_%28SEBoK%29",
+      "kind": "body-of-knowledge",
+      "access": "full-web"
+    },
+    {
+      "id": "EV-FEB-006",
+      "title": "ISO/IEC/IEEE 42010:2022",
+      "url": "https://www.iso.org/standard/74393.html",
+      "kind": "standard",
+      "access": "official-abstract"
+    },
+    {
+      "id": "EV-FEB-007",
+      "title": "ISO/IEC/IEEE 15289:2019",
+      "url": "https://www.iso.org/standard/74909.html",
+      "kind": "standard",
+      "access": "official-abstract"
+    },
+    {
+      "id": "EV-FEB-008",
+      "title": "Method Engineering: Engineering of Information Systems Development Methods and Tools",
+      "url": "https://research.utwente.nl/en/publications/method-engineering-engineering-of-information-systems-development/",
+      "kind": "original-research",
+      "access": "metadata-and-abstract"
+    },
+    {
+      "id": "EV-FEB-009",
+      "title": "Situational Method Engineering: State-of-the-Art Review",
+      "url": "https://www.jucs.org/jucs_16_3/situational_method_engineering_state.html",
+      "kind": "peer-reviewed-review",
+      "access": "full-web"
+    },
+    {
+      "id": "EV-FEB-010",
+      "title": "OMG SPEM 2.0",
+      "url": "https://www.omg.org/spec/SPEM/",
+      "kind": "standard-metamodel",
+      "access": "official-specification-page"
+    },
+    {
+      "id": "EV-FEB-011",
+      "title": "ISO/IEC/IEEE 29148:2018",
+      "url": "https://www.iso.org/standard/72089.html",
+      "kind": "standard",
+      "access": "official-abstract"
+    },
+    {
+      "id": "EV-FEB-012",
+      "title": "W3C PROV-O",
+      "url": "https://www.w3.org/TR/prov-o/",
+      "kind": "web-standard",
+      "access": "full-recommendation"
+    },
+    {
+      "id": "EV-FEB-013",
+      "title": "W3C OWL 2 Profiles",
+      "url": "https://www.w3.org/TR/owl2-profiles/",
+      "kind": "web-standard",
+      "access": "full-recommendation"
+    },
+    {
+      "id": "EV-FEB-014",
+      "title": "Design Science in Information Systems Research",
+      "url": "https://aisel.aisnet.org/misq/vol28/iss1/6/",
+      "kind": "original-peer-reviewed-research",
+      "access": "metadata-and-abstract"
+    },
+    {
+      "id": "EV-FEB-015",
+      "title": "FEDS: a Framework for Evaluation in Design Science Research",
+      "url": "https://link.springer.com/article/10.1057/ejis.2014.36",
+      "kind": "original-peer-reviewed-research",
+      "access": "article-page"
+    },
+    {
+      "id": "EV-FEB-016",
+      "title": "Decision Analysis: Practice and Promise",
+      "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.34.6.679",
+      "kind": "original-peer-reviewed-research",
+      "access": "abstract"
+    },
+    {
+      "id": "EV-FEB-017",
+      "title": "INFORMS Decision Analysis Society Bylaws",
+      "url": "https://connect.informs.org/das/about-us/dasbylaws",
+      "kind": "professional-body-charter",
+      "access": "full-web"
+    },
+    {
+      "id": "EV-FEB-018",
+      "title": "NASA Systems Engineering Handbook",
+      "url": "https://www.nasa.gov/sites/default/files/atoms/files/nasa_systems_engineering_handbook_0.pdf",
+      "kind": "official-handbook",
+      "access": "full-pdf"
+    },
+    {
+      "id": "EV-FEB-019",
+      "title": "NIST/SEMATECH Engineering Statistics Handbook",
+      "url": "https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook",
+      "kind": "official-handbook",
+      "access": "full-web"
+    },
+    {
+      "id": "EV-FEB-020",
+      "title": "ISO 9001:2015",
+      "url": "https://www.iso.org/standard/62085.html",
+      "kind": "standard",
+      "access": "official-summary"
+    },
+    {
+      "id": "EV-FEB-021",
+      "title": "ISO 30401:2018",
+      "url": "https://www.iso.org/standard/68683.html",
+      "kind": "standard",
+      "access": "official-abstract"
+    },
+    {
+      "id": "EV-FEB-022",
+      "title": "Double Loop Learning in Organizations",
+      "url": "https://hbr.org/1977/09/double-loop-learning-in-organizations",
+      "kind": "original-practitioner-research",
+      "access": "article-page"
+    },
+    {
+      "id": "EV-FEB-023",
+      "title": "American Society for Cybernetics Definitions",
+      "url": "https://www.asc-cybernetics.org/foundations/definitions.htm",
+      "kind": "curated-secondary-source",
+      "access": "full-web"
+    },
+    {
+      "id": "EV-FEB-024",
+      "title": "FIPA Agent Management Specification",
+      "url": "https://www.fipa.org/specs/fipa00023/SC00023J.html",
+      "kind": "standard",
+      "access": "full-web"
+    },
+    {
+      "id": "EV-FEB-025",
+      "title": "Developing Multiagent Systems: The Gaia Methodology",
+      "url": "https://eprints.soton.ac.uk/258540/",
+      "kind": "original-peer-reviewed-research",
+      "access": "repository-record"
+    },
+    {
+      "id": "EV-FEB-026",
+      "title": "NIST AI Agent Standards Initiative",
+      "url": "https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative",
+      "kind": "official-current-initiative",
+      "access": "full-web"
+    },
+    {
+      "id": "EV-FEB-027",
+      "title": "Reproducibility and Replicability in Science Highlights",
+      "url": "https://nap.nationalacademies.org/resource/25303/R%26R.pdf",
+      "kind": "national-academies-report",
+      "access": "full-pdf-highlights"
+    },
+    {
+      "id": "EV-FEB-028",
+      "title": "SWEBOK v4 Resources",
+      "url": "https://www.computer.org/education/bodies-of-knowledge/software-engineering/resources/",
+      "kind": "professional-body-body-of-knowledge",
+      "access": "full-web"
+    },
+    {
+      "id": "EV-FEB-029",
+      "title": "UK-SPEC",
+      "url": "https://www.engc.org.uk/our-role-as-regulator/setting-standards/professional-engineering-competence-and-commitment",
+      "kind": "professional-competency-standard",
+      "access": "full-web"
+    },
+    {
+      "id": "EV-FEB-030",
+      "title": "NSPE Code of Ethics",
+      "url": "https://www.nspe.org/career-growth/nspe-code-ethics-engineers",
+      "kind": "professional-ethics-code",
+      "access": "full-web"
+    }
+  ],
+  "repository_observations": [
+    {
+      "id": "EV-FEB-R01",
+      "claim": "FE has an executable internal research program.",
+      "confidence": "high"
+    },
+    {
+      "id": "EV-FEB-R02",
+      "claim": "Current canonical repository authority does not support discipline status.",
+      "confidence": "high"
+    },
+    {
+      "id": "EV-FEB-R03",
+      "claim": "Incremental causal value over matched adjacent practices is untested.",
+      "confidence": "high"
+    },
+    {
+      "id": "EV-FEB-R04",
+      "claim": "ROS-FE Profile v1.0 is executable pilot infrastructure with execution-boundary validation gaps.",
+      "confidence": "high"
+    },
+    {
+      "id": "EV-FEB-R05",
+      "claim": "FE lacks independent institutional markers of an established engineering discipline.",
+      "confidence": "moderate-high"
+    }
+  ],
+  "comparators": [
+    {
+      "id": "systems-engineering",
+      "strongest_subsumption": "Treat the framework as a conceptual system and FE as a tailored lifecycle profile.",
+      "residual": "General systems engineering does not foreground cross-domain analytical frameworks or FE-specific record conventions.",
+      "individual_full_subsumption": false
+    },
+    {
+      "id": "method-engineering",
+      "strongest_subsumption": "Framework construction, decomposition, assembly, and tailoring are method-engineering operations.",
+      "residual": "Not every analytical framework is an executable method; FE binds evidence and machine handoff more tightly.",
+      "individual_full_subsumption": false
+    },
+    {
+      "id": "requirements-engineering",
+      "strongest_subsumption": "Purpose, constraints, acceptance, traceability, and change are requirements concerns.",
+      "residual": "Requirements do not exhaust framework semantics or behavior.",
+      "individual_full_subsumption": false
+    },
+    {
+      "id": "knowledge-and-ontology-engineering",
+      "strongest_subsumption": "Concepts, relations, semantics, inference, interoperability, and provenance use existing knowledge-representation methods.",
+      "residual": "Semantic validity does not establish procedure, decision utility, or empirical validity.",
+      "individual_full_subsumption": false
+    },
+    {
+      "id": "decision-analysis",
+      "strongest_subsumption": "Decision-oriented frameworks must be evaluated as interventions on decision quality under uncertainty.",
+      "residual": "Some frameworks explain, classify, diagnose, or coordinate without directly selecting alternatives.",
+      "individual_full_subsumption": false
+    },
+    {
+      "id": "cybernetics",
+      "strongest_subsumption": "Observation, feedback, adaptation, and framework evolution instantiate established control concepts.",
+      "residual": "Cybernetics does not prescribe FE record or evidence schemas.",
+      "individual_full_subsumption": false
+    },
+    {
+      "id": "quality-engineering",
+      "strongest_subsumption": "Measurement, validation gates, defects, experiment design, and controlled improvement are quality-engineering mechanisms.",
+      "residual": "Quality engineering requires a defined object but does not foreground framework semantics.",
+      "individual_full_subsumption": false
+    },
+    {
+      "id": "organizational-learning-and-knowledge-management",
+      "strongest_subsumption": "Durable records, contradiction retention, retrospectives, and governing-assumption revision are learning and KM mechanisms.",
+      "residual": "These fields do not necessarily supply an engineering grammar for a single framework artifact.",
+      "individual_full_subsumption": false
+    },
+    {
+      "id": "agent-orchestration",
+      "strongest_subsumption": "Identity, roles, services, interaction, lifecycle, handoff, and coordination are multi-agent engineering concerns.",
+      "residual": "Agent engineering does not make the analytical framework the artifact under study.",
+      "individual_full_subsumption": false
+    },
+    {
+      "id": "design-science-research",
+      "strongest_subsumption": "Frameworks are design artifacts whose utility, quality, efficacy, mechanisms, and side effects require evaluation.",
+      "residual": "Design science is artifact-generic and does not supply the FE-specific record model.",
+      "individual_full_subsumption": false
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-FEB-001",
+      "statement": "No clearly non-subsumed FE causal mechanism was identified.",
+      "evidence_ids": [
+        "FE-BND-2026-07-28-MATRIX"
+      ],
+      "confidence": "moderate"
+    },
+    {
+      "id": "F-FEB-002",
+      "statement": "No single adjacent field fully subsumes the exact FE object-and-integration boundary.",
+      "evidence_ids": [
+        "EV-FEB-002",
+        "EV-FEB-008",
+        "EV-FEB-014"
+      ],
+      "confidence": "moderate"
+    },
+    {
+      "id": "F-FEB-003",
+      "statement": "Adjacent fields collectively provide substantial functional subsumption of current FE mechanisms.",
+      "evidence_ids": [
+        "FE-BND-2026-07-28-MATRIX"
+      ],
+      "confidence": "moderate-high"
+    },
+    {
+      "id": "F-FEB-004",
+      "statement": "FE is currently an executable repository-centered research program.",
+      "evidence_ids": [
+        "EV-FEB-R01",
+        "EV-FEB-R02"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "F-FEB-005",
+      "statement": "The integrated-profile classification is the strongest current normative model.",
+      "evidence_ids": [
+        "F-FEB-001",
+        "F-FEB-002",
+        "F-FEB-003",
+        "F-FEB-004"
+      ],
+      "confidence": "moderate"
+    },
+    {
+      "id": "F-FEB-006",
+      "statement": "Comparative outcome evidence is required before claiming incremental utility.",
+      "evidence_ids": [
+        "EV-FEB-015",
+        "EV-FEB-019",
+        "EV-FEB-027",
+        "EV-FEB-R03"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "hypothesis_update": {
+    "id": "FEH-001",
+    "prior": "low",
+    "posterior_for_distinct_discipline": "very-low",
+    "posterior_for_coherent_integrated_profile": "moderate",
+    "posterior_for_incremental_utility": "very-low",
+    "posterior_for_external_generality": "low",
+    "falsification_status": "distinct-discipline interpretation not supported; collective functional subsumption substantially supported; utility unresolved"
+  },
+  "decision": {
+    "id": "DF-FE-BOUNDARY-2026-07-28",
+    "classification": [
+      "repository-centered-research-program",
+      "candidate-integrated-engineering-profile"
+    ],
+    "rejected_current_claim": "established-distinct-engineering-discipline",
+    "next_gate": "incremental-utility-matched-comparison",
+    "protected_baseline": "RP-FE-ROS-2026-A001@1.0.0",
+    "status": "proposed-for-governance-review"
+  },
+  "limitations": [
+    "Several standards were assessed through official abstracts rather than full normative text.",
+    "No systematic bibliometric review or practitioner interview study was performed.",
+    "The source set cannot establish FE efficacy.",
+    "Knowledge engineering, cybernetics, and agent engineering are internally diverse and evolving.",
+    "Negative exact-term search is bounded evidence, not proof of absence."
+  ],
+  "derived_artifacts": [
+    "README.md",
+    "RP-FE-BOUNDARY-2026-07-28.md",
+    "source-registry.md",
+    "comparison-matrix.md",
+    "candidate-definitions.md",
+    "architecture-and-operating-model.md",
+    "ros-fe-profile-v1-audit.md",
+    "next-experiment.md",
+    "research-journal.md",
+    "HANDOFF.md"
+  ],
+  "change_summary": "Narrows FE from a discipline claim to a repository research program and candidate integrated profile, records collective functional subsumption, and selects a matched incremental-utility experiment."
+}

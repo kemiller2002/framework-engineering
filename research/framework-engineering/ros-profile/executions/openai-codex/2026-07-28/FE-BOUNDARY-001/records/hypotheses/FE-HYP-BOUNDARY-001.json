@@ -1,0 +1,26 @@
+{
+  "id": "FE-HYP-BOUNDARY-001",
+  "title": "Framework Engineering integrated-profile incremental-value hypothesis",
+  "record_type": "framework-hypothesis",
+  "status": "execution-draft-open",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "very-low",
+  "completion": "hypothesis-specified-not-tested",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "statement": "For bounded analytical-framework tasks, the full FE integration improves downstream correct action and evidence integrity over a feature-, effort-, and documentation-matched composition of established adjacent practices without unacceptable lifecycle cost.",
+  "falsification_criteria": [
+    "preregistered equivalence between FE and the matched adjacent profile",
+    "benefits disappear after documentation dose and presentation are matched",
+    "FE-specific ablation performs equivalently to full FE",
+    "quality gain is outweighed by lifecycle cost or cognitive burden",
+    "effects fail independent held-out replication"
+  ],
+  "evidence_ids": [
+    "FE-COMP-BOUNDARY-001",
+    "FE-OBS-BOUNDARY-001",
+    "FE-CONTRA-BOUNDARY-001"
+  ],
+  "relationship_to_FEH_001": "Operational successor hypothesis for the remaining integrated-profile interpretation."
+}

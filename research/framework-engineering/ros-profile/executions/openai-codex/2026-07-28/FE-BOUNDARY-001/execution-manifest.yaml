@@ -1,0 +1,30 @@
+{
+  "execution_id": "FE-BOUNDARY-001",
+  "provider": "openai-codex",
+  "date": "2026-07-28",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "research_stream": "FE-MISSION-001",
+  "write_root": "executions/openai-codex/2026-07-28/FE-BOUNDARY-001",
+  "role": "research-synthesist-and-critical-method-engineer",
+  "research_question": "Does Framework Engineering have a useful non-redundant boundary relative to adjacent disciplines, or is it better classified as an integrated method profile or repository-specific research program?",
+  "allowed_artifact_types": [
+    "source",
+    "framework-comparative-study",
+    "framework-observation",
+    "framework-contradiction",
+    "framework-hypothesis",
+    "framework-synthesis",
+    "framework-experiment-proposal"
+  ],
+  "synthetic": false,
+  "artifact_tier": "full-rep",
+  "comparison_dimensions_frozen_in": "pre-registration.md",
+  "stop_conditions": [
+    "evidence saturation",
+    "credible full subsumption established",
+    "material primary-source access gap documented",
+    "validation failure",
+    "write-boundary violation"
+  ],
+  "canonical_output_authorized": "Successor proposal package under research/evaluations/FE-BOUNDARY-2026-07-28; no canonical theory promotion."
+}

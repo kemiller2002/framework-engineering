@@ -1,0 +1,17 @@
+{
+  "id": "FE-SRC-BOUNDARY-LEARNING-001",
+  "title": "Knowledge management, organizational learning, cybernetics, and agent source set",
+  "record_type": "source",
+  "status": "execution-draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "moderate-high-for-scope",
+  "completion": "complete-source-set",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "citation": ["EV-FEB-021", "EV-FEB-022", "EV-FEB-023", "EV-FEB-024", "EV-FEB-025", "EV-FEB-026"],
+  "source_kind": "standard-original-research-curated-secondary-and-current-initiative-set",
+  "retrieved": "2026-07-28",
+  "access_limit": "cybernetics source is a curated secondary compilation; current agent standards remain emerging",
+  "derived_artifact": "research/evaluations/FE-BOUNDARY-2026-07-28/source-registry.md"
+}

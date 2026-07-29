@@ -1,0 +1,50 @@
+{
+  "id": "FE-EXP-UTILITY-001",
+  "title": "Framework Engineering incremental-utility matched comparison",
+  "record_type": "framework-experiment-proposal",
+  "status": "execution-draft-proposed-not-preregistered",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "moderate-for-design",
+  "completion": "design-ready-for-power-analysis",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "hypothesis_ids": [
+    "FE-HYP-BOUNDARY-001"
+  ],
+  "protocol": {
+    "arms": [
+      "minimal-structured-baseline",
+      "matched-adjacent-practice-profile",
+      "full-framework-engineering-profile",
+      "framework-engineering-specific-component-ablation"
+    ],
+    "primary_contrast": "full-framework-engineering-profile versus matched-adjacent-practice-profile",
+    "mechanism_contrast": "full-framework-engineering-profile versus framework-engineering-specific-component-ablation",
+    "co_primary_outcomes": [
+      "blinded-downstream-correct-action",
+      "evidence-integrity"
+    ],
+    "required_controls": [
+      "documentation-dose-match",
+      "presentation-normalization",
+      "independent-comparator-authorship",
+      "hidden-tasks",
+      "provider-blocking",
+      "blind-evaluation",
+      "lifecycle-cost-telemetry"
+    ]
+  },
+  "stop_conditions": [
+    "arm matching cannot be achieved",
+    "evaluator blinding fails",
+    "benchmark leakage is detected",
+    "source privacy or licensing fails",
+    "safety exceeds approved study boundary",
+    "post-unblinding protocol change would be required"
+  ],
+  "evidence_ids": [
+    "FE-SYN-BOUNDARY-001"
+  ],
+  "derived_artifact": "research/evaluations/FE-BOUNDARY-2026-07-28/next-experiment.md"
+}

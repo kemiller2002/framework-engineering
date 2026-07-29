@@ -1,0 +1,17 @@
+{
+  "id": "FE-SRC-BOUNDARY-METHOD-001",
+  "title": "Method, requirements, knowledge, and provenance boundary source set",
+  "record_type": "source",
+  "status": "execution-draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "high-for-scope",
+  "completion": "complete-source-set",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "citation": ["EV-FEB-008", "EV-FEB-009", "EV-FEB-010", "EV-FEB-011", "EV-FEB-012", "EV-FEB-013"],
+  "source_kind": "original-research-and-official-standard-set",
+  "retrieved": "2026-07-28",
+  "access_limit": "some sources available as metadata or official abstract",
+  "derived_artifact": "research/evaluations/FE-BOUNDARY-2026-07-28/source-registry.md"
+}

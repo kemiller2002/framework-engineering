@@ -1,0 +1,17 @@
+{
+  "id": "FE-SRC-BOUNDARY-SE-001",
+  "title": "Systems engineering and architecture boundary source set",
+  "record_type": "source",
+  "status": "execution-draft",
+  "version": "1.0.0",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "confidence": "high-for-scope",
+  "completion": "complete-source-set",
+  "profile": "RP-FE-ROS-2026-A001@1.0.0",
+  "citation": ["EV-FEB-001", "EV-FEB-002", "EV-FEB-003", "EV-FEB-004", "EV-FEB-005", "EV-FEB-006", "EV-FEB-007", "EV-FEB-018"],
+  "source_kind": "official-standards-professional-body-and-handbook-set",
+  "retrieved": "2026-07-28",
+  "access_limit": "ISO sources restricted to official abstracts; INCOSE handbook restricted to landing-page claims",
+  "derived_artifact": "research/evaluations/FE-BOUNDARY-2026-07-28/source-registry.md"
+}
