@@ -1,19 +1,18 @@
 export default {
   site: {
     title: "Framework Engineering Research",
-    description: "Searchable research, evidence, methods, and knowledge artifacts for Framework Engineering",
-    baseUrl: "/Framework-engineering/",
+    description:
+      "Searchable research, evidence, methods, and knowledge artifacts for Framework Engineering",
+    baseUrl: "/",
     language: "en",
-    siteUrl: "https://kemiller2002.github.io"
+    siteUrl: "https://framework.echelonfoundry.com",
   },
   repository: {
     name: "Framework-engineering",
-    sourceUrl: "https://github.com/kemiller2002/Framework-engineering"
+    sourceUrl: "https://github.com/kemiller2002/Framework-engineering",
   },
   content: {
-    include: [
-      "**/*.md"
-    ],
+    include: ["**/*.md"],
     exclude: [
       "node_modules/**",
       "**/node_modules/**",
@@ -49,17 +48,17 @@ export default {
       "research/evaluations/FE-BOUNDARY-2026-07-24-v1.1/recognition-pretest/instructions.md",
       "research/evaluations/FE-BOUNDARY-2026-07-24-v1.1/reviewer-packets/instructions.md",
       "research/evaluations/FE-BOUNDARY-2026-07-24-v1.1/reviews/claude-informal-preview-NON-BINDING.md",
-      "research/**/generated/**"
+      "research/**/generated/**",
     ],
-    drafts: false
+    drafts: false,
   },
   metadata: {
     mode: "compatible",
-    strictInCI: false
+    strictInCI: false,
   },
   output: {
     directory: "dist",
     catalog: "data/research-catalog.json",
-    diagnostics: "data/build-diagnostics.json"
-  }
+    diagnostics: "data/build-diagnostics.json",
+  },
 };
