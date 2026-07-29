@@ -275,6 +275,11 @@
       "id": "EV-FEB-R05",
       "claim": "FE lacks independent institutional markers of an established engineering discipline.",
       "confidence": "moderate-high"
+    },
+    {
+      "id": "EV-FEB-R06",
+      "claim": "EX-FE-0002 remains Stage A incomplete, Stage B blocked, and experimentally inconclusive; its machine-only v1.2 pilot is incomplete, and EX-FE-0003 has no execution data.",
+      "confidence": "high"
     }
   ],
   "comparators": [
@@ -396,6 +401,14 @@
         "EV-FEB-R03"
       ],
       "confidence": "high"
+    },
+    {
+      "id": "F-FEB-007",
+      "statement": "The proposed synthesis does not satisfy or override the existing independent gates in EX-FE-0002.",
+      "evidence_ids": [
+        "EV-FEB-R06"
+      ],
+      "confidence": "high"
     }
   ],
   "hypothesis_update": {
@@ -415,13 +428,16 @@
     ],
     "rejected_current_claim": "established-distinct-engineering-discipline",
     "next_gate": "incremental-utility-matched-comparison",
+    "entry_dependency": "complete or explicitly supersede EX-FE-0002 mechanism-boundary gates",
     "protected_baseline": "RP-FE-ROS-2026-A001@1.0.0",
+    "controlling_experimental_state": "EX-FE-0002 inconclusive; Stage A incomplete; Stage B blocked",
     "status": "proposed-for-governance-review"
   },
   "limitations": [
     "Several standards were assessed through official abstracts rather than full normative text.",
     "No systematic bibliometric review or practitioner interview study was performed.",
     "The source set cannot establish FE efficacy.",
+    "The execution does not satisfy EX-FE-0002 independent audit, blinding, recognition, key-custody, or reviewer gates.",
     "Knowledge engineering, cybernetics, and agent engineering are internally diverse and evolving.",
     "Negative exact-term search is bounded evidence, not proof of absence."
   ],

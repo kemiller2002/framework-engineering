@@ -20,6 +20,22 @@ repositoryBaseline: c830902195f22d02c820f55a2321f3e9214242a3
 
 # FE incremental-utility matched comparison
 
+## Entry dependency
+
+This proposal is the next **outcome** experiment, not authority to bypass the
+existing mechanism-boundary experiment. `EX-FE-0002` remains Stage A
+incomplete, Stage B blocked, and experimentally inconclusive. Before this
+study is preregistered:
+
+1. use the 2026-07-28 source registry as candidate input to repair
+   `EX-FE-0002` comparator coverage;
+2. complete its independent completeness, blinding, recognition, sealed-key,
+   and reviewer gates and obtain the Stage B result; or
+3. create an authorized successor decision that explicitly supersedes that
+   protocol and preserves its unresolved threats.
+
+`EX-FE-0003` also has no execution data and supplies no efficacy evidence.
+
 ## Decision this experiment must enable
 
 Does the FE integration provide incremental, reproducible net value over a
@@ -212,18 +228,21 @@ scientific thresholds.
 
 ## Execution sequence
 
-1. Appoint experiment owner, statistician/method reviewer, benchmark author,
+1. Complete or formally supersede the `EX-FE-0002` mechanism-boundary gate.
+2. Use its adjudicated component mappings to finalize the full and ablation
+   arms.
+3. Appoint experiment owner, statistician/method reviewer, benchmark author,
    adjacent-practice reviewer, and decision authority.
-2. Build benchmark and scoring manual without treatment outputs.
-3. Pilot manipulation, blinding, rubrics, cost telemetry, and analysis code.
-4. Freeze minimum effects, equivalence bounds, sample size, exclusions, and
+4. Build benchmark and scoring manual without treatment outputs.
+5. Pilot manipulation, blinding, rubrics, cost telemetry, and analysis code.
+6. Freeze minimum effects, equivalence bounds, sample size, exclusions, and
    analysis.
-5. Register the protocol and hashes before revealing study cases.
-6. Execute Stage A artificial evaluation.
-7. Replicate on held-out providers and tasks.
-8. Only if Stage A discriminates and survives replication, run a Stage B
-   naturalistic field evaluation.
-9. Publish result and decision packet regardless of direction.
+7. Register the protocol and hashes before revealing study cases.
+8. Execute the artificial evaluation.
+9. Replicate on held-out providers and tasks.
+10. Only if the artificial study discriminates and survives replication, run
+    a naturalistic field evaluation.
+11. Publish result and decision packet regardless of direction.
 
 ## Stop conditions
 
@@ -240,4 +259,3 @@ Do not build general automatic framework generation, credentialing,
 organization-wide mandates, or autonomous canonical promotion before this
 experiment and an independent replication establish a benefit worth the
 cost.
-

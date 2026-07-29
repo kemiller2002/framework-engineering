@@ -73,6 +73,7 @@ institutional maturity, not proof that FE is useful or unnecessary.
 | EV-FEB-R03 | Existing experiments primarily test representation stability, traceability, and workflow mechanics; none is a matched test against adjacent methods with independent outcome evaluation. | Incremental causal value is untested. | high |
 | EV-FEB-R04 | ROS–FE Profile v1.0 validates canonical records and generated registries, but not the content of execution-local draft records or complete execution packets. | The operating profile is useful pilot infrastructure with enforceability gaps. | high |
 | EV-FEB-R05 | FE has no demonstrated independent practitioner community, accredited curriculum, professional competency model, ethics code, credentialing route, external body of knowledge, or field standard. | Institutional maturity is far below established engineering disciplines. | moderate-high |
+| EV-FEB-R06 | `EX-FE-0002` is a strong blinded mechanism-boundary protocol, but its controlling v1.1 record remains Stage A incomplete, Stage B blocked, and classification inconclusive; its machine-only v1.2 pilot is incomplete. `EX-FE-0003` records no execution data. | This review can propose a synthesis and source repair, but it cannot claim to have completed the prior experiment or produced matched outcome evidence. | high |
 
 ## Negative search evidence
 
@@ -97,4 +98,3 @@ Residual limitations remain:
   institutional boundaries.
 - Literature cannot answer the central causal question: whether using the FE
   profile produces better net outcomes than matched alternatives.
-

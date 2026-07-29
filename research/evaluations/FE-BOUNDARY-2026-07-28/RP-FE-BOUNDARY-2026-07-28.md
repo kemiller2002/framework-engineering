@@ -67,6 +67,13 @@ and agent engineering supply the remaining controls.
 The distinction that remains is a **profile boundary**, not a demonstrated
 discipline boundary. Its value must be tested.
 
+This REP is a proposed successor synthesis, not an experimental override.
+`EX-FE-0002` remains Stage A incomplete, Stage B blocked, and experimentally
+inconclusive. This execution supplies a broad source registry and
+subsumption analysis that can repair part of its input gap, but it does not
+satisfy independent curation/audit, blinding, recognition, sealed-key, or
+reviewer gates. `EX-FE-0003` has no execution data.
+
 ## 2. Research question and candidate explanations
 
 **Question:** Does FE have a useful non-redundant boundary relative to
@@ -174,6 +181,14 @@ while controlling provider, task, documentation dose, and evaluation
 conditions. Existing work cannot distinguish FE-specific effects from
 generic structure, prompting, recognition, or review effort. [EV-FEB-R03]
 
+### F8 — Prior experiment gates remain controlling
+
+`EX-FE-0002` already specifies a stronger blinded mechanism-boundary test.
+Its v1.1 Stage A gate is incomplete and Stage B is blocked; the machine-only
+v1.2 pilot is also incomplete. `EX-FE-0003` is defined but its final analysis
+records no execution data. This review does not convert those missing runs
+into evidence. [EV-FEB-R06]
+
 ## 5. Definition and boundary
 
 ### 5.1 Current-state definition
@@ -250,6 +265,12 @@ classification should govern present work.
 replicated evidence establishes or falsifies incremental value, or when a
 stronger systematic review demonstrates individual full subsumption.
 
+**Compatibility with existing experiment authority:** before the utility
+study is treated as the next executable run, use this source packet to repair
+and complete the independent Stage A/Stage B decision path in `EX-FE-0002`,
+or record an authorized decision explaining why the mechanism test is
+superseded. Until then its `inconclusive` classification remains controlling.
+
 ## 8. Operating-system result
 
 The accepted v1.0 profile passes its current tests and registry workflow. It
@@ -305,6 +326,11 @@ result against the adjacent profile triggers renaming/simplification; a
 replicated benefit justifies continued profile research, not immediate
 discipline status.
 
+Execution dependency: complete or explicitly supersede the still-blocked
+`EX-FE-0002` mechanism-boundary protocol first. Its blinded mapping can
+identify which FE components merit the ablation and prevent an outcome study
+from testing an undefined bundle.
+
 ## 11. Claim traceability
 
 | Claim | Record evidence | External evidence | Confidence |
@@ -353,6 +379,8 @@ discipline status.
 - Exact-term negative search does not prove no external field exists.
 - No external practitioner adjudicated the steelman descriptions.
 - No new efficacy study was run.
+- Existing `EX-FE-0002` and `EX-FE-0003` experimental gates remain
+  incomplete; this same-provider synthesis is not their substitute.
 - The matched experiment still needs independent method review, power
   analysis, case construction, and preregistration.
 
@@ -376,3 +404,20 @@ preregistration, followed by the matched artificial evaluation. A successor
 must preserve null and negative outcomes and update this package through a
 new record, never by erasing the current result.
 
+## 16. Verification
+
+At closure:
+
+- all new JSON parsed successfully, and all 11 execution-local records passed
+  a separate required-field, profile-identity, and unique-ID check;
+- profile registry generation and validation passed;
+- profile tests passed 2/2;
+- experiment tests passed 7/7;
+- all ten registered experiments verified;
+- research validation passed;
+- the research publisher built 1,267 pages and indexed 1,200 in the final
+  current-worktree build;
+- ROS rebuilt six affected registries, validated successfully, and reported
+  registries current.
+
+These are conformance and publication results, not efficacy evidence.

@@ -34,12 +34,15 @@ operating path.
 - Individual full subsumption: not established.
 - Collective functional subsumption: substantially supported.
 - Deciding unknown: incremental outcome value net of lifecycle cost.
+- Controlling experiment: `EX-FE-0002` remains Stage A incomplete, Stage B
+  blocked, and classification inconclusive.
 
 ## Next action
 
-Obtain independent systems/method engineering and quantitative-method review,
-freeze the power analysis and thresholds, implement only the v1.1 P0
-integrity controls needed for the study, then preregister and run the
+Use the source packet to repair and complete or formally supersede
+`EX-FE-0002`. Then obtain independent systems/method engineering and
+quantitative-method review, freeze power and thresholds, implement only the
+v1.1 P0 integrity controls needed for the study, and preregister the
 artificial matched comparison.
 
 ## Scientific constraints

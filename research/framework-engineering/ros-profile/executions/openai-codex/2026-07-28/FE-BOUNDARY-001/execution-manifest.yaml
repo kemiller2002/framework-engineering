@@ -19,6 +19,19 @@
   "synthetic": false,
   "artifact_tier": "full-rep",
   "comparison_dimensions_frozen_in": "pre-registration.md",
+  "execution_status": "complete",
+  "source_count": 30,
+  "draft_record_count": 11,
+  "outputs": [
+    "research/evaluations/FE-BOUNDARY-2026-07-28/",
+    "records/sources/",
+    "records/comparative-studies/FE-COMP-BOUNDARY-001.json",
+    "records/observations/FE-OBS-BOUNDARY-001.json",
+    "records/contradictions/FE-CONTRA-BOUNDARY-001.json",
+    "records/hypotheses/FE-HYP-BOUNDARY-001.json",
+    "records/syntheses/FE-SYN-BOUNDARY-001.json",
+    "records/experiment-proposals/FE-EXP-UTILITY-001.json"
+  ],
   "stop_conditions": [
     "evidence saturation",
     "credible full subsumption established",

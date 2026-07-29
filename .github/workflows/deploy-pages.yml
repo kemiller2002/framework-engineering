@@ -35,6 +35,38 @@ jobs:
       - name: Build research site
         run: npm run research:build
 
+      - name: Show research-publisher diagnostics
+        if: failure()
+        continue-on-error: true
+        shell: bash
+        run: |
+          diagnostics_file="build-reports/build-diagnostics.json"
+          if [ -f "$diagnostics_file" ]; then
+            if command -v jq >/dev/null 2>&1; then
+              jq '.diagnostics[] | select(.severity == "error")' "$diagnostics_file"
+            else
+              node -e '
+              const fs = require("node:fs");
+              const report = JSON.parse(fs.readFileSync(process.argv[1], "utf8"));
+              const errors = (report.diagnostics || []).filter(
+                diagnostic => diagnostic.severity === "error"
+              );
+              console.log(JSON.stringify(errors, null, 2));
+              ' "$diagnostics_file"
+            fi
+          else
+            echo "research-publisher did not produce $diagnostics_file"
+          fi
+
+      - name: Upload research-publisher diagnostics
+        if: failure()
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-publisher-diagnostics
+          path: build-reports/
+          if-no-files-found: warn
+
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:

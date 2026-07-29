@@ -49,6 +49,10 @@ Current classification:
 - candidate integrated engineering profile;
 - not an established distinct engineering discipline.
 
+Authority note: this is the successor package's proposed classification.
+`EX-FE-0002` remains experimentally inconclusive with Stage A incomplete and
+Stage B blocked. `EX-FE-0003` remains unexecuted.
+
 Assumptions:
 
 - “framework” means the bounded analytical artifact defined in
@@ -73,9 +77,23 @@ source limitations.
 
 ## Tests and validation
 
-The final handoff must record the exact commands and results after package
-validation, registry rebuilding, research build, and ROS validation. Do not
-infer them from earlier baseline checks.
+- New package and execution JSON: parsed successfully with `jq`; a separate
+  execution-draft check validated inherited/type-specific required fields,
+  profile identity, and unique IDs for all 11 draft records.
+- `npm run ros-fe:registry`: passed; execution registry rebuilt.
+- `npm run ros-fe:validate`: passed.
+- `npm run ros-fe:test`: 2/2 passed.
+- `npm run experiments:test`: 7/7 passed.
+- `npm run experiments:verify`: all ten registered experiments verified.
+- `npm run research:validate`: passed.
+- `npm run research:build`: passed; 1,267 pages built and 1,200 indexed in
+  the final current-worktree build.
+- ROS `./ros registry build`: six affected registries rebuilt.
+- ROS `./ros validate`: passed.
+- ROS `./ros registry check`: current.
+
+These results establish repository and publishing conformance in the tested
+scope. They do not establish FE efficacy.
 
 ## Unresolved questions
 
@@ -100,11 +118,13 @@ infer them from earlier baseline checks.
 
 ## Next recommended action
 
-Convene a design review with an adjacent-method reviewer and quantitative
-method reviewer. Revise `next-experiment.md`, freeze the protocol and power
-analysis in a successor preregistration, implement only the v1.1 P0 integrity
-controls required for trustworthy execution, and run the artificial matched
-comparison. Publish the result regardless of direction.
+Use this source registry to repair `EX-FE-0002`, then complete its independent
+audit, blinding, recognition, key-custody, and reviewer gates—or create an
+authorized supersession decision. After the mechanism boundary is
+adjudicated, convene an adjacent-method and quantitative-method review,
+finalize `next-experiment.md`, implement only the v1.1 P0 integrity controls
+required for trustworthy execution, preregister, and run the artificial
+matched comparison. Publish every result direction.
 
 ## Cold-start test
 
@@ -123,4 +143,3 @@ A successor should be able to answer:
 
 If these answers cannot be reconstructed from this package alone, the handoff
 has failed and must be repaired before new work begins.
-

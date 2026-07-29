@@ -2,3 +2,5 @@ node_modules/
 dist/
 .research-publisher/
 build-reports/
+
+.visual-engineering/

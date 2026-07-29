@@ -210,6 +210,11 @@ research workspace.
 The immediate goal is G3, not curriculum, credentialing, or discipline
 branding.
 
+The controlling `EX-FE-0002` mechanism-boundary experiment is a dependency
+inside G2: it remains Stage A incomplete and Stage B blocked. This package's
+same-provider source synthesis is candidate repair input, not satisfaction of
+its independence, blinding, recognition, or review requirements.
+
 ## Architectural decisions
 
 - Preserve v1.0 as the accepted pilot; propose compatible v1.1 changes.
@@ -224,4 +229,5 @@ branding.
 - Record accepted research exports as releases with a receiving owner.
 - Delay automatic framework generation and autonomous theory mutation until
   G3–G5 evidence exists.
-
+- Complete or explicitly supersede `EX-FE-0002` before starting the matched
+  outcome experiment; preserve its inconclusive state until then.

@@ -47,6 +47,13 @@ cover nearly all claimed mechanisms. The remaining candidate boundary is an
 integration and application boundary, not yet a distinctive causal
 mechanism.
 
+This is a **proposed successor finding**. It does not overwrite the
+controlling `EX-FE-0002` state: Stage A remains incomplete, Stage B remains
+blocked, and its experimental boundary classification remains inconclusive.
+The source package can repair part of that experiment's coverage gap, but it
+does not supply its independent audit, blinding, recognition, sealed-key, or
+reviewer gates. `EX-FE-0003` also remains unexecuted.
+
 ## Package map
 
 | Order | Artifact | Purpose |
@@ -65,6 +72,8 @@ mechanism.
 ## Authority and use
 
 - Findings are current and provisional.
+- The accepted experimental state remains inconclusive until its independent
+  gates and governance review are completed.
 - External sources establish scope, overlap, and maturity comparisons; they
   do not establish FE efficacy.
 - Repository tests establish only that current tooling executes as tested.
@@ -79,4 +88,3 @@ the discipline claim, identifies a defensible candidate profile, specifies
 the architecture needed for disciplined research, and selects the experiment
 that can discriminate FE-specific value from generic structure and
 documentation effects.
-

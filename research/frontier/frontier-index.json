@@ -1,0 +1,1244 @@
+{
+  "schema_version": "1.1.0",
+  "generated": "2026-07-28",
+  "status": "active",
+  "source_catalog": ".research-publisher/dist/data/catalog.json",
+  "coverage": {
+    "path": "coverage.json",
+    "summary": {
+      "publisher_catalog_records": 1246,
+      "eligible_status_records": 17,
+      "authority_exception_records": 23,
+      "unique_analyzed_records": 40,
+      "analyzed_catalog_records": 37,
+      "analyzed_non_catalog_authority_records": 3,
+      "excluded_catalog_records": 1209,
+      "eligible_unmapped_records": 0,
+      "analysis_units": 11,
+      "opportunity_records": 16,
+      "top_opportunity_assignments_before_semantic_merge": 55,
+      "unique_top_opportunities_after_semantic_merge": 16,
+      "semantic_merge_rate": 0.7091
+    }
+  },
+  "scoring": {
+    "formula": "knowledge_gain*potential_impact*cross_project_reuse*scientific_importance-dependency_cost-implementation_difficulty",
+    "input_scale": "integer 1-5 for every component",
+    "interpretation": "ordinal structured judgment, not measured utility"
+  },
+  "records": [
+    {
+      "id": "RFR-2026-001",
+      "title": "Negative non-isomorphic control benchmark",
+      "category": "Measurement",
+      "status": "open",
+      "rank": 1,
+      "frontier_score": 495,
+      "confidence": "high",
+      "estimated_effort": "medium",
+      "scoring": {
+        "knowledge_gain": 5,
+        "potential_impact": 5,
+        "cross_project_reuse": 5,
+        "scientific_importance": 4,
+        "dependency_cost": 2,
+        "implementation_difficulty": 3
+      },
+      "path": "records/RFR-2026-001.md",
+      "dependencies": [],
+      "origin_documents": [
+        "research/operating-system/evidence-dashboard/evidence-dashboard.json",
+        "research/operating-system/research-queue/research-queue.md",
+        "research/theory/falsification-criteria.md"
+      ]
+    },
+    {
+      "id": "RFR-2026-016",
+      "title": "Complete blinded mechanism-boundary adjudication",
+      "category": "Validation",
+      "status": "open",
+      "rank": 2,
+      "frontier_score": 492,
+      "confidence": "high",
+      "estimated_effort": "high",
+      "scoring": {
+        "knowledge_gain": 5,
+        "potential_impact": 5,
+        "cross_project_reuse": 5,
+        "scientific_importance": 4,
+        "dependency_cost": 4,
+        "implementation_difficulty": 4
+      },
+      "path": "records/RFR-2026-016.md",
+      "dependencies": [
+        "RFR-2026-001"
+      ],
+      "origin_documents": [
+        "research/framework-engineering/experiments/EX-FE-0002/START-HERE.md",
+        "research/evaluations/FE-BOUNDARY-2026-07-24-v1.1/stage-a-decision.md",
+        "research/evaluations/FE-BOUNDARY-2026-07-28/RP-FE-BOUNDARY-2026-07-28.md"
+      ]
+    },
+    {
+      "id": "RFR-2026-002",
+      "title": "Independent human procedural-extraction baseline",
+      "category": "Human Factors",
+      "status": "open",
+      "rank": 3,
+      "frontier_score": 491,
+      "confidence": "high",
+      "estimated_effort": "high",
+      "scoring": {
+        "knowledge_gain": 5,
+        "potential_impact": 5,
+        "cross_project_reuse": 5,
+        "scientific_importance": 4,
+        "dependency_cost": 4,
+        "implementation_difficulty": 5
+      },
+      "path": "records/RFR-2026-002.md",
+      "dependencies": [
+        "RFR-2026-001"
+      ],
+      "origin_documents": [
+        "research/operating-system/evidence-dashboard/evidence-dashboard.json",
+        "research/theory/theory-of-framework-engineering-v0.1.md",
+        "research/validation/validation-program.md"
+      ]
+    },
+    {
+      "id": "RFR-2026-003",
+      "title": "Matched incremental-utility experiment",
+      "category": "Experimentation",
+      "status": "open",
+      "rank": 4,
+      "frontier_score": 490,
+      "confidence": "high",
+      "estimated_effort": "high",
+      "scoring": {
+        "knowledge_gain": 5,
+        "potential_impact": 5,
+        "cross_project_reuse": 4,
+        "scientific_importance": 5,
+        "dependency_cost": 5,
+        "implementation_difficulty": 5
+      },
+      "path": "records/RFR-2026-003.md",
+      "dependencies": [
+        "RFR-2026-001",
+        "RFR-2026-016",
+        "RFR-2026-002"
+      ],
+      "origin_documents": [
+        "research/evaluations/FE-BOUNDARY-2026-07-28/RP-FE-BOUNDARY-2026-07-28.md",
+        "research/evaluations/FE-BOUNDARY-2026-07-28/next-experiment.md",
+        "research/theory/falsification-criteria.md"
+      ]
+    },
+    {
+      "id": "RFR-2026-004",
+      "title": "Recognition-control replication",
+      "category": "Validation",
+      "status": "open",
+      "rank": 5,
+      "frontier_score": 394,
+      "confidence": "high",
+      "estimated_effort": "medium",
+      "scoring": {
+        "knowledge_gain": 4,
+        "potential_impact": 4,
+        "cross_project_reuse": 5,
+        "scientific_importance": 5,
+        "dependency_cost": 3,
+        "implementation_difficulty": 3
+      },
+      "path": "records/RFR-2026-004.md",
+      "dependencies": [
+        "RFR-2026-001"
+      ],
+      "origin_documents": [
+        "research/operating-system/evidence-dashboard/evidence-dashboard.json",
+        "research/operating-system/research-queue/research-queue.md",
+        "research/operating-system/evidence-dashboard/evidence-dashboard.json"
+      ]
+    },
+    {
+      "id": "RFR-2026-005",
+      "title": "Reasoning-versus-coordination grammar test",
+      "category": "Theory",
+      "status": "open",
+      "rank": 6,
+      "frontier_score": 392,
+      "confidence": "medium",
+      "estimated_effort": "high",
+      "scoring": {
+        "knowledge_gain": 5,
+        "potential_impact": 4,
+        "cross_project_reuse": 4,
+        "scientific_importance": 5,
+        "dependency_cost": 4,
+        "implementation_difficulty": 4
+      },
+      "path": "records/RFR-2026-005.md",
+      "dependencies": [
+        "RFR-2026-002",
+        "RFR-2026-007"
+      ],
+      "origin_documents": [
+        "research/experiments/FE-012B-primitive-synthesis/methodological-review.md",
+        "research/theory/theory-of-framework-engineering-v0.1.md",
+        "research/theory/falsification-criteria.md"
+      ]
+    },
+    {
+      "id": "RFR-2026-006",
+      "title": "Blind corpus reliability and sampling audit",
+      "category": "Statistics",
+      "status": "open",
+      "rank": 7,
+      "frontier_score": 391,
+      "confidence": "high",
+      "estimated_effort": "high",
+      "scoring": {
+        "knowledge_gain": 4,
+        "potential_impact": 4,
+        "cross_project_reuse": 5,
+        "scientific_importance": 5,
+        "dependency_cost": 4,
+        "implementation_difficulty": 5
+      },
+      "path": "records/RFR-2026-006.md",
+      "dependencies": [],
+      "origin_documents": [
+        "research/corpus/statistics.md",
+        "docs/knowledge-artifacts/blind-review-protocol.md",
+        "research/theory/theory-of-framework-engineering-v0.1.md"
+      ]
+    },
+    {
+      "id": "RFR-2026-007",
+      "title": "Primitive-vocabulary saturation study",
+      "category": "Measurement",
+      "status": "open",
+      "rank": 8,
+      "frontier_score": 314,
+      "confidence": "medium",
+      "estimated_effort": "medium",
+      "scoring": {
+        "knowledge_gain": 4,
+        "potential_impact": 5,
+        "cross_project_reuse": 4,
+        "scientific_importance": 4,
+        "dependency_cost": 3,
+        "implementation_difficulty": 3
+      },
+      "path": "records/RFR-2026-007.md",
+      "dependencies": [
+        "RFR-2026-006"
+      ],
+      "origin_documents": [
+        "research/theory/falsification-criteria.md",
+        "research/theory/theory-of-framework-engineering-v0.1.md",
+        "research/corpus/statistics.md"
+      ]
+    },
+    {
+      "id": "RFR-2026-008",
+      "title": "ROS profile integrity and negative-test suite",
+      "category": "Engineering",
+      "status": "open",
+      "rank": 9,
+      "frontier_score": 295,
+      "confidence": "high",
+      "estimated_effort": "medium",
+      "scoring": {
+        "knowledge_gain": 4,
+        "potential_impact": 5,
+        "cross_project_reuse": 5,
+        "scientific_importance": 3,
+        "dependency_cost": 2,
+        "implementation_difficulty": 3
+      },
+      "path": "records/RFR-2026-008.md",
+      "dependencies": [],
+      "origin_documents": [
+        "research/evaluations/FE-BOUNDARY-2026-07-28/ros-fe-profile-v1-audit.md",
+        "research/framework-engineering/ros-profile/open-ros-gaps.md",
+        "research/framework-engineering/ros-profile/README.md"
+      ]
+    },
+    {
+      "id": "RFR-2026-009",
+      "title": "Cross-provider reproducibility semantics",
+      "category": "AI",
+      "status": "open",
+      "rank": 10,
+      "frontier_score": 250,
+      "confidence": "medium",
+      "estimated_effort": "medium",
+      "scoring": {
+        "knowledge_gain": 4,
+        "potential_impact": 4,
+        "cross_project_reuse": 4,
+        "scientific_importance": 4,
+        "dependency_cost": 3,
+        "implementation_difficulty": 3
+      },
+      "path": "records/RFR-2026-009.md",
+      "dependencies": [
+        "RFR-2026-008"
+      ],
+      "origin_documents": [
+        "research/operating-system/evidence-dashboard/evidence-dashboard.json",
+        "research/framework-engineering/ros-profile/open-ros-gaps.md",
+        "research/evaluations/FE-BOUNDARY-2026-07-28/ros-fe-profile-v1-audit.md"
+      ]
+    },
+    {
+      "id": "RFR-2026-010",
+      "title": "Systematic boundary and practitioner study",
+      "category": "Theory",
+      "status": "open",
+      "rank": 11,
+      "frontier_score": 246,
+      "confidence": "medium",
+      "estimated_effort": "high",
+      "scoring": {
+        "knowledge_gain": 4,
+        "potential_impact": 4,
+        "cross_project_reuse": 4,
+        "scientific_importance": 4,
+        "dependency_cost": 5,
+        "implementation_difficulty": 5
+      },
+      "path": "records/RFR-2026-010.md",
+      "dependencies": [],
+      "origin_documents": [
+        "research/evaluations/FE-BOUNDARY-2026-07-28/RP-FE-BOUNDARY-2026-07-28.md",
+        "research/evaluations/FE-BOUNDARY-2026-07-28/comparison-matrix.md",
+        "research/evaluations/FE-BOUNDARY-2026-07-28/source-registry.md"
+      ]
+    },
+    {
+      "id": "RFR-2026-011",
+      "title": "Lifecycle cost and return-on-investment model",
+      "category": "Economics",
+      "status": "open",
+      "rank": 12,
+      "frontier_score": 185,
+      "confidence": "medium",
+      "estimated_effort": "medium",
+      "scoring": {
+        "knowledge_gain": 4,
+        "potential_impact": 4,
+        "cross_project_reuse": 4,
+        "scientific_importance": 3,
+        "dependency_cost": 4,
+        "implementation_difficulty": 3
+      },
+      "path": "records/RFR-2026-011.md",
+      "dependencies": [
+        "RFR-2026-003"
+      ],
+      "origin_documents": [
+        "research/evaluations/FE-BOUNDARY-2026-07-28/RP-FE-BOUNDARY-2026-07-28.md",
+        "research/theory/theory-of-framework-engineering-v0.1.md",
+        "research/operating-system/edr/research-efficiency-metrics.md"
+      ]
+    },
+    {
+      "id": "RFR-2026-012",
+      "title": "Cognitive-load and usability study",
+      "category": "Human Factors",
+      "status": "open",
+      "rank": 13,
+      "frontier_score": 184,
+      "confidence": "medium",
+      "estimated_effort": "medium",
+      "scoring": {
+        "knowledge_gain": 4,
+        "potential_impact": 4,
+        "cross_project_reuse": 4,
+        "scientific_importance": 3,
+        "dependency_cost": 4,
+        "implementation_difficulty": 4
+      },
+      "path": "records/RFR-2026-012.md",
+      "dependencies": [
+        "RFR-2026-003"
+      ],
+      "origin_documents": [
+        "research/evaluations/FE-BOUNDARY-2026-07-28/RP-FE-BOUNDARY-2026-07-28.md",
+        "research/product-architecture/uncertainty-to-action-flow.md",
+        "research/validation/validation-program.md"
+      ]
+    },
+    {
+      "id": "RFR-2026-013",
+      "title": "Accessible representation equivalence study",
+      "category": "Accessibility",
+      "status": "open",
+      "rank": 14,
+      "frontier_score": 138,
+      "confidence": "medium",
+      "estimated_effort": "medium",
+      "scoring": {
+        "knowledge_gain": 3,
+        "potential_impact": 4,
+        "cross_project_reuse": 4,
+        "scientific_importance": 3,
+        "dependency_cost": 3,
+        "implementation_difficulty": 3
+      },
+      "path": "records/RFR-2026-013.md",
+      "dependencies": [
+        "RFR-2026-001"
+      ],
+      "origin_documents": [
+        "research/operating-system/evidence-dashboard/evidence-dashboard.json",
+        "research/evaluations/FE-BOUNDARY-2026-07-28/RP-FE-BOUNDARY-2026-07-28.md",
+        "docs/knowledge-artifacts/multidimensional-classification.md"
+      ]
+    },
+    {
+      "id": "RFR-2026-014",
+      "title": "Adversarial provenance and evidence-integrity study",
+      "category": "Security",
+      "status": "open",
+      "rank": 15,
+      "frontier_score": 136,
+      "confidence": "medium",
+      "estimated_effort": "medium",
+      "scoring": {
+        "knowledge_gain": 3,
+        "potential_impact": 4,
+        "cross_project_reuse": 4,
+        "scientific_importance": 3,
+        "dependency_cost": 4,
+        "implementation_difficulty": 4
+      },
+      "path": "records/RFR-2026-014.md",
+      "dependencies": [
+        "RFR-2026-008"
+      ],
+      "origin_documents": [
+        "research/evaluations/FE-BOUNDARY-2026-07-28/ros-fe-profile-v1-audit.md",
+        "research/framework-engineering/ros-profile/open-ros-gaps.md",
+        "research/operating-system/research-constitution.md"
+      ]
+    },
+    {
+      "id": "RFR-2026-015",
+      "title": "Automated confidence-decay and frontier refresh",
+      "category": "Tooling",
+      "status": "open",
+      "rank": 16,
+      "frontier_score": 102,
+      "confidence": "medium",
+      "estimated_effort": "medium",
+      "scoring": {
+        "knowledge_gain": 3,
+        "potential_impact": 3,
+        "cross_project_reuse": 4,
+        "scientific_importance": 3,
+        "dependency_cost": 3,
+        "implementation_difficulty": 3
+      },
+      "path": "records/RFR-2026-015.md",
+      "dependencies": [
+        "RFR-2026-008",
+        "RFR-2026-009"
+      ],
+      "origin_documents": [
+        "research/operating-system/confidence-update-guide.md",
+        "research/operating-system/evidence-dashboard/evidence-dashboard.json",
+        "research/evaluations/FE-BOUNDARY-2026-07-28/ros-fe-profile-v1-audit.md"
+      ]
+    }
+  ],
+  "analysis_units": [
+    {
+      "id": "PROGRAM-STATE-FRONTIER",
+      "path": "document-frontiers/PROGRAM-STATE-frontier.md",
+      "documents": [
+        "CURRENT_STATE.md",
+        "research/operating-system/evidence-dashboard/evidence-dashboard.json",
+        "research/operating-system/research-queue/research-queue.md"
+      ],
+      "top_records": [
+        "RFR-2026-001",
+        "RFR-2026-002",
+        "RFR-2026-004",
+        "RFR-2026-009",
+        "RFR-2026-015"
+      ]
+    },
+    {
+      "id": "THEORY-V01-FRONTIER",
+      "path": "document-frontiers/THEORY-V01-frontier.md",
+      "documents": [
+        "research/theory/theory-of-framework-engineering-v0.1.md",
+        "research/theory/confidence-assessment.md",
+        "research/theory/falsification-criteria.md"
+      ],
+      "top_records": [
+        "RFR-2026-003",
+        "RFR-2026-002",
+        "RFR-2026-005",
+        "RFR-2026-007",
+        "RFR-2026-004"
+      ]
+    },
+    {
+      "id": "CORPUS-100-FRONTIER",
+      "path": "document-frontiers/CORPUS-100-frontier.md",
+      "documents": [
+        "research/corpus/statistics.md",
+        "research/corpus/index.csv",
+        "research/corpus/validation-results-v0.1.csv"
+      ],
+      "top_records": [
+        "RFR-2026-006",
+        "RFR-2026-007",
+        "RFR-2026-002",
+        "RFR-2026-005",
+        "RFR-2026-013"
+      ]
+    },
+    {
+      "id": "FE-012B-FRONTIER",
+      "path": "document-frontiers/FE-012B-frontier.md",
+      "documents": [
+        "research/experiments/FE-012B-primitive-synthesis/hypothesis.md",
+        "research/experiments/FE-012B-primitive-synthesis/protocol.md",
+        "research/experiments/FE-012B-primitive-synthesis/methodological-review.md"
+      ],
+      "top_records": [
+        "RFR-2026-005",
+        "RFR-2026-007",
+        "RFR-2026-002",
+        "RFR-2026-004",
+        "RFR-2026-003"
+      ]
+    },
+    {
+      "id": "BOUNDARY-2026-07-28-FRONTIER",
+      "path": "document-frontiers/BOUNDARY-2026-07-28-frontier.md",
+      "documents": [
+        "research/evaluations/FE-BOUNDARY-2026-07-28/RP-FE-BOUNDARY-2026-07-28.md",
+        "research/evaluations/FE-BOUNDARY-2026-07-28/comparison-matrix.md",
+        "research/evaluations/FE-BOUNDARY-2026-07-28/source-registry.md"
+      ],
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-003",
+        "RFR-2026-010",
+        "RFR-2026-011",
+        "RFR-2026-012"
+      ]
+    },
+    {
+      "id": "ROS-FE-V1-FRONTIER",
+      "path": "document-frontiers/ROS-FE-V1-frontier.md",
+      "documents": [
+        "research/framework-engineering/ros-profile/README.md",
+        "research/framework-engineering/ros-profile/open-ros-gaps.md",
+        "research/evaluations/FE-BOUNDARY-2026-07-28/ros-fe-profile-v1-audit.md"
+      ],
+      "top_records": [
+        "RFR-2026-008",
+        "RFR-2026-014",
+        "RFR-2026-009",
+        "RFR-2026-015",
+        "RFR-2026-003"
+      ]
+    },
+    {
+      "id": "VALIDATION-PROGRAM-FRONTIER",
+      "path": "document-frontiers/VALIDATION-PROGRAM-frontier.md",
+      "documents": [
+        "research/validation/validation-program.md",
+        "research/validation/independent-replication-plan.md",
+        "research/validation/competing-theory-challenge.md"
+      ],
+      "top_records": [
+        "RFR-2026-001",
+        "RFR-2026-016",
+        "RFR-2026-002",
+        "RFR-2026-003",
+        "RFR-2026-004"
+      ]
+    },
+    {
+      "id": "PRODUCT-ARCH-FRONTIER",
+      "path": "document-frontiers/PRODUCT-ARCH-frontier.md",
+      "documents": [
+        "research/product-architecture/clarity-object-model-v0.1.md",
+        "research/product-architecture/uncertainty-to-action-flow.md",
+        "research/product-architecture/research-product-boundary.md"
+      ],
+      "top_records": [
+        "RFR-2026-012",
+        "RFR-2026-013",
+        "RFR-2026-011",
+        "RFR-2026-014",
+        "RFR-2026-003"
+      ]
+    },
+    {
+      "id": "EVAL-2026-07-23-FRONTIER",
+      "path": "document-frontiers/EVAL-2026-07-23-frontier.md",
+      "documents": [
+        "research/evaluations/FE-EVAL-2026-07-23/framework-engineering-executive-brief.md",
+        "research/evaluations/FE-EVAL-2026-07-23/framework-engineering-evidence-registry.md",
+        "research/evaluations/FE-EVAL-2026-07-23/framework-engineering-lineage.md",
+        "research/evaluations/FE-EVAL-2026-07-23/RP-2026-07-23-framework-engineering-evaluation.md"
+      ],
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-003",
+        "RFR-2026-008",
+        "RFR-2026-011",
+        "RFR-2026-015"
+      ]
+    },
+    {
+      "id": "EXPERIMENT-SYSTEM-FRONTIER",
+      "path": "document-frontiers/EXPERIMENT-SYSTEM-frontier.md",
+      "documents": [
+        "research/framework-engineering/experiments/architecture.md",
+        "research/framework-engineering/experiments/roadmap.md",
+        "research/framework-engineering/experiments/assessment.md",
+        "research/framework-engineering/experiments/IMPLEMENTATION-REPORT.md",
+        "research/framework-engineering/experiments/journal/2026-07-23-system-implementation.md"
+      ],
+      "top_records": [
+        "RFR-2026-008",
+        "RFR-2026-009",
+        "RFR-2026-001",
+        "RFR-2026-015",
+        "RFR-2026-014"
+      ]
+    },
+    {
+      "id": "BOUNDARY-EXPERIMENT-FRONTIER",
+      "path": "document-frontiers/BOUNDARY-EXPERIMENT-frontier.md",
+      "documents": [
+        "research/framework-engineering/experiments/EX-FE-0002/START-HERE.md",
+        "research/evaluations/FE-BOUNDARY-2026-07-24-v1.1/comparator-curator-role-completion.md",
+        "research/evaluations/FE-BOUNDARY-2026-07-24-v1.1/stage-a-decision.md",
+        "research/evaluations/FE-BOUNDARY-2026-07-24-v1.1/stage-a-gate-checklist.md",
+        "research/evaluations/FE-BOUNDARY-2026-07-24-v1.2-machine-pilot/README.md"
+      ],
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-001",
+        "RFR-2026-004",
+        "RFR-2026-002",
+        "RFR-2026-010"
+      ]
+    }
+  ],
+  "document_frontiers": [
+    {
+      "id": "DOC-PATH-CURRENT_STATE-73eb8b9836-FRONTIER",
+      "source_id": null,
+      "source_path": "CURRENT_STATE.md",
+      "source_status": "draft",
+      "analysis_unit": "PROGRAM-STATE",
+      "path": "document-frontiers/DOC-PATH-CURRENT_STATE-73eb8b9836-frontier.md",
+      "top_records": [
+        "RFR-2026-001",
+        "RFR-2026-002",
+        "RFR-2026-004",
+        "RFR-2026-009",
+        "RFR-2026-015"
+      ]
+    },
+    {
+      "id": "DOC-PATH-INDEX-fa7e20a74b-FRONTIER",
+      "source_id": null,
+      "source_path": "research/corpus/index.csv",
+      "source_status": "authority-exception",
+      "analysis_unit": "CORPUS-100",
+      "path": "document-frontiers/DOC-PATH-INDEX-fa7e20a74b-frontier.md",
+      "top_records": [
+        "RFR-2026-006",
+        "RFR-2026-007",
+        "RFR-2026-002",
+        "RFR-2026-005",
+        "RFR-2026-013"
+      ]
+    },
+    {
+      "id": "DOC-PATH-STATISTICS-6ee6d5a1a2-FRONTIER",
+      "source_id": null,
+      "source_path": "research/corpus/statistics.md",
+      "source_status": "draft",
+      "analysis_unit": "CORPUS-100",
+      "path": "document-frontiers/DOC-PATH-STATISTICS-6ee6d5a1a2-frontier.md",
+      "top_records": [
+        "RFR-2026-006",
+        "RFR-2026-007",
+        "RFR-2026-002",
+        "RFR-2026-005",
+        "RFR-2026-013"
+      ]
+    },
+    {
+      "id": "DOC-PATH-VALIDATION-RESULTS-V0.1-ca34c78383-FRONTIER",
+      "source_id": null,
+      "source_path": "research/corpus/validation-results-v0.1.csv",
+      "source_status": "authority-exception",
+      "analysis_unit": "CORPUS-100",
+      "path": "document-frontiers/DOC-PATH-VALIDATION-RESULTS-V0.1-ca34c78383-frontier.md",
+      "top_records": [
+        "RFR-2026-006",
+        "RFR-2026-007",
+        "RFR-2026-002",
+        "RFR-2026-005",
+        "RFR-2026-013"
+      ]
+    },
+    {
+      "id": "DOC-FE-BND-ROLE3-REPORT-001-FRONTIER",
+      "source_id": "FE-BND-ROLE3-REPORT-001",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-24-v1.1/comparator-curator-role-completion.md",
+      "source_status": "complete",
+      "analysis_unit": "BOUNDARY-EXPERIMENT",
+      "path": "document-frontiers/DOC-FE-BND-ROLE3-REPORT-001-frontier.md",
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-001",
+        "RFR-2026-004",
+        "RFR-2026-002",
+        "RFR-2026-010"
+      ]
+    },
+    {
+      "id": "DOC-FE-BND-V1.1-STAGE-A-DECISION-001-FRONTIER",
+      "source_id": "FE-BND-V1.1-STAGE-A-DECISION-001",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-24-v1.1/stage-a-decision.md",
+      "source_status": "blocked-before-stage-b",
+      "analysis_unit": "BOUNDARY-EXPERIMENT",
+      "path": "document-frontiers/DOC-FE-BND-V1.1-STAGE-A-DECISION-001-frontier.md",
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-001",
+        "RFR-2026-004",
+        "RFR-2026-002",
+        "RFR-2026-010"
+      ]
+    },
+    {
+      "id": "DOC-FE-BND-V1.1-GATE-CHECKLIST-001-FRONTIER",
+      "source_id": "FE-BND-V1.1-GATE-CHECKLIST-001",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-24-v1.1/stage-a-gate-checklist.md",
+      "source_status": "blocked-before-stage-b",
+      "analysis_unit": "BOUNDARY-EXPERIMENT",
+      "path": "document-frontiers/DOC-FE-BND-V1.1-GATE-CHECKLIST-001-frontier.md",
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-001",
+        "RFR-2026-004",
+        "RFR-2026-002",
+        "RFR-2026-010"
+      ]
+    },
+    {
+      "id": "DOC-FE-BND-V1.2-README-001-FRONTIER",
+      "source_id": "FE-BND-V1.2-README-001",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-24-v1.2-machine-pilot/README.md",
+      "source_status": "in-progress",
+      "analysis_unit": "BOUNDARY-EXPERIMENT",
+      "path": "document-frontiers/DOC-FE-BND-V1.2-README-001-frontier.md",
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-001",
+        "RFR-2026-004",
+        "RFR-2026-002",
+        "RFR-2026-010"
+      ]
+    },
+    {
+      "id": "DOC-FE-BND-2026-07-28-MATRIX-FRONTIER",
+      "source_id": "FE-BND-2026-07-28-MATRIX",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-28/comparison-matrix.md",
+      "source_status": "current-provisional",
+      "analysis_unit": "BOUNDARY-2026-07-28",
+      "path": "document-frontiers/DOC-FE-BND-2026-07-28-MATRIX-frontier.md",
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-003",
+        "RFR-2026-010",
+        "RFR-2026-011",
+        "RFR-2026-012"
+      ]
+    },
+    {
+      "id": "DOC-FE-BND-2026-07-28-HANDOFF-FRONTIER",
+      "source_id": "FE-BND-2026-07-28-HANDOFF",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-28/HANDOFF.md",
+      "source_status": "current",
+      "analysis_unit": "BOUNDARY-2026-07-28",
+      "path": "document-frontiers/DOC-FE-BND-2026-07-28-HANDOFF-frontier.md",
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-003",
+        "RFR-2026-010",
+        "RFR-2026-011",
+        "RFR-2026-012"
+      ]
+    },
+    {
+      "id": "DOC-FE-BND-2026-07-28-INDEX-FRONTIER",
+      "source_id": "FE-BND-2026-07-28-INDEX",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-28/README.md",
+      "source_status": "current-provisional",
+      "analysis_unit": "BOUNDARY-2026-07-28",
+      "path": "document-frontiers/DOC-FE-BND-2026-07-28-INDEX-frontier.md",
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-003",
+        "RFR-2026-010",
+        "RFR-2026-011",
+        "RFR-2026-012"
+      ]
+    },
+    {
+      "id": "DOC-FE-BND-2026-07-28-PROFILE-AUDIT-FRONTIER",
+      "source_id": "FE-BND-2026-07-28-PROFILE-AUDIT",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-28/ros-fe-profile-v1-audit.md",
+      "source_status": "current-provisional",
+      "analysis_unit": "ROS-FE-V1",
+      "path": "document-frontiers/DOC-FE-BND-2026-07-28-PROFILE-AUDIT-frontier.md",
+      "top_records": [
+        "RFR-2026-008",
+        "RFR-2026-014",
+        "RFR-2026-009",
+        "RFR-2026-015",
+        "RFR-2026-003"
+      ]
+    },
+    {
+      "id": "DOC-RP-FE-BOUNDARY-2026-07-28-FRONTIER",
+      "source_id": "RP-FE-BOUNDARY-2026-07-28",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-28/RP-FE-BOUNDARY-2026-07-28.md",
+      "source_status": "current-provisional",
+      "analysis_unit": "BOUNDARY-2026-07-28",
+      "path": "document-frontiers/DOC-RP-FE-BOUNDARY-2026-07-28-frontier.md",
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-003",
+        "RFR-2026-010",
+        "RFR-2026-011",
+        "RFR-2026-012"
+      ]
+    },
+    {
+      "id": "DOC-FE-BND-2026-07-28-SOURCES-FRONTIER",
+      "source_id": "FE-BND-2026-07-28-SOURCES",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-28/source-registry.md",
+      "source_status": "current-provisional",
+      "analysis_unit": "BOUNDARY-2026-07-28",
+      "path": "document-frontiers/DOC-FE-BND-2026-07-28-SOURCES-frontier.md",
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-003",
+        "RFR-2026-010",
+        "RFR-2026-011",
+        "RFR-2026-012"
+      ]
+    },
+    {
+      "id": "DOC-FE-EVAL-EVIDENCE-2026-07-23-FRONTIER",
+      "source_id": "FE-EVAL-EVIDENCE-2026-07-23",
+      "source_path": "research/evaluations/FE-EVAL-2026-07-23/framework-engineering-evidence-registry.md",
+      "source_status": "current",
+      "analysis_unit": "EVAL-2026-07-23",
+      "path": "document-frontiers/DOC-FE-EVAL-EVIDENCE-2026-07-23-frontier.md",
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-003",
+        "RFR-2026-008",
+        "RFR-2026-011",
+        "RFR-2026-015"
+      ]
+    },
+    {
+      "id": "DOC-FE-EVAL-BRIEF-2026-07-23-FRONTIER",
+      "source_id": "FE-EVAL-BRIEF-2026-07-23",
+      "source_path": "research/evaluations/FE-EVAL-2026-07-23/framework-engineering-executive-brief.md",
+      "source_status": "current-evaluation",
+      "analysis_unit": "EVAL-2026-07-23",
+      "path": "document-frontiers/DOC-FE-EVAL-BRIEF-2026-07-23-frontier.md",
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-003",
+        "RFR-2026-008",
+        "RFR-2026-011",
+        "RFR-2026-015"
+      ]
+    },
+    {
+      "id": "DOC-FE-EVAL-LINEAGE-2026-07-23-FRONTIER",
+      "source_id": "FE-EVAL-LINEAGE-2026-07-23",
+      "source_path": "research/evaluations/FE-EVAL-2026-07-23/framework-engineering-lineage.md",
+      "source_status": "current-evaluated",
+      "analysis_unit": "EVAL-2026-07-23",
+      "path": "document-frontiers/DOC-FE-EVAL-LINEAGE-2026-07-23-frontier.md",
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-003",
+        "RFR-2026-008",
+        "RFR-2026-011",
+        "RFR-2026-015"
+      ]
+    },
+    {
+      "id": "DOC-FE-EVAL-REP-2026-07-23-FRONTIER",
+      "source_id": "FE-EVAL-REP-2026-07-23",
+      "source_path": "research/evaluations/FE-EVAL-2026-07-23/RP-2026-07-23-framework-engineering-evaluation.md",
+      "source_status": "current-provisional",
+      "analysis_unit": "EVAL-2026-07-23",
+      "path": "document-frontiers/DOC-FE-EVAL-REP-2026-07-23-frontier.md",
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-003",
+        "RFR-2026-008",
+        "RFR-2026-011",
+        "RFR-2026-015"
+      ]
+    },
+    {
+      "id": "DOC-PATH-HYPOTHESIS-30428a5c85-FRONTIER",
+      "source_id": null,
+      "source_path": "research/experiments/FE-012B-primitive-synthesis/hypothesis.md",
+      "source_status": "draft",
+      "analysis_unit": "FE-012B",
+      "path": "document-frontiers/DOC-PATH-HYPOTHESIS-30428a5c85-frontier.md",
+      "top_records": [
+        "RFR-2026-005",
+        "RFR-2026-007",
+        "RFR-2026-002",
+        "RFR-2026-004",
+        "RFR-2026-003"
+      ]
+    },
+    {
+      "id": "DOC-PATH-METHODOLOGICAL-REVIEW-d62992c8b3-FRONTIER",
+      "source_id": null,
+      "source_path": "research/experiments/FE-012B-primitive-synthesis/methodological-review.md",
+      "source_status": "draft",
+      "analysis_unit": "FE-012B",
+      "path": "document-frontiers/DOC-PATH-METHODOLOGICAL-REVIEW-d62992c8b3-frontier.md",
+      "top_records": [
+        "RFR-2026-005",
+        "RFR-2026-007",
+        "RFR-2026-002",
+        "RFR-2026-004",
+        "RFR-2026-003"
+      ]
+    },
+    {
+      "id": "DOC-PATH-PROTOCOL-9bd6caab68-FRONTIER",
+      "source_id": null,
+      "source_path": "research/experiments/FE-012B-primitive-synthesis/protocol.md",
+      "source_status": "draft",
+      "analysis_unit": "FE-012B",
+      "path": "document-frontiers/DOC-PATH-PROTOCOL-9bd6caab68-frontier.md",
+      "top_records": [
+        "RFR-2026-005",
+        "RFR-2026-007",
+        "RFR-2026-002",
+        "RFR-2026-004",
+        "RFR-2026-003"
+      ]
+    },
+    {
+      "id": "DOC-FE-ADR-EXPERIMENT-SYSTEM-001-FRONTIER",
+      "source_id": "FE-ADR-EXPERIMENT-SYSTEM-001",
+      "source_path": "research/framework-engineering/experiments/architecture.md",
+      "source_status": "accepted-for-pilot",
+      "analysis_unit": "EXPERIMENT-SYSTEM",
+      "path": "document-frontiers/DOC-FE-ADR-EXPERIMENT-SYSTEM-001-frontier.md",
+      "top_records": [
+        "RFR-2026-008",
+        "RFR-2026-009",
+        "RFR-2026-001",
+        "RFR-2026-015",
+        "RFR-2026-014"
+      ]
+    },
+    {
+      "id": "DOC-FE-EXPERIMENT-SYSTEM-ASSESSMENT-2026-07-23-FRONTIER",
+      "source_id": "FE-EXPERIMENT-SYSTEM-ASSESSMENT-2026-07-23",
+      "source_path": "research/framework-engineering/experiments/assessment.md",
+      "source_status": "current",
+      "analysis_unit": "EXPERIMENT-SYSTEM",
+      "path": "document-frontiers/DOC-FE-EXPERIMENT-SYSTEM-ASSESSMENT-2026-07-23-frontier.md",
+      "top_records": [
+        "RFR-2026-008",
+        "RFR-2026-009",
+        "RFR-2026-001",
+        "RFR-2026-015",
+        "RFR-2026-014"
+      ]
+    },
+    {
+      "id": "DOC-PATH-START-HERE-536586d076-FRONTIER",
+      "source_id": null,
+      "source_path": "research/framework-engineering/experiments/EX-FE-0002/START-HERE.md",
+      "source_status": "draft",
+      "analysis_unit": "BOUNDARY-EXPERIMENT",
+      "path": "document-frontiers/DOC-PATH-START-HERE-536586d076-frontier.md",
+      "top_records": [
+        "RFR-2026-016",
+        "RFR-2026-001",
+        "RFR-2026-004",
+        "RFR-2026-002",
+        "RFR-2026-010"
+      ]
+    },
+    {
+      "id": "DOC-FE-EXPERIMENT-SYSTEM-REPORT-2026-07-23-FRONTIER",
+      "source_id": "FE-EXPERIMENT-SYSTEM-REPORT-2026-07-23",
+      "source_path": "research/framework-engineering/experiments/IMPLEMENTATION-REPORT.md",
+      "source_status": "complete",
+      "analysis_unit": "EXPERIMENT-SYSTEM",
+      "path": "document-frontiers/DOC-FE-EXPERIMENT-SYSTEM-REPORT-2026-07-23-frontier.md",
+      "top_records": [
+        "RFR-2026-008",
+        "RFR-2026-009",
+        "RFR-2026-001",
+        "RFR-2026-015",
+        "RFR-2026-014"
+      ]
+    },
+    {
+      "id": "DOC-JR-FE-EXPERIMENT-SYSTEM-2026-07-23-FRONTIER",
+      "source_id": "JR-FE-EXPERIMENT-SYSTEM-2026-07-23",
+      "source_path": "research/framework-engineering/experiments/journal/2026-07-23-system-implementation.md",
+      "source_status": "complete",
+      "analysis_unit": "EXPERIMENT-SYSTEM",
+      "path": "document-frontiers/DOC-JR-FE-EXPERIMENT-SYSTEM-2026-07-23-frontier.md",
+      "top_records": [
+        "RFR-2026-008",
+        "RFR-2026-009",
+        "RFR-2026-001",
+        "RFR-2026-015",
+        "RFR-2026-014"
+      ]
+    },
+    {
+      "id": "DOC-FE-EXPERIMENT-ROADMAP-1.0-FRONTIER",
+      "source_id": "FE-EXPERIMENT-ROADMAP-1.0",
+      "source_path": "research/framework-engineering/experiments/roadmap.md",
+      "source_status": "current-pilot",
+      "analysis_unit": "EXPERIMENT-SYSTEM",
+      "path": "document-frontiers/DOC-FE-EXPERIMENT-ROADMAP-1.0-frontier.md",
+      "top_records": [
+        "RFR-2026-008",
+        "RFR-2026-009",
+        "RFR-2026-001",
+        "RFR-2026-015",
+        "RFR-2026-014"
+      ]
+    },
+    {
+      "id": "DOC-PATH-OPEN-ROS-GAPS-eb77000faa-FRONTIER",
+      "source_id": null,
+      "source_path": "research/framework-engineering/ros-profile/open-ros-gaps.md",
+      "source_status": "draft",
+      "analysis_unit": "ROS-FE-V1",
+      "path": "document-frontiers/DOC-PATH-OPEN-ROS-GAPS-eb77000faa-frontier.md",
+      "top_records": [
+        "RFR-2026-008",
+        "RFR-2026-014",
+        "RFR-2026-009",
+        "RFR-2026-015",
+        "RFR-2026-003"
+      ]
+    },
+    {
+      "id": "DOC-RP-FE-ROS-2026-A001-FRONTIER",
+      "source_id": "RP-FE-ROS-2026-A001",
+      "source_path": "research/framework-engineering/ros-profile/README.md",
+      "source_status": "accepted",
+      "analysis_unit": "ROS-FE-V1",
+      "path": "document-frontiers/DOC-RP-FE-ROS-2026-A001-frontier.md",
+      "top_records": [
+        "RFR-2026-008",
+        "RFR-2026-014",
+        "RFR-2026-009",
+        "RFR-2026-015",
+        "RFR-2026-003"
+      ]
+    },
+    {
+      "id": "DOC-PATH-EVIDENCE-DASHBOARD-36152d2824-FRONTIER",
+      "source_id": null,
+      "source_path": "research/operating-system/evidence-dashboard/evidence-dashboard.json",
+      "source_status": "authority-exception",
+      "analysis_unit": "PROGRAM-STATE",
+      "path": "document-frontiers/DOC-PATH-EVIDENCE-DASHBOARD-36152d2824-frontier.md",
+      "top_records": [
+        "RFR-2026-001",
+        "RFR-2026-002",
+        "RFR-2026-004",
+        "RFR-2026-009",
+        "RFR-2026-015"
+      ]
+    },
+    {
+      "id": "DOC-PATH-RESEARCH-QUEUE-b5034644ae-FRONTIER",
+      "source_id": null,
+      "source_path": "research/operating-system/research-queue/research-queue.md",
+      "source_status": "draft",
+      "analysis_unit": "PROGRAM-STATE",
+      "path": "document-frontiers/DOC-PATH-RESEARCH-QUEUE-b5034644ae-frontier.md",
+      "top_records": [
+        "RFR-2026-001",
+        "RFR-2026-002",
+        "RFR-2026-004",
+        "RFR-2026-009",
+        "RFR-2026-015"
+      ]
+    },
+    {
+      "id": "DOC-PATH-CLARITY-OBJECT-MODEL-V0.1-ee5169ad61-FRONTIER",
+      "source_id": null,
+      "source_path": "research/product-architecture/clarity-object-model-v0.1.md",
+      "source_status": "draft",
+      "analysis_unit": "PRODUCT-ARCH",
+      "path": "document-frontiers/DOC-PATH-CLARITY-OBJECT-MODEL-V0.1-ee5169ad61-frontier.md",
+      "top_records": [
+        "RFR-2026-012",
+        "RFR-2026-013",
+        "RFR-2026-011",
+        "RFR-2026-014",
+        "RFR-2026-003"
+      ]
+    },
+    {
+      "id": "DOC-PATH-RESEARCH-PRODUCT-BOUNDARY-846f237715-FRONTIER",
+      "source_id": null,
+      "source_path": "research/product-architecture/research-product-boundary.md",
+      "source_status": "draft",
+      "analysis_unit": "PRODUCT-ARCH",
+      "path": "document-frontiers/DOC-PATH-RESEARCH-PRODUCT-BOUNDARY-846f237715-frontier.md",
+      "top_records": [
+        "RFR-2026-012",
+        "RFR-2026-013",
+        "RFR-2026-011",
+        "RFR-2026-014",
+        "RFR-2026-003"
+      ]
+    },
+    {
+      "id": "DOC-PATH-UNCERTAINTY-TO-ACTION-FLOW-064aae4a45-FRONTIER",
+      "source_id": null,
+      "source_path": "research/product-architecture/uncertainty-to-action-flow.md",
+      "source_status": "draft",
+      "analysis_unit": "PRODUCT-ARCH",
+      "path": "document-frontiers/DOC-PATH-UNCERTAINTY-TO-ACTION-FLOW-064aae4a45-frontier.md",
+      "top_records": [
+        "RFR-2026-012",
+        "RFR-2026-013",
+        "RFR-2026-011",
+        "RFR-2026-014",
+        "RFR-2026-003"
+      ]
+    },
+    {
+      "id": "DOC-PATH-CONFIDENCE-ASSESSMENT-5f042b7bf1-FRONTIER",
+      "source_id": null,
+      "source_path": "research/theory/confidence-assessment.md",
+      "source_status": "draft",
+      "analysis_unit": "THEORY-V01",
+      "path": "document-frontiers/DOC-PATH-CONFIDENCE-ASSESSMENT-5f042b7bf1-frontier.md",
+      "top_records": [
+        "RFR-2026-003",
+        "RFR-2026-002",
+        "RFR-2026-005",
+        "RFR-2026-007",
+        "RFR-2026-004"
+      ]
+    },
+    {
+      "id": "DOC-PATH-FALSIFICATION-CRITERIA-ea2279aa52-FRONTIER",
+      "source_id": null,
+      "source_path": "research/theory/falsification-criteria.md",
+      "source_status": "draft",
+      "analysis_unit": "THEORY-V01",
+      "path": "document-frontiers/DOC-PATH-FALSIFICATION-CRITERIA-ea2279aa52-frontier.md",
+      "top_records": [
+        "RFR-2026-003",
+        "RFR-2026-002",
+        "RFR-2026-005",
+        "RFR-2026-007",
+        "RFR-2026-004"
+      ]
+    },
+    {
+      "id": "DOC-PATH-THEORY-OF-FRAMEWORK-ENGINEERING-V0.1-57360e6e60-FRONTIER",
+      "source_id": null,
+      "source_path": "research/theory/theory-of-framework-engineering-v0.1.md",
+      "source_status": "draft",
+      "analysis_unit": "THEORY-V01",
+      "path": "document-frontiers/DOC-PATH-THEORY-OF-FRAMEWORK-ENGINEERING-V0.1-57360e6e60-frontier.md",
+      "top_records": [
+        "RFR-2026-003",
+        "RFR-2026-002",
+        "RFR-2026-005",
+        "RFR-2026-007",
+        "RFR-2026-004"
+      ]
+    },
+    {
+      "id": "DOC-PATH-COMPETING-THEORY-CHALLENGE-b01f12967d-FRONTIER",
+      "source_id": null,
+      "source_path": "research/validation/competing-theory-challenge.md",
+      "source_status": "draft",
+      "analysis_unit": "VALIDATION-PROGRAM",
+      "path": "document-frontiers/DOC-PATH-COMPETING-THEORY-CHALLENGE-b01f12967d-frontier.md",
+      "top_records": [
+        "RFR-2026-001",
+        "RFR-2026-016",
+        "RFR-2026-002",
+        "RFR-2026-003",
+        "RFR-2026-004"
+      ]
+    },
+    {
+      "id": "DOC-PATH-INDEPENDENT-REPLICATION-PLAN-a3a16de713-FRONTIER",
+      "source_id": null,
+      "source_path": "research/validation/independent-replication-plan.md",
+      "source_status": "draft",
+      "analysis_unit": "VALIDATION-PROGRAM",
+      "path": "document-frontiers/DOC-PATH-INDEPENDENT-REPLICATION-PLAN-a3a16de713-frontier.md",
+      "top_records": [
+        "RFR-2026-001",
+        "RFR-2026-016",
+        "RFR-2026-002",
+        "RFR-2026-003",
+        "RFR-2026-004"
+      ]
+    },
+    {
+      "id": "DOC-PATH-VALIDATION-PROGRAM-c47d3ebc97-FRONTIER",
+      "source_id": null,
+      "source_path": "research/validation/validation-program.md",
+      "source_status": "draft",
+      "analysis_unit": "VALIDATION-PROGRAM",
+      "path": "document-frontiers/DOC-PATH-VALIDATION-PROGRAM-c47d3ebc97-frontier.md",
+      "top_records": [
+        "RFR-2026-001",
+        "RFR-2026-016",
+        "RFR-2026-002",
+        "RFR-2026-003",
+        "RFR-2026-004"
+      ]
+    }
+  ]
+}

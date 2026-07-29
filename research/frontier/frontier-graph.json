@@ -1,0 +1,603 @@
+{
+  "schema_version": "1.1.0",
+  "generated": "2026-07-28",
+  "directed": true,
+  "nodes": [
+    {
+      "id": "RFR-2026-001",
+      "type": "research_opportunity",
+      "title": "Negative non-isomorphic control benchmark",
+      "category": "Measurement",
+      "rank": 1,
+      "score": 495,
+      "status": "open"
+    },
+    {
+      "id": "RFR-2026-016",
+      "type": "research_opportunity",
+      "title": "Complete blinded mechanism-boundary adjudication",
+      "category": "Validation",
+      "rank": 2,
+      "score": 492,
+      "status": "open"
+    },
+    {
+      "id": "RFR-2026-002",
+      "type": "research_opportunity",
+      "title": "Independent human procedural-extraction baseline",
+      "category": "Human Factors",
+      "rank": 3,
+      "score": 491,
+      "status": "open"
+    },
+    {
+      "id": "RFR-2026-003",
+      "type": "research_opportunity",
+      "title": "Matched incremental-utility experiment",
+      "category": "Experimentation",
+      "rank": 4,
+      "score": 490,
+      "status": "open"
+    },
+    {
+      "id": "RFR-2026-004",
+      "type": "research_opportunity",
+      "title": "Recognition-control replication",
+      "category": "Validation",
+      "rank": 5,
+      "score": 394,
+      "status": "open"
+    },
+    {
+      "id": "RFR-2026-005",
+      "type": "research_opportunity",
+      "title": "Reasoning-versus-coordination grammar test",
+      "category": "Theory",
+      "rank": 6,
+      "score": 392,
+      "status": "open"
+    },
+    {
+      "id": "RFR-2026-006",
+      "type": "research_opportunity",
+      "title": "Blind corpus reliability and sampling audit",
+      "category": "Statistics",
+      "rank": 7,
+      "score": 391,
+      "status": "open"
+    },
+    {
+      "id": "RFR-2026-007",
+      "type": "research_opportunity",
+      "title": "Primitive-vocabulary saturation study",
+      "category": "Measurement",
+      "rank": 8,
+      "score": 314,
+      "status": "open"
+    },
+    {
+      "id": "RFR-2026-008",
+      "type": "research_opportunity",
+      "title": "ROS profile integrity and negative-test suite",
+      "category": "Engineering",
+      "rank": 9,
+      "score": 295,
+      "status": "open"
+    },
+    {
+      "id": "RFR-2026-009",
+      "type": "research_opportunity",
+      "title": "Cross-provider reproducibility semantics",
+      "category": "AI",
+      "rank": 10,
+      "score": 250,
+      "status": "open"
+    },
+    {
+      "id": "RFR-2026-010",
+      "type": "research_opportunity",
+      "title": "Systematic boundary and practitioner study",
+      "category": "Theory",
+      "rank": 11,
+      "score": 246,
+      "status": "open"
+    },
+    {
+      "id": "RFR-2026-011",
+      "type": "research_opportunity",
+      "title": "Lifecycle cost and return-on-investment model",
+      "category": "Economics",
+      "rank": 12,
+      "score": 185,
+      "status": "open"
+    },
+    {
+      "id": "RFR-2026-012",
+      "type": "research_opportunity",
+      "title": "Cognitive-load and usability study",
+      "category": "Human Factors",
+      "rank": 13,
+      "score": 184,
+      "status": "open"
+    },
+    {
+      "id": "RFR-2026-013",
+      "type": "research_opportunity",
+      "title": "Accessible representation equivalence study",
+      "category": "Accessibility",
+      "rank": 14,
+      "score": 138,
+      "status": "open"
+    },
+    {
+      "id": "RFR-2026-014",
+      "type": "research_opportunity",
+      "title": "Adversarial provenance and evidence-integrity study",
+      "category": "Security",
+      "rank": 15,
+      "score": 136,
+      "status": "open"
+    },
+    {
+      "id": "RFR-2026-015",
+      "type": "research_opportunity",
+      "title": "Automated confidence-decay and frontier refresh",
+      "category": "Tooling",
+      "rank": 16,
+      "score": 102,
+      "status": "open"
+    },
+    {
+      "id": "ART-23e4f52ac300",
+      "type": "origin_artifact",
+      "source_path": "docs/knowledge-artifacts/blind-review-protocol.md"
+    },
+    {
+      "id": "ART-3f402ee06249",
+      "type": "origin_artifact",
+      "source_path": "docs/knowledge-artifacts/multidimensional-classification.md"
+    },
+    {
+      "id": "ART-6ee6d5a1a23e",
+      "type": "origin_artifact",
+      "source_path": "research/corpus/statistics.md"
+    },
+    {
+      "id": "ART-b16591d4b0d8",
+      "type": "origin_artifact",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-24-v1.1/stage-a-decision.md"
+    },
+    {
+      "id": "ART-c8f1ac18c598",
+      "type": "origin_artifact",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-28/RP-FE-BOUNDARY-2026-07-28.md"
+    },
+    {
+      "id": "ART-fcae646eef25",
+      "type": "origin_artifact",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-28/comparison-matrix.md"
+    },
+    {
+      "id": "ART-2e45992da752",
+      "type": "origin_artifact",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-28/next-experiment.md"
+    },
+    {
+      "id": "ART-c44b52214e79",
+      "type": "origin_artifact",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-28/ros-fe-profile-v1-audit.md"
+    },
+    {
+      "id": "ART-3e1a70b60fe7",
+      "type": "origin_artifact",
+      "source_path": "research/evaluations/FE-BOUNDARY-2026-07-28/source-registry.md"
+    },
+    {
+      "id": "ART-d62992c8b3eb",
+      "type": "origin_artifact",
+      "source_path": "research/experiments/FE-012B-primitive-synthesis/methodological-review.md"
+    },
+    {
+      "id": "ART-536586d07616",
+      "type": "origin_artifact",
+      "source_path": "research/framework-engineering/experiments/EX-FE-0002/START-HERE.md"
+    },
+    {
+      "id": "ART-13ce229ff686",
+      "type": "origin_artifact",
+      "source_path": "research/framework-engineering/ros-profile/README.md"
+    },
+    {
+      "id": "ART-eb77000faa12",
+      "type": "origin_artifact",
+      "source_path": "research/framework-engineering/ros-profile/open-ros-gaps.md"
+    },
+    {
+      "id": "ART-b196e182b3aa",
+      "type": "origin_artifact",
+      "source_path": "research/operating-system/confidence-update-guide.md"
+    },
+    {
+      "id": "ART-cf9834f1a51f",
+      "type": "origin_artifact",
+      "source_path": "research/operating-system/edr/research-efficiency-metrics.md"
+    },
+    {
+      "id": "ART-36152d28245d",
+      "type": "origin_artifact",
+      "source_path": "research/operating-system/evidence-dashboard/evidence-dashboard.json"
+    },
+    {
+      "id": "ART-1be0358db7c7",
+      "type": "origin_artifact",
+      "source_path": "research/operating-system/research-constitution.md"
+    },
+    {
+      "id": "ART-b5034644ae2e",
+      "type": "origin_artifact",
+      "source_path": "research/operating-system/research-queue/research-queue.md"
+    },
+    {
+      "id": "ART-064aae4a45f0",
+      "type": "origin_artifact",
+      "source_path": "research/product-architecture/uncertainty-to-action-flow.md"
+    },
+    {
+      "id": "ART-ea2279aa521d",
+      "type": "origin_artifact",
+      "source_path": "research/theory/falsification-criteria.md"
+    },
+    {
+      "id": "ART-57360e6e60cf",
+      "type": "origin_artifact",
+      "source_path": "research/theory/theory-of-framework-engineering-v0.1.md"
+    },
+    {
+      "id": "ART-c47d3ebc97db",
+      "type": "origin_artifact",
+      "source_path": "research/validation/validation-program.md"
+    }
+  ],
+  "edges": [
+    {
+      "from": "RFR-2026-001",
+      "to": "RFR-2026-016",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "RFR-2026-001",
+      "to": "RFR-2026-002",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "RFR-2026-001",
+      "to": "RFR-2026-003",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "RFR-2026-016",
+      "to": "RFR-2026-003",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "RFR-2026-002",
+      "to": "RFR-2026-003",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "RFR-2026-001",
+      "to": "RFR-2026-004",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "RFR-2026-002",
+      "to": "RFR-2026-005",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "RFR-2026-007",
+      "to": "RFR-2026-005",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "RFR-2026-006",
+      "to": "RFR-2026-007",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "RFR-2026-008",
+      "to": "RFR-2026-009",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "RFR-2026-003",
+      "to": "RFR-2026-011",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "RFR-2026-003",
+      "to": "RFR-2026-012",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "RFR-2026-001",
+      "to": "RFR-2026-013",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "RFR-2026-008",
+      "to": "RFR-2026-014",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "RFR-2026-008",
+      "to": "RFR-2026-015",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "RFR-2026-009",
+      "to": "RFR-2026-015",
+      "relation": "prerequisite_for"
+    },
+    {
+      "from": "ART-36152d28245d",
+      "to": "RFR-2026-001",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-b5034644ae2e",
+      "to": "RFR-2026-001",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-ea2279aa521d",
+      "to": "RFR-2026-001",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-536586d07616",
+      "to": "RFR-2026-016",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-b16591d4b0d8",
+      "to": "RFR-2026-016",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-c8f1ac18c598",
+      "to": "RFR-2026-016",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-36152d28245d",
+      "to": "RFR-2026-002",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-57360e6e60cf",
+      "to": "RFR-2026-002",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-c47d3ebc97db",
+      "to": "RFR-2026-002",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-c8f1ac18c598",
+      "to": "RFR-2026-003",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-2e45992da752",
+      "to": "RFR-2026-003",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-ea2279aa521d",
+      "to": "RFR-2026-003",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-36152d28245d",
+      "to": "RFR-2026-004",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-b5034644ae2e",
+      "to": "RFR-2026-004",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-36152d28245d",
+      "to": "RFR-2026-004",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-d62992c8b3eb",
+      "to": "RFR-2026-005",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-57360e6e60cf",
+      "to": "RFR-2026-005",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-ea2279aa521d",
+      "to": "RFR-2026-005",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-6ee6d5a1a23e",
+      "to": "RFR-2026-006",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-23e4f52ac300",
+      "to": "RFR-2026-006",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-57360e6e60cf",
+      "to": "RFR-2026-006",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-ea2279aa521d",
+      "to": "RFR-2026-007",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-57360e6e60cf",
+      "to": "RFR-2026-007",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-6ee6d5a1a23e",
+      "to": "RFR-2026-007",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-c44b52214e79",
+      "to": "RFR-2026-008",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-eb77000faa12",
+      "to": "RFR-2026-008",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-13ce229ff686",
+      "to": "RFR-2026-008",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-36152d28245d",
+      "to": "RFR-2026-009",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-eb77000faa12",
+      "to": "RFR-2026-009",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-c44b52214e79",
+      "to": "RFR-2026-009",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-c8f1ac18c598",
+      "to": "RFR-2026-010",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-fcae646eef25",
+      "to": "RFR-2026-010",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-3e1a70b60fe7",
+      "to": "RFR-2026-010",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-c8f1ac18c598",
+      "to": "RFR-2026-011",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-57360e6e60cf",
+      "to": "RFR-2026-011",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-cf9834f1a51f",
+      "to": "RFR-2026-011",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-c8f1ac18c598",
+      "to": "RFR-2026-012",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-064aae4a45f0",
+      "to": "RFR-2026-012",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-c47d3ebc97db",
+      "to": "RFR-2026-012",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-36152d28245d",
+      "to": "RFR-2026-013",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-c8f1ac18c598",
+      "to": "RFR-2026-013",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-3f402ee06249",
+      "to": "RFR-2026-013",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-c44b52214e79",
+      "to": "RFR-2026-014",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-eb77000faa12",
+      "to": "RFR-2026-014",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-1be0358db7c7",
+      "to": "RFR-2026-014",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-b196e182b3aa",
+      "to": "RFR-2026-015",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-36152d28245d",
+      "to": "RFR-2026-015",
+      "relation": "motivates"
+    },
+    {
+      "from": "ART-c44b52214e79",
+      "to": "RFR-2026-015",
+      "relation": "motivates"
+    }
+  ],
+  "dependency_edge_count": 16,
+  "evidence_trace_edge_count": 48,
+  "critical_paths": [
+    [
+      "RFR-2026-001",
+      "RFR-2026-016",
+      "RFR-2026-003",
+      "RFR-2026-011"
+    ],
+    [
+      "RFR-2026-001",
+      "RFR-2026-002",
+      "RFR-2026-003",
+      "RFR-2026-011"
+    ]
+  ],
+  "parallel_foundation": [
+    "RFR-2026-008",
+    "RFR-2026-006"
+  ]
+}

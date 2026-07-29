@@ -15,6 +15,10 @@ boundary. Adjacent fields collectively cover every identified FE mechanism,
 and no clearly unique causal mechanism was found. Incremental utility remains
 untested.
 
+This proposed synthesis does not override `EX-FE-0002`: its Stage A remains
+incomplete, Stage B remains blocked, and its experimental classification
+remains inconclusive. `EX-FE-0003` also has no execution data.
+
 ## Outputs
 
 - 30-source registry with access limitations.

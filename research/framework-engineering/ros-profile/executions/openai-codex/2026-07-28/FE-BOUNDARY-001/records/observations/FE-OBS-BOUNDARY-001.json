@@ -10,7 +10,7 @@
   "completion": "complete-repository-observation",
   "profile": "RP-FE-ROS-2026-A001@1.0.0",
   "framework_id": "framework-engineering-current-program",
-  "observation": "The repository contains an executable research program and accepted-for-pilot operating profile, while current theory retains low distinctiveness confidence and no matched external utility study or independent institutional practice exists.",
+  "observation": "The repository contains an executable research program and accepted-for-pilot operating profile, while current theory retains low distinctiveness confidence. EX-FE-0002 remains Stage A incomplete, Stage B blocked, and experimentally inconclusive; EX-FE-0003 has no execution data; no matched external utility study or independent institutional practice exists.",
   "evidence_ids": [
     "EV-FEB-R01",
     "EV-FEB-R02",

@@ -31,6 +31,9 @@ provider execution.
 Baseline finding: FE is explicitly provisional and Stage B remains blocked.
 The prior evaluation selects distinctiveness as the highest-value unknown.
 The v1.0 profile exists and executes; rebuilding it would be redundant.
+`EX-FE-0002` already defines a rigorous blinded mechanism-boundary test, but
+its v1.1 Stage A is incomplete, Stage B is blocked, and its v1.2 machine pilot
+is incomplete. `EX-FE-0003` has no execution data.
 
 ## 2026-07-28 — pre-registration
 
@@ -167,6 +170,6 @@ future systematic review if governance requires one.
 ## Closure
 
 Mission-level outputs are complete. Scientific efficacy remains untested.
-The next step is review, power analysis, benchmark construction, and
-preregistration—not additional discipline claims.
-
+The next step is to repair and complete or explicitly supersede
+`EX-FE-0002`, then review, power, construct, and preregister the matched
+outcome experiment—not make additional discipline claims.
