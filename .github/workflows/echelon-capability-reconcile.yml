@@ -78,8 +78,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          printf '%s
-' '{"configurationVersion":1,"boundary":{"engine":[],"kernel":[]}}' > limen.config.json
+          node -e 'require("fs").writeFileSync("limen.config.json", JSON.stringify({configurationVersion:1,boundary:{engine:[],kernel:[]}}, null, 2) + "\n")'
           dotnet run --project "$RUNNER_TEMP/limen-source/cli/Limen.Cli/Limen.Cli.fsproj" -c Release -p:Version=0.6.2 --             --root "$GITHUB_WORKSPACE" init
 
       - name: Validate FE profile, research tooling, and combined capability state
