@@ -34,13 +34,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git clone --depth 1 https://github.com/kemiller2002/repository-operating-system.git "$RUNNER_TEMP/ros-source"
+          git clone --depth 1 --branch fix/canonical-artifact-root-scope-3.1.5 https://github.com/kemiller2002/repository-operating-system.git "$RUNNER_TEMP/ros-source"
           git clone --depth 1 https://github.com/kemiller2002/state-directed-engineering.git "$RUNNER_TEMP/sde-source"
           git clone --depth 1 https://github.com/kemiller2002/communication-engineering.git "$RUNNER_TEMP/communication-source"
           git clone --depth 1 https://github.com/kemiller2002/typescript-wasm-kernel.git "$RUNNER_TEMP/limen-source"
           (cd "$RUNNER_TEMP/sde-source/distribution" && npm run build:payload)
 
-      - name: Install ROS 3.1.4
+      - name: Install ROS 3.1.5
         shell: bash
         run: |
           set -euo pipefail
