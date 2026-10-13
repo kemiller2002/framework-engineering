@@ -39,6 +39,12 @@ const upstream = key => {
 const expectNoOverflowBesidesSkipLink = async page => {
   const report = await measureOverflow(page);
   const escapes = report.escapes.filter(entry => !entry.startsWith('a "Skip to content"'));
+  if (escapes.length < report.escapes.length) {
+    const skip = page.getByRole("link", { name: "Skip to content", exact: true });
+    await skip.focus();
+    await expect(skip, "the excluded skip link must come into view on focus").toBeInViewport();
+    await skip.blur();
+  }
   expect({ pageOverflow: report.reason.split(";")[0], escapes }).toEqual({ pageOverflow: `document scrollWidth ${await page.evaluate(() => document.documentElement.clientWidth)} vs clientWidth ${await page.evaluate(() => document.documentElement.clientWidth)}`, escapes: [] });
 };
 
