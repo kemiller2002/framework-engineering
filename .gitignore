@@ -4,3 +4,6 @@ dist/
 build-reports/
 
 .visual-engineering/
+
+# Playwright UI conformance output (evidence is uploaded by CI)
+test-results/

@@ -13,9 +13,12 @@
     "research:inventory": "research-publisher inventory --config ./research-publisher.config.mjs",
     "research:validate": "research-publisher validate --config ./research-publisher.config.mjs",
     "research:build": "research-publisher build --config ./research-publisher.config.mjs",
-    "research:clean": "research-publisher clean --config ./research-publisher.config.mjs"
+    "research:clean": "research-publisher clean --config ./research-publisher.config.mjs",
+    "ui:conformance": "playwright test --config=playwright.ui-conformance.config.mjs && node tests/ui-conformance/validate-evidence.mjs"
   },
   "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "ajv": "8.17.1",
     "research-publisher": "github:kemiller2002/research-publisher#main"
   }
 }

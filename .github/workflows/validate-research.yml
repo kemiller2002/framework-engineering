@@ -71,3 +71,43 @@ jobs:
           name: research-publisher-diagnostics
           path: build-reports/
           if-no-files-found: warn
+
+  # visual-engineering/UI-LAYOUT-INTERACTION@1.0.0 conformance (issue #4) of
+  # the generated research site. Blocking: any unexpected failure or
+  # schema-invalid evidence fails the job. Known research-publisher defects
+  # run as expected failures and are reported as "fail" in the evidence.
+  ui-conformance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build research site
+        run: npm run research:build
+
+      - name: Install Chromium for Playwright
+        run: npx playwright install --with-deps chromium
+
+      - name: Run UI conformance
+        env:
+          UI_CONFORMANCE_REVISION: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: npm run ui:conformance
+
+      - name: Upload evidence, results and traces
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ui-conformance
+          path: test-results/ui-conformance/
+          if-no-files-found: warn
+          retention-days: 30
